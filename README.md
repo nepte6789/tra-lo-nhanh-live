@@ -85,20 +85,20 @@ npm start
 
 ## Câu hỏi
 
-Có sẵn **390 câu, 10 bộ, 6 loại**:
+Có sẵn **668 câu, 25 bộ chủ đề, 6 loại**:
 
-| Bộ | Số câu |
+| Loại | Số câu |
 | --- | ---: |
-| Đời sống | 20 |
-| Ẩm thực | 20 |
-| Động vật | 20 |
-| Việt Nam | 20 |
-| Khoa học | 20 |
-| Thể thao | 15 |
-| Đố vui | 10 |
+| **Xếp chữ** | **500** |
+| Đoán đáp án | 93 |
+| Tính nhanh | 40 |
 | Nhìn emoji | 15 |
+| Đố vui | 10 |
 | Trắc nghiệm | 10 |
-| Tính nhanh | 240 |
+
+Xếp chữ có các chủ đề: đời sống, đồ dùng gia đình, nhà bếp, rau củ và trái cây, cây và hoa, động vật, chim và côn trùng, món ăn Việt, nghề nghiệp, học tập, thiên nhiên, giao thông, nhạc cụ, thể thao, thế giới và văn hóa. Đáp án Xếp chữ không trùng sau khi chuẩn hóa dấu/khoảng trắng. Tính nhanh đã giảm từ 240 xuống 40 câu, vẫn có cộng, nhân và chia. Các câu Đoán đáp án cũ được giữ lại để thiết lập đang dùng không bị mất bộ.
+
+**Cập nhật bộ mới:** khởi động lại ứng dụng sau khi cập nhật repo. Nếu trước đây đã nhập bộ riêng, ứng dụng tiếp tục dùng bộ riêng đó; muốn dùng toàn bộ ngân hàng mới, sao lưu bằng **Tải bộ JSON**, rồi nhập file **`data/questions.json`** từ repo. Không cần xóa `data/runtime`.
 
 Loại: `text` (đoán đáp án), `scramble` (chữ xáo trộn), `riddle` (đố vui), `emoji`, `choice` (4 lựa chọn), `math`.
 

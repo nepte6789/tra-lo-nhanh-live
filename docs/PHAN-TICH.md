@@ -13,7 +13,7 @@
 ## Những gì được bổ sung
 
 - Hai luật tính điểm: người đầu tiên hoặc tất cả người đúng; khóa mode/điểm theo từng câu để sửa thiết lập không làm thay đổi luật giữa chừng.
-- 390 câu, 10 bộ; 6 dạng: đoán đáp án, xếp chữ, emoji, đố vui, trắc nghiệm và tính toán.
+- 668 câu, 25 bộ (500 câu xếp chữ, 40 câu tính nhanh); 6 dạng: đoán đáp án, xếp chữ, emoji, đố vui, trắc nghiệm và tính toán.
 - Lọc bộ/loại, nhập/xuất JSON, thêm alias và giải thích.
 - Bộ xử lý trạng thái `idle → question → reveal → question`, kiểm tra hạn chót cả trong vòng tick và lúc nhận bình luận.
 - Bỏ trùng sự kiện, chống một người nhận nhiều điểm cùng câu, dùng thời điểm đến máy chủ để quyết định thắng.
@@ -57,3 +57,9 @@ Font Be Vietnam Pro đặt cục bộ (600 và 800) với giấy phép OFL. Khô
 Thêm marquee tên Top điểm số 1 kèm nhãn đỏ, vòng thời gian và dòng hướng dẫn mới. Màn kết quả có đếm ngược chuẩn bị câu tiếp. Thêm giọng tiếng Việt qua SpeechSynthesis, dự phòng msedge-tts với giới hạn thời gian, dung lượng và số tác vụ đồng thời. Bản xem trước luôn tắt giọng, không phát lặp theo snapshot hoặc kết nối lại.
 
 Kiểm thử trình duyệt dùng giọng giả để xác nhận chính xác đáp án/tên, phát một lần, chuyển câu và preview im lặng. Phép thử trực tuyến trong môi trường phát triển đã gặp timeout; không coi là đã xác minh chất lượng âm thanh thực trên Windows/OBS. Khả năng phát thật cần giọng Việt của máy hoặc dịch vụ trực tuyến đáp ứng.
+
+## Mở rộng ngân hàng câu hỏi
+
+Giữ 93 câu đoán đáp án cũ, tăng xếp chữ từ 22 lên 500 bằng 478 gợi ý/đáp án bổ sung, giảm toán từ 240 xuống 40. Chọn câu toán từ nhiều mức và đủ ba phép cộng/nhân/chia. Tổng 668 câu, 25 nhóm chủ đề. Kiểm tra cấu trúc, ID duy nhất, 500 đáp án xếp chữ không trùng khi chuẩn hóa và bảo toàn chữ trong từng từ sau xáo trộn.
+
+Bộ người dùng nhập được ưu tiên như trước; không ghi đè dữ liệu riêng khi nâng cấp. Có hướng dẫn nhập `data/questions.json` mới qua giao diện nếu đang dùng bộ cũ tùy chỉnh.

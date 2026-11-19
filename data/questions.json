@@ -1117,48 +1117,6 @@
     "answer": "5"
   },
   {
-    "id": "q0152",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "2 × 3 = ?",
-    "answer": "6"
-  },
-  {
-    "id": "q0153",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 ÷ 3 = ?",
-    "answer": "2"
-  },
-  {
-    "id": "q0154",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "2 + 7 = ?",
-    "answer": "9"
-  },
-  {
-    "id": "q0155",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "2 × 7 = ?",
-    "answer": "14"
-  },
-  {
-    "id": "q0156",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "14 ÷ 7 = ?",
-    "answer": "2"
-  },
-  {
-    "id": "q0157",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "2 + 11 = ?",
-    "answer": "13"
-  },
-  {
     "id": "q0158",
     "category": "Tính nhanh",
     "type": "math",
@@ -1166,73 +1124,10 @@
     "answer": "22"
   },
   {
-    "id": "q0159",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "22 ÷ 11 = ?",
-    "answer": "2"
-  },
-  {
-    "id": "q0160",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "2 + 15 = ?",
-    "answer": "17"
-  },
-  {
-    "id": "q0161",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "2 × 15 = ?",
-    "answer": "30"
-  },
-  {
-    "id": "q0162",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "30 ÷ 15 = ?",
-    "answer": "2"
-  },
-  {
-    "id": "q0163",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "3 + 3 = ?",
-    "answer": "6"
-  },
-  {
-    "id": "q0164",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "3 × 3 = ?",
-    "answer": "9"
-  },
-  {
     "id": "q0165",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "9 ÷ 3 = ?",
-    "answer": "3"
-  },
-  {
-    "id": "q0166",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "3 + 7 = ?",
-    "answer": "10"
-  },
-  {
-    "id": "q0167",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "3 × 7 = ?",
-    "answer": "21"
-  },
-  {
-    "id": "q0168",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 ÷ 7 = ?",
     "answer": "3"
   },
   {
@@ -1243,48 +1138,6 @@
     "answer": "14"
   },
   {
-    "id": "q0170",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "3 × 11 = ?",
-    "answer": "33"
-  },
-  {
-    "id": "q0171",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "33 ÷ 11 = ?",
-    "answer": "3"
-  },
-  {
-    "id": "q0172",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "3 + 15 = ?",
-    "answer": "18"
-  },
-  {
-    "id": "q0173",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "3 × 15 = ?",
-    "answer": "45"
-  },
-  {
-    "id": "q0174",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "45 ÷ 15 = ?",
-    "answer": "3"
-  },
-  {
-    "id": "q0175",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "4 + 3 = ?",
-    "answer": "7"
-  },
-  {
     "id": "q0176",
     "category": "Tính nhanh",
     "type": "math",
@@ -1292,73 +1145,10 @@
     "answer": "12"
   },
   {
-    "id": "q0177",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 ÷ 3 = ?",
-    "answer": "4"
-  },
-  {
-    "id": "q0178",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "4 + 7 = ?",
-    "answer": "11"
-  },
-  {
-    "id": "q0179",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "4 × 7 = ?",
-    "answer": "28"
-  },
-  {
-    "id": "q0180",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "28 ÷ 7 = ?",
-    "answer": "4"
-  },
-  {
-    "id": "q0181",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "4 + 11 = ?",
-    "answer": "15"
-  },
-  {
-    "id": "q0182",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "4 × 11 = ?",
-    "answer": "44"
-  },
-  {
     "id": "q0183",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "44 ÷ 11 = ?",
-    "answer": "4"
-  },
-  {
-    "id": "q0184",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "4 + 15 = ?",
-    "answer": "19"
-  },
-  {
-    "id": "q0185",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "4 × 15 = ?",
-    "answer": "60"
-  },
-  {
-    "id": "q0186",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "60 ÷ 15 = ?",
     "answer": "4"
   },
   {
@@ -1369,48 +1159,6 @@
     "answer": "8"
   },
   {
-    "id": "q0188",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "5 × 3 = ?",
-    "answer": "15"
-  },
-  {
-    "id": "q0189",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 ÷ 3 = ?",
-    "answer": "5"
-  },
-  {
-    "id": "q0190",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "5 + 7 = ?",
-    "answer": "12"
-  },
-  {
-    "id": "q0191",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "5 × 7 = ?",
-    "answer": "35"
-  },
-  {
-    "id": "q0192",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "35 ÷ 7 = ?",
-    "answer": "5"
-  },
-  {
-    "id": "q0193",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "5 + 11 = ?",
-    "answer": "16"
-  },
-  {
     "id": "q0194",
     "category": "Tính nhanh",
     "type": "math",
@@ -1418,73 +1166,10 @@
     "answer": "55"
   },
   {
-    "id": "q0195",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "55 ÷ 11 = ?",
-    "answer": "5"
-  },
-  {
-    "id": "q0196",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "5 + 15 = ?",
-    "answer": "20"
-  },
-  {
-    "id": "q0197",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "5 × 15 = ?",
-    "answer": "75"
-  },
-  {
-    "id": "q0198",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "75 ÷ 15 = ?",
-    "answer": "5"
-  },
-  {
-    "id": "q0199",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 + 3 = ?",
-    "answer": "9"
-  },
-  {
-    "id": "q0200",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 × 3 = ?",
-    "answer": "18"
-  },
-  {
     "id": "q0201",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "18 ÷ 3 = ?",
-    "answer": "6"
-  },
-  {
-    "id": "q0202",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 + 7 = ?",
-    "answer": "13"
-  },
-  {
-    "id": "q0203",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 × 7 = ?",
-    "answer": "42"
-  },
-  {
-    "id": "q0204",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "42 ÷ 7 = ?",
     "answer": "6"
   },
   {
@@ -1495,48 +1180,6 @@
     "answer": "17"
   },
   {
-    "id": "q0206",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 × 11 = ?",
-    "answer": "66"
-  },
-  {
-    "id": "q0207",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "66 ÷ 11 = ?",
-    "answer": "6"
-  },
-  {
-    "id": "q0208",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 + 15 = ?",
-    "answer": "21"
-  },
-  {
-    "id": "q0209",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "6 × 15 = ?",
-    "answer": "90"
-  },
-  {
-    "id": "q0210",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "90 ÷ 15 = ?",
-    "answer": "6"
-  },
-  {
-    "id": "q0211",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "7 + 3 = ?",
-    "answer": "10"
-  },
-  {
     "id": "q0212",
     "category": "Tính nhanh",
     "type": "math",
@@ -1544,73 +1187,10 @@
     "answer": "21"
   },
   {
-    "id": "q0213",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 ÷ 3 = ?",
-    "answer": "7"
-  },
-  {
-    "id": "q0214",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "7 + 7 = ?",
-    "answer": "14"
-  },
-  {
-    "id": "q0215",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "7 × 7 = ?",
-    "answer": "49"
-  },
-  {
-    "id": "q0216",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "49 ÷ 7 = ?",
-    "answer": "7"
-  },
-  {
-    "id": "q0217",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "7 + 11 = ?",
-    "answer": "18"
-  },
-  {
-    "id": "q0218",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "7 × 11 = ?",
-    "answer": "77"
-  },
-  {
     "id": "q0219",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "77 ÷ 11 = ?",
-    "answer": "7"
-  },
-  {
-    "id": "q0220",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "7 + 15 = ?",
-    "answer": "22"
-  },
-  {
-    "id": "q0221",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "7 × 15 = ?",
-    "answer": "105"
-  },
-  {
-    "id": "q0222",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "105 ÷ 15 = ?",
     "answer": "7"
   },
   {
@@ -1621,48 +1201,6 @@
     "answer": "11"
   },
   {
-    "id": "q0224",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "8 × 3 = ?",
-    "answer": "24"
-  },
-  {
-    "id": "q0225",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "24 ÷ 3 = ?",
-    "answer": "8"
-  },
-  {
-    "id": "q0226",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "8 + 7 = ?",
-    "answer": "15"
-  },
-  {
-    "id": "q0227",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "8 × 7 = ?",
-    "answer": "56"
-  },
-  {
-    "id": "q0228",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "56 ÷ 7 = ?",
-    "answer": "8"
-  },
-  {
-    "id": "q0229",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "8 + 11 = ?",
-    "answer": "19"
-  },
-  {
     "id": "q0230",
     "category": "Tính nhanh",
     "type": "math",
@@ -1670,73 +1208,10 @@
     "answer": "88"
   },
   {
-    "id": "q0231",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "88 ÷ 11 = ?",
-    "answer": "8"
-  },
-  {
-    "id": "q0232",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "8 + 15 = ?",
-    "answer": "23"
-  },
-  {
-    "id": "q0233",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "8 × 15 = ?",
-    "answer": "120"
-  },
-  {
-    "id": "q0234",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "120 ÷ 15 = ?",
-    "answer": "8"
-  },
-  {
-    "id": "q0235",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "9 + 3 = ?",
-    "answer": "12"
-  },
-  {
-    "id": "q0236",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "9 × 3 = ?",
-    "answer": "27"
-  },
-  {
     "id": "q0237",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "27 ÷ 3 = ?",
-    "answer": "9"
-  },
-  {
-    "id": "q0238",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "9 + 7 = ?",
-    "answer": "16"
-  },
-  {
-    "id": "q0239",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "9 × 7 = ?",
-    "answer": "63"
-  },
-  {
-    "id": "q0240",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "63 ÷ 7 = ?",
     "answer": "9"
   },
   {
@@ -1747,48 +1222,6 @@
     "answer": "20"
   },
   {
-    "id": "q0242",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "9 × 11 = ?",
-    "answer": "99"
-  },
-  {
-    "id": "q0243",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "99 ÷ 11 = ?",
-    "answer": "9"
-  },
-  {
-    "id": "q0244",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "9 + 15 = ?",
-    "answer": "24"
-  },
-  {
-    "id": "q0245",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "9 × 15 = ?",
-    "answer": "135"
-  },
-  {
-    "id": "q0246",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "135 ÷ 15 = ?",
-    "answer": "9"
-  },
-  {
-    "id": "q0247",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "10 + 3 = ?",
-    "answer": "13"
-  },
-  {
     "id": "q0248",
     "category": "Tính nhanh",
     "type": "math",
@@ -1796,73 +1229,10 @@
     "answer": "30"
   },
   {
-    "id": "q0249",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "30 ÷ 3 = ?",
-    "answer": "10"
-  },
-  {
-    "id": "q0250",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "10 + 7 = ?",
-    "answer": "17"
-  },
-  {
-    "id": "q0251",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "10 × 7 = ?",
-    "answer": "70"
-  },
-  {
-    "id": "q0252",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "70 ÷ 7 = ?",
-    "answer": "10"
-  },
-  {
-    "id": "q0253",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "10 + 11 = ?",
-    "answer": "21"
-  },
-  {
-    "id": "q0254",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "10 × 11 = ?",
-    "answer": "110"
-  },
-  {
     "id": "q0255",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "110 ÷ 11 = ?",
-    "answer": "10"
-  },
-  {
-    "id": "q0256",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "10 + 15 = ?",
-    "answer": "25"
-  },
-  {
-    "id": "q0257",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "10 × 15 = ?",
-    "answer": "150"
-  },
-  {
-    "id": "q0258",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "150 ÷ 15 = ?",
     "answer": "10"
   },
   {
@@ -1873,48 +1243,6 @@
     "answer": "14"
   },
   {
-    "id": "q0260",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "11 × 3 = ?",
-    "answer": "33"
-  },
-  {
-    "id": "q0261",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "33 ÷ 3 = ?",
-    "answer": "11"
-  },
-  {
-    "id": "q0262",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "11 + 7 = ?",
-    "answer": "18"
-  },
-  {
-    "id": "q0263",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "11 × 7 = ?",
-    "answer": "77"
-  },
-  {
-    "id": "q0264",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "77 ÷ 7 = ?",
-    "answer": "11"
-  },
-  {
-    "id": "q0265",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "11 + 11 = ?",
-    "answer": "22"
-  },
-  {
     "id": "q0266",
     "category": "Tính nhanh",
     "type": "math",
@@ -1922,73 +1250,10 @@
     "answer": "121"
   },
   {
-    "id": "q0267",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "121 ÷ 11 = ?",
-    "answer": "11"
-  },
-  {
-    "id": "q0268",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "11 + 15 = ?",
-    "answer": "26"
-  },
-  {
-    "id": "q0269",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "11 × 15 = ?",
-    "answer": "165"
-  },
-  {
-    "id": "q0270",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "165 ÷ 15 = ?",
-    "answer": "11"
-  },
-  {
-    "id": "q0271",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 + 3 = ?",
-    "answer": "15"
-  },
-  {
-    "id": "q0272",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 × 3 = ?",
-    "answer": "36"
-  },
-  {
     "id": "q0273",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "36 ÷ 3 = ?",
-    "answer": "12"
-  },
-  {
-    "id": "q0274",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 + 7 = ?",
-    "answer": "19"
-  },
-  {
-    "id": "q0275",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 × 7 = ?",
-    "answer": "84"
-  },
-  {
-    "id": "q0276",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "84 ÷ 7 = ?",
     "answer": "12"
   },
   {
@@ -1999,48 +1264,6 @@
     "answer": "23"
   },
   {
-    "id": "q0278",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 × 11 = ?",
-    "answer": "132"
-  },
-  {
-    "id": "q0279",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "132 ÷ 11 = ?",
-    "answer": "12"
-  },
-  {
-    "id": "q0280",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 + 15 = ?",
-    "answer": "27"
-  },
-  {
-    "id": "q0281",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "12 × 15 = ?",
-    "answer": "180"
-  },
-  {
-    "id": "q0282",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "180 ÷ 15 = ?",
-    "answer": "12"
-  },
-  {
-    "id": "q0283",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "13 + 3 = ?",
-    "answer": "16"
-  },
-  {
     "id": "q0284",
     "category": "Tính nhanh",
     "type": "math",
@@ -2048,73 +1271,10 @@
     "answer": "39"
   },
   {
-    "id": "q0285",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "39 ÷ 3 = ?",
-    "answer": "13"
-  },
-  {
-    "id": "q0286",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "13 + 7 = ?",
-    "answer": "20"
-  },
-  {
-    "id": "q0287",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "13 × 7 = ?",
-    "answer": "91"
-  },
-  {
-    "id": "q0288",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "91 ÷ 7 = ?",
-    "answer": "13"
-  },
-  {
-    "id": "q0289",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "13 + 11 = ?",
-    "answer": "24"
-  },
-  {
-    "id": "q0290",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "13 × 11 = ?",
-    "answer": "143"
-  },
-  {
     "id": "q0291",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "143 ÷ 11 = ?",
-    "answer": "13"
-  },
-  {
-    "id": "q0292",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "13 + 15 = ?",
-    "answer": "28"
-  },
-  {
-    "id": "q0293",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "13 × 15 = ?",
-    "answer": "195"
-  },
-  {
-    "id": "q0294",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "195 ÷ 15 = ?",
     "answer": "13"
   },
   {
@@ -2125,48 +1285,6 @@
     "answer": "17"
   },
   {
-    "id": "q0296",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "14 × 3 = ?",
-    "answer": "42"
-  },
-  {
-    "id": "q0297",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "42 ÷ 3 = ?",
-    "answer": "14"
-  },
-  {
-    "id": "q0298",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "14 + 7 = ?",
-    "answer": "21"
-  },
-  {
-    "id": "q0299",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "14 × 7 = ?",
-    "answer": "98"
-  },
-  {
-    "id": "q0300",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "98 ÷ 7 = ?",
-    "answer": "14"
-  },
-  {
-    "id": "q0301",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "14 + 11 = ?",
-    "answer": "25"
-  },
-  {
     "id": "q0302",
     "category": "Tính nhanh",
     "type": "math",
@@ -2174,73 +1292,10 @@
     "answer": "154"
   },
   {
-    "id": "q0303",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "154 ÷ 11 = ?",
-    "answer": "14"
-  },
-  {
-    "id": "q0304",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "14 + 15 = ?",
-    "answer": "29"
-  },
-  {
-    "id": "q0305",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "14 × 15 = ?",
-    "answer": "210"
-  },
-  {
-    "id": "q0306",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "210 ÷ 15 = ?",
-    "answer": "14"
-  },
-  {
-    "id": "q0307",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 + 3 = ?",
-    "answer": "18"
-  },
-  {
-    "id": "q0308",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 × 3 = ?",
-    "answer": "45"
-  },
-  {
     "id": "q0309",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "45 ÷ 3 = ?",
-    "answer": "15"
-  },
-  {
-    "id": "q0310",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 + 7 = ?",
-    "answer": "22"
-  },
-  {
-    "id": "q0311",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 × 7 = ?",
-    "answer": "105"
-  },
-  {
-    "id": "q0312",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "105 ÷ 7 = ?",
     "answer": "15"
   },
   {
@@ -2251,48 +1306,6 @@
     "answer": "26"
   },
   {
-    "id": "q0314",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 × 11 = ?",
-    "answer": "165"
-  },
-  {
-    "id": "q0315",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "165 ÷ 11 = ?",
-    "answer": "15"
-  },
-  {
-    "id": "q0316",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 + 15 = ?",
-    "answer": "30"
-  },
-  {
-    "id": "q0317",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "15 × 15 = ?",
-    "answer": "225"
-  },
-  {
-    "id": "q0318",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "225 ÷ 15 = ?",
-    "answer": "15"
-  },
-  {
-    "id": "q0319",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "16 + 3 = ?",
-    "answer": "19"
-  },
-  {
     "id": "q0320",
     "category": "Tính nhanh",
     "type": "math",
@@ -2300,73 +1313,10 @@
     "answer": "48"
   },
   {
-    "id": "q0321",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "48 ÷ 3 = ?",
-    "answer": "16"
-  },
-  {
-    "id": "q0322",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "16 + 7 = ?",
-    "answer": "23"
-  },
-  {
-    "id": "q0323",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "16 × 7 = ?",
-    "answer": "112"
-  },
-  {
-    "id": "q0324",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "112 ÷ 7 = ?",
-    "answer": "16"
-  },
-  {
-    "id": "q0325",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "16 + 11 = ?",
-    "answer": "27"
-  },
-  {
-    "id": "q0326",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "16 × 11 = ?",
-    "answer": "176"
-  },
-  {
     "id": "q0327",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "176 ÷ 11 = ?",
-    "answer": "16"
-  },
-  {
-    "id": "q0328",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "16 + 15 = ?",
-    "answer": "31"
-  },
-  {
-    "id": "q0329",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "16 × 15 = ?",
-    "answer": "240"
-  },
-  {
-    "id": "q0330",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "240 ÷ 15 = ?",
     "answer": "16"
   },
   {
@@ -2377,48 +1327,6 @@
     "answer": "20"
   },
   {
-    "id": "q0332",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "17 × 3 = ?",
-    "answer": "51"
-  },
-  {
-    "id": "q0333",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "51 ÷ 3 = ?",
-    "answer": "17"
-  },
-  {
-    "id": "q0334",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "17 + 7 = ?",
-    "answer": "24"
-  },
-  {
-    "id": "q0335",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "17 × 7 = ?",
-    "answer": "119"
-  },
-  {
-    "id": "q0336",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "119 ÷ 7 = ?",
-    "answer": "17"
-  },
-  {
-    "id": "q0337",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "17 + 11 = ?",
-    "answer": "28"
-  },
-  {
     "id": "q0338",
     "category": "Tính nhanh",
     "type": "math",
@@ -2426,73 +1334,10 @@
     "answer": "187"
   },
   {
-    "id": "q0339",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "187 ÷ 11 = ?",
-    "answer": "17"
-  },
-  {
-    "id": "q0340",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "17 + 15 = ?",
-    "answer": "32"
-  },
-  {
-    "id": "q0341",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "17 × 15 = ?",
-    "answer": "255"
-  },
-  {
-    "id": "q0342",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "255 ÷ 15 = ?",
-    "answer": "17"
-  },
-  {
-    "id": "q0343",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "18 + 3 = ?",
-    "answer": "21"
-  },
-  {
-    "id": "q0344",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "18 × 3 = ?",
-    "answer": "54"
-  },
-  {
     "id": "q0345",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "54 ÷ 3 = ?",
-    "answer": "18"
-  },
-  {
-    "id": "q0346",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "18 + 7 = ?",
-    "answer": "25"
-  },
-  {
-    "id": "q0347",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "18 × 7 = ?",
-    "answer": "126"
-  },
-  {
-    "id": "q0348",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "126 ÷ 7 = ?",
     "answer": "18"
   },
   {
@@ -2503,48 +1348,6 @@
     "answer": "29"
   },
   {
-    "id": "q0350",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "18 × 11 = ?",
-    "answer": "198"
-  },
-  {
-    "id": "q0351",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "198 ÷ 11 = ?",
-    "answer": "18"
-  },
-  {
-    "id": "q0352",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "18 + 15 = ?",
-    "answer": "33"
-  },
-  {
-    "id": "q0353",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "18 × 15 = ?",
-    "answer": "270"
-  },
-  {
-    "id": "q0354",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "270 ÷ 15 = ?",
-    "answer": "18"
-  },
-  {
-    "id": "q0355",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "19 + 3 = ?",
-    "answer": "22"
-  },
-  {
     "id": "q0356",
     "category": "Tính nhanh",
     "type": "math",
@@ -2552,73 +1355,10 @@
     "answer": "57"
   },
   {
-    "id": "q0357",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "57 ÷ 3 = ?",
-    "answer": "19"
-  },
-  {
-    "id": "q0358",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "19 + 7 = ?",
-    "answer": "26"
-  },
-  {
-    "id": "q0359",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "19 × 7 = ?",
-    "answer": "133"
-  },
-  {
-    "id": "q0360",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "133 ÷ 7 = ?",
-    "answer": "19"
-  },
-  {
-    "id": "q0361",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "19 + 11 = ?",
-    "answer": "30"
-  },
-  {
-    "id": "q0362",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "19 × 11 = ?",
-    "answer": "209"
-  },
-  {
     "id": "q0363",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "209 ÷ 11 = ?",
-    "answer": "19"
-  },
-  {
-    "id": "q0364",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "19 + 15 = ?",
-    "answer": "34"
-  },
-  {
-    "id": "q0365",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "19 × 15 = ?",
-    "answer": "285"
-  },
-  {
-    "id": "q0366",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "285 ÷ 15 = ?",
     "answer": "19"
   },
   {
@@ -2629,48 +1369,6 @@
     "answer": "23"
   },
   {
-    "id": "q0368",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "20 × 3 = ?",
-    "answer": "60"
-  },
-  {
-    "id": "q0369",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "60 ÷ 3 = ?",
-    "answer": "20"
-  },
-  {
-    "id": "q0370",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "20 + 7 = ?",
-    "answer": "27"
-  },
-  {
-    "id": "q0371",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "20 × 7 = ?",
-    "answer": "140"
-  },
-  {
-    "id": "q0372",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "140 ÷ 7 = ?",
-    "answer": "20"
-  },
-  {
-    "id": "q0373",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "20 + 11 = ?",
-    "answer": "31"
-  },
-  {
     "id": "q0374",
     "category": "Tính nhanh",
     "type": "math",
@@ -2678,73 +1376,10 @@
     "answer": "220"
   },
   {
-    "id": "q0375",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "220 ÷ 11 = ?",
-    "answer": "20"
-  },
-  {
-    "id": "q0376",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "20 + 15 = ?",
-    "answer": "35"
-  },
-  {
-    "id": "q0377",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "20 × 15 = ?",
-    "answer": "300"
-  },
-  {
-    "id": "q0378",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "300 ÷ 15 = ?",
-    "answer": "20"
-  },
-  {
-    "id": "q0379",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 + 3 = ?",
-    "answer": "24"
-  },
-  {
-    "id": "q0380",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 × 3 = ?",
-    "answer": "63"
-  },
-  {
     "id": "q0381",
     "category": "Tính nhanh",
     "type": "math",
     "prompt": "63 ÷ 3 = ?",
-    "answer": "21"
-  },
-  {
-    "id": "q0382",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 + 7 = ?",
-    "answer": "28"
-  },
-  {
-    "id": "q0383",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 × 7 = ?",
-    "answer": "147"
-  },
-  {
-    "id": "q0384",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "147 ÷ 7 = ?",
     "answer": "21"
   },
   {
@@ -2755,38 +1390,3349 @@
     "answer": "32"
   },
   {
-    "id": "q0386",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 × 11 = ?",
-    "answer": "231"
+    "id": "xc-0001",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị làm phẳng quần áo bằng mặt đế nóng",
+    "answer": "Bàn là"
   },
   {
-    "id": "q0387",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "231 ÷ 11 = ?",
-    "answer": "21"
+    "id": "xc-0041",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Thiết bị nấu cơm, thường chuyển sang giữ ấm khi cơm chín",
+    "answer": "Nồi cơm điện"
   },
   {
-    "id": "q0388",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 + 15 = ?",
-    "answer": "36"
+    "id": "xc-0075",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái cây giòn, thường có vỏ đỏ hoặc xanh và lõi nhiều hạt nhỏ",
+    "answer": "Quả táo"
   },
   {
-    "id": "q0389",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "21 × 15 = ?",
-    "answer": "315"
+    "id": "xc-0115",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Loài hoa có nhiều lớp cánh, thân thường có gai, biểu tượng tình yêu",
+    "answer": "Hoa hồng"
   },
   {
-    "id": "q0390",
-    "category": "Tính nhanh",
-    "type": "math",
-    "prompt": "315 ÷ 15 = ?",
-    "answer": "21"
+    "id": "xc-0154",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ mèo lớn có lông vằn, còn được gọi là chúa sơn lâm",
+    "answer": "Con hổ"
+  },
+  {
+    "id": "xc-0198",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim săn mồi lớn có mỏ quặp và móng vuốt khỏe",
+    "answer": "Đại bàng"
+  },
+  {
+    "id": "xc-0232",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món bánh tráng mỏng từ bột gạo, thường cuộn thịt và mộc nhĩ",
+    "answer": "Bánh cuốn"
+  },
+  {
+    "id": "xc-0272",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người khám, chẩn đoán và điều trị bệnh cho người",
+    "answer": "Bác sĩ"
+  },
+  {
+    "id": "xc-0307",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ viết có lõi than chì, có thể tẩy nét bằng gôm",
+    "answer": "Bút chì"
+  },
+  {
+    "id": "xc-0337",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Âm thanh phát ra do không khí giãn nở nhanh quanh tia sét",
+    "answer": "Sấm"
+  },
+  {
+    "id": "xc-0371",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện hai bánh có động cơ, phổ biến ở Việt Nam",
+    "answer": "Xe máy"
+  },
+  {
+    "id": "xc-0400",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ dây gảy truyền thống Việt Nam, thường đặt nằm ngang",
+    "answer": "Đàn tranh"
+  },
+  {
+    "id": "xc-0423",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn thể thao hai đội chủ yếu dùng chân đưa bóng vào khung thành",
+    "answer": "Bóng đá"
+  },
+  {
+    "id": "xc-0453",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô nước Pháp, nơi có tháp Eiffel",
+    "answer": "Paris"
+  },
+  {
+    "id": "xc-0482",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Lễ đầu năm theo âm lịch, dịp đoàn tụ lớn ở Việt Nam",
+    "answer": "Tết Nguyên đán"
+  },
+  {
+    "id": "xc-0002",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị hút bụi bẩn khỏi sàn và thảm",
+    "answer": "Máy hút bụi"
+  },
+  {
+    "id": "xc-0042",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Thiết bị hâm thức ăn bằng sóng điện từ ở dải vi ba",
+    "answer": "Lò vi sóng"
+  },
+  {
+    "id": "xc-0076",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái cây giòn mọng nước, nhiều giống có dáng thon ở cuống",
+    "answer": "Quả lê"
+  },
+  {
+    "id": "xc-0116",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Loài hoa thường nở nhiều cánh nhỏ, hay được dùng trang trí dịp Tết",
+    "answer": "Hoa cúc"
+  },
+  {
+    "id": "xc-0155",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ mèo sống theo đàn, con đực thường có bờm",
+    "answer": "Sư tử"
+  },
+  {
+    "id": "xc-0199",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim nhỏ thường gặp ở khu dân cư, hay nhảy trên mặt đất",
+    "answer": "Chim sẻ"
+  },
+  {
+    "id": "xc-0233",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh đổ chảo màu vàng, thường có nhân tôm, thịt và giá",
+    "answer": "Bánh xèo"
+  },
+  {
+    "id": "xc-0273",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người làm công việc chăm sóc người bệnh, hỗ trợ điều trị",
+    "answer": "Y tá"
+  },
+  {
+    "id": "xc-0308",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ viết có viên bi nhỏ lăn ở đầu để đưa mực ra giấy",
+    "answer": "Bút bi"
+  },
+  {
+    "id": "xc-0338",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Hiện tượng phóng điện mạnh trong khí quyển",
+    "answer": "Sét"
+  },
+  {
+    "id": "xc-0372",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện công cộng đường bộ chở nhiều người theo tuyến",
+    "answer": "Xe buýt"
+  },
+  {
+    "id": "xc-0401",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ kéo bằng vĩ có hai dây, còn gọi đàn cò",
+    "answer": "Đàn nhị"
+  },
+  {
+    "id": "xc-0424",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn đồng đội dùng tay chuyền và ném bóng vào cầu môn",
+    "answer": "Bóng ném"
+  },
+  {
+    "id": "xc-0454",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Vương quốc Anh, gắn với sông Thames",
+    "answer": "London"
+  },
+  {
+    "id": "xc-0483",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Lễ vào rằm tháng tám âm lịch, gắn với đèn lồng và bánh nướng",
+    "answer": "Tết Trung thu"
+  },
+  {
+    "id": "xc-0003",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị thổi khí giúp tóc khô nhanh",
+    "answer": "Máy sấy tóc"
+  },
+  {
+    "id": "xc-0043",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Thiết bị làm chín thực phẩm bằng nhiệt trong khoang kín",
+    "answer": "Lò nướng"
+  },
+  {
+    "id": "xc-0077",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái cây có hạt cứng, nhiều giống có lớp lông mịn trên vỏ",
+    "answer": "Quả đào"
+  },
+  {
+    "id": "xc-0117",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Nhóm hoa nổi tiếng với cánh đa dạng, thường trồng trong chậu treo",
+    "answer": "Hoa lan"
+  },
+  {
+    "id": "xc-0156",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ mèo châu Mỹ có hoa văn dạng hoa thị, nhiều đốm có chấm ở giữa",
+    "answer": "Báo đốm"
+  },
+  {
+    "id": "xc-0200",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim có cánh nhọn, nhiều loài có đuôi chẻ, thường gắn với mùa xuân",
+    "answer": "Chim én"
+  },
+  {
+    "id": "xc-0234",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh nhỏ đúc trong khuôn tròn, thường có tôm ở trên",
+    "answer": "Bánh khọt"
+  },
+  {
+    "id": "xc-0274",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người được đào tạo chuyên môn về thuốc và sử dụng thuốc",
+    "answer": "Dược sĩ"
+  },
+  {
+    "id": "xc-0309",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ viết dùng ngòi kim loại và mực nạp",
+    "answer": "Bút máy"
+  },
+  {
+    "id": "xc-0339",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Mưa gồm những hạt rất nhỏ, thường gặp lúc trời nồm ở miền Bắc",
+    "answer": "Mưa phùn"
+  },
+  {
+    "id": "xc-0373",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Ô tô chở nhiều hành khách, thường chạy liên tỉnh",
+    "answer": "Xe khách"
+  },
+  {
+    "id": "xc-0402",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ dây gảy có hộp đàn tròn như mặt trăng",
+    "answer": "Đàn nguyệt"
+  },
+  {
+    "id": "xc-0425",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn thể thao dùng gậy đánh bóng rồi chạy qua các chốt",
+    "answer": "Bóng chày"
+  },
+  {
+    "id": "xc-0455",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô nước Ý, nơi có đấu trường Colosseum",
+    "answer": "Rome"
+  },
+  {
+    "id": "xc-0484",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Lễ ngày mùng năm tháng năm âm lịch, thường gọi Tết diệt sâu bọ",
+    "answer": "Tết Đoan ngọ"
+  },
+  {
+    "id": "xc-0004",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị làm mát hoặc sưởi ấm không khí trong phòng",
+    "answer": "Điều hòa"
+  },
+  {
+    "id": "xc-0044",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dụng cụ nấu món chiên; loại không dầu dùng luồng khí nóng",
+    "answer": "Nồi chiên"
+  },
+  {
+    "id": "xc-0078",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái cây hạt cứng, thường được gọi cùng địa danh Mộc Châu",
+    "answer": "Quả mận"
+  },
+  {
+    "id": "xc-0118",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa vàng năm cánh thường trưng dịp Tết ở miền Nam",
+    "answer": "Hoa mai"
+  },
+  {
+    "id": "xc-0157",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú chạy rất nhanh, có hai vệt đen từ mắt xuống miệng",
+    "answer": "Báo săn"
+  },
+  {
+    "id": "xc-0201",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim làm tổ bằng nước bọt, tổ được dùng làm thực phẩm",
+    "answer": "Chim yến"
+  },
+  {
+    "id": "xc-0235",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh bột gạo hấp trong chén nhỏ, thường phủ tôm chấy",
+    "answer": "Bánh bèo"
+  },
+  {
+    "id": "xc-0275",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Bác sĩ chuyên chăm sóc và điều trị răng miệng",
+    "answer": "Nha sĩ"
+  },
+  {
+    "id": "xc-0310",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Bút có đầu sợi thấm mực, thường dùng viết bảng hoặc tô màu",
+    "answer": "Bút dạ"
+  },
+  {
+    "id": "xc-0340",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Mưa thường đến nhanh với hạt khá lớn rồi có thể tạnh nhanh",
+    "answer": "Mưa rào"
+  },
+  {
+    "id": "xc-0374",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Ô tô chủ yếu dùng chở hàng hóa",
+    "answer": "Xe tải"
+  },
+  {
+    "id": "xc-0403",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ dây gảy thân dáng quả lê, phổ biến trong âm nhạc truyền thống",
+    "answer": "Đàn tỳ bà"
+  },
+  {
+    "id": "xc-0426",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Nhóm môn thể thao dùng quả bóng hình bầu dục, tên tiếng Việt nhắc hình dạng bóng",
+    "answer": "Bóng bầu dục"
+  },
+  {
+    "id": "xc-0456",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô nước Đức, gắn với cổng Brandenburg",
+    "answer": "Berlin"
+  },
+  {
+    "id": "xc-0485",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Ngày tưởng nhớ các vua Hùng, thường tổ chức vào mùng mười tháng ba âm lịch",
+    "answer": "Giỗ Tổ"
+  },
+  {
+    "id": "xc-0005",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị đun và giữ nước nóng để tắm",
+    "answer": "Bình nóng lạnh"
+  },
+  {
+    "id": "xc-0045",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Bếp tạo lửa nhờ đốt khí nhiên liệu",
+    "answer": "Bếp ga"
+  },
+  {
+    "id": "xc-0079",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái cây nhiệt đới thường vàng khi chín, có hạt lớn dẹt",
+    "answer": "Quả xoài"
+  },
+  {
+    "id": "xc-0119",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa hồng phớt thường trưng dịp Tết ở miền Bắc",
+    "answer": "Hoa đào"
+  },
+  {
+    "id": "xc-0158",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ mèo sống ở núi cao châu Á, lông dày xám trắng",
+    "answer": "Báo tuyết"
+  },
+  {
+    "id": "xc-0202",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim có thể bắt chước âm thanh, thường được nhắc cùng cây đa trong dân ca",
+    "answer": "Chim sáo"
+  },
+  {
+    "id": "xc-0236",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh trong dai làm từ tinh bột sắn, thường có nhân tôm thịt",
+    "answer": "Bánh bột lọc"
+  },
+  {
+    "id": "xc-0276",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Lĩnh vực chăm sóc và điều trị bệnh cho động vật",
+    "answer": "Thú y"
+  },
+  {
+    "id": "xc-0311",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ viết vẽ có nhiều màu để tô tranh",
+    "answer": "Bút màu"
+  },
+  {
+    "id": "xc-0341",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Giáng thủy gồm những viên băng rơi từ mây dông",
+    "answer": "Mưa đá"
+  },
+  {
+    "id": "xc-0375",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Xe chuyên chở người bệnh hoặc người bị thương cần chăm sóc y tế",
+    "answer": "Xe cứu thương"
+  },
+  {
+    "id": "xc-0404",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ dây gảy có ba dây",
+    "answer": "Đàn tam"
+  },
+  {
+    "id": "xc-0427",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn dùng vợt đánh bóng qua lưới, thường gọi tennis",
+    "answer": "Quần vợt"
+  },
+  {
+    "id": "xc-0457",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Tây Ban Nha",
+    "answer": "Madrid"
+  },
+  {
+    "id": "xc-0486",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Lễ hội có các đội chèo thuyền tranh tài trên mặt nước",
+    "answer": "Lễ hội đua thuyền"
+  },
+  {
+    "id": "xc-0006",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đồ điện đun nước sôi nhanh, thường tự ngắt",
+    "answer": "Ấm siêu tốc"
+  },
+  {
+    "id": "xc-0046",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Bếp làm nóng đáy nồi thích hợp bằng cảm ứng điện từ",
+    "answer": "Bếp từ"
+  },
+  {
+    "id": "xc-0080",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái cây nhiều hạt nhỏ cứng, thường có ruột trắng hoặc hồng",
+    "answer": "Quả ổi"
+  },
+  {
+    "id": "xc-0120",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa đỏ rực gắn với sân trường và mùa hè",
+    "answer": "Hoa phượng"
+  },
+  {
+    "id": "xc-0159",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú ăn tạp có bộ lông nâu, có thể ngủ đông ở nhiều vùng lạnh",
+    "answer": "Gấu nâu"
+  },
+  {
+    "id": "xc-0203",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim cảnh nổi tiếng có giọng hót vang, nhiều loài có lông má tương phản",
+    "answer": "Chim khướu"
+  },
+  {
+    "id": "xc-0237",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh nếp có nhân, thường gói lá thành hình chóp",
+    "answer": "Bánh ít"
+  },
+  {
+    "id": "xc-0277",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người giảng dạy học sinh trong trường học",
+    "answer": "Giáo viên"
+  },
+  {
+    "id": "xc-0312",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Vật dụng dùng xóa nét bút chì, còn gọi cục gôm",
+    "answer": "Tẩy"
+  },
+  {
+    "id": "xc-0342",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Giáng thủy gồm các tinh thể băng, thường gặp ở vùng lạnh",
+    "answer": "Tuyết"
+  },
+  {
+    "id": "xc-0376",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Xe chuyên dụng của lực lượng chữa cháy",
+    "answer": "Xe cứu hỏa"
+  },
+  {
+    "id": "xc-0405",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ nhiều dây căng, dùng hai que gõ để phát âm",
+    "answer": "Đàn tam thập lục"
+  },
+  {
+    "id": "xc-0428",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Hoạt động thể thao di chuyển cơ thể trong nước",
+    "answer": "Bơi lội"
+  },
+  {
+    "id": "xc-0458",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Bồ Đào Nha",
+    "answer": "Lisbon"
+  },
+  {
+    "id": "xc-0487",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Màn biểu diễn linh vật đầu lớn, thường đi cùng tiếng trống dịp lễ",
+    "answer": "Múa lân"
+  },
+  {
+    "id": "xc-0007",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Bộ phận để cắm phích điện cấp nguồn cho thiết bị",
+    "answer": "Ổ cắm"
+  },
+  {
+    "id": "xc-0047",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dụng cụ nấu có lòng nông, thường dùng rán hoặc xào",
+    "answer": "Chảo"
+  },
+  {
+    "id": "xc-0081",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái lớn vỏ có gai, bên trong có nhiều múi vàng và xơ",
+    "answer": "Quả mít"
+  },
+  {
+    "id": "xc-0121",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa tím thường nở thành chùm vào đầu mùa hè",
+    "answer": "Hoa bằng lăng"
+  },
+  {
+    "id": "xc-0160",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ gấu sống ở Bắc Cực, thích nghi săn trên băng biển",
+    "answer": "Gấu trắng"
+  },
+  {
+    "id": "xc-0204",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim cảnh có mào dựng trên đầu và mảng đỏ ở má",
+    "answer": "Chim chào mào"
+  },
+  {
+    "id": "xc-0238",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh có vỏ sẫm màu nhờ lá gai, thường có nhân đậu xanh",
+    "answer": "Bánh gai"
+  },
+  {
+    "id": "xc-0278",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người giảng dạy ở cơ sở giáo dục đại học hoặc tương đương",
+    "answer": "Giảng viên"
+  },
+  {
+    "id": "xc-0313",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ có cạnh thẳng và vạch chia để đo hoặc kẻ đường",
+    "answer": "Thước kẻ"
+  },
+  {
+    "id": "xc-0343",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Những giọt nước nhỏ lơ lửng gần mặt đất làm giảm tầm nhìn",
+    "answer": "Sương mù"
+  },
+  {
+    "id": "xc-0377",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Xe công trình có bánh trụ nặng dùng nén nền đường",
+    "answer": "Xe lu"
+  },
+  {
+    "id": "xc-0406",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ gồm những thanh đá tạo cao độ khi gõ",
+    "answer": "Đàn đá"
+  },
+  {
+    "id": "xc-0429",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Hoạt động xuống dưới mặt nước, có thể dùng bình khí hỗ trợ",
+    "answer": "Lặn"
+  },
+  {
+    "id": "xc-0459",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Hy Lạp, nơi có đồi Acropolis",
+    "answer": "Athens"
+  },
+  {
+    "id": "xc-0488",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Nghệ thuật biểu diễn con rối trên mặt nước của Việt Nam",
+    "answer": "Múa rối nước"
+  },
+  {
+    "id": "xc-0008",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Bộ phận bật hoặc tắt đèn bằng thao tác gạt hay bấm",
+    "answer": "Công tắc"
+  },
+  {
+    "id": "xc-0048",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Nồi kín nấu thức ăn dưới áp suất cao",
+    "answer": "Nồi áp suất"
+  },
+  {
+    "id": "xc-0082",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái có múi lớn hơn cam, vỏ dày, thường được bày mâm ngũ quả",
+    "answer": "Quả bưởi"
+  },
+  {
+    "id": "xc-0122",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa nhỏ màu trắng ngà, mùi thơm đậm, thường gắn với mùa thu Hà Nội",
+    "answer": "Hoa sữa"
+  },
+  {
+    "id": "xc-0161",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú Bắc Mỹ có vùng lông đen quanh mắt trông như mặt nạ",
+    "answer": "Gấu mèo"
+  },
+  {
+    "id": "xc-0205",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim có tiếng gù quen thuộc, thường có vòng lông đốm ở cổ",
+    "answer": "Chim cu gáy"
+  },
+  {
+    "id": "xc-0239",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh vỏ cốm xanh, thường có nhân đậu xanh, gắn với Hà Nội",
+    "answer": "Bánh cốm"
+  },
+  {
+    "id": "xc-0279",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người có chuyên môn thiết kế, xây dựng hoặc vận hành hệ thống kỹ thuật",
+    "answer": "Kỹ sư"
+  },
+  {
+    "id": "xc-0314",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ chia độ thường có dạng nửa hình tròn",
+    "answer": "Thước đo góc"
+  },
+  {
+    "id": "xc-0344",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Lớp tinh thể băng đọng trên bề mặt khi điều kiện đủ lạnh",
+    "answer": "Sương muối"
+  },
+  {
+    "id": "xc-0378",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Máy công trình có lưỡi lớn phía trước để đẩy đất",
+    "answer": "Xe ủi"
+  },
+  {
+    "id": "xc-0407",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ nhỏ đặt sát môi, dùng khoang miệng biến đổi âm",
+    "answer": "Đàn môi"
+  },
+  {
+    "id": "xc-0430",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn dùng mái chèo để đẩy thuyền đi trên nước",
+    "answer": "Chèo thuyền"
+  },
+  {
+    "id": "xc-0460",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Áo, nổi tiếng với truyền thống âm nhạc cổ điển",
+    "answer": "Vienna"
+  },
+  {
+    "id": "xc-0489",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Loại hình sân khấu dân gian phổ biến ở đồng bằng Bắc Bộ",
+    "answer": "Hát chèo"
+  },
+  {
+    "id": "xc-0009",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Vật phát sáng khi được cấp điện, thường lắp trên trần",
+    "answer": "Bóng đèn"
+  },
+  {
+    "id": "xc-0049",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dụng cụ có đáy đục lỗ, làm chín thức ăn bằng hơi nước",
+    "answer": "Xửng hấp"
+  },
+  {
+    "id": "xc-0083",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái có múi nhỏ, vỏ dễ bóc bằng tay",
+    "answer": "Quả quýt"
+  },
+  {
+    "id": "xc-0123",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa trắng nhỏ, có mùi thơm, thường dùng ướp trà",
+    "answer": "Hoa nhài"
+  },
+  {
+    "id": "xc-0162",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ chó hoang dã, thường sống và săn theo bầy",
+    "answer": "Chó sói"
+  },
+  {
+    "id": "xc-0206",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim có mỏ dài nhọn, thường lao xuống nước bắt cá",
+    "answer": "Chim bói cá"
+  },
+  {
+    "id": "xc-0240",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh ngọt bở làm từ đậu xanh, nổi tiếng ở Hải Dương",
+    "answer": "Bánh đậu xanh"
+  },
+  {
+    "id": "xc-0280",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người thiết kế không gian và hình thức công trình",
+    "answer": "Kiến trúc sư"
+  },
+  {
+    "id": "xc-0315",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ hai chân dùng vẽ đường tròn",
+    "answer": "Compa"
+  },
+  {
+    "id": "xc-0345",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Hệ thống gió đổi hướng theo mùa, ảnh hưởng mạnh đến khí hậu Việt Nam",
+    "answer": "Gió mùa"
+  },
+  {
+    "id": "xc-0379",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Xe có càng để nâng và di chuyển hàng hóa",
+    "answer": "Xe nâng"
+  },
+  {
+    "id": "xc-0408",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ bốn dây kéo bằng vĩ, thường đặt trên vai",
+    "answer": "Đàn violin"
+  },
+  {
+    "id": "xc-0431",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn đứng hoặc nằm trên ván di chuyển theo sóng biển",
+    "answer": "Lướt sóng"
+  },
+  {
+    "id": "xc-0461",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Cộng hòa Séc, tên tiếng Việt thường viết Praha",
+    "answer": "Prague"
+  },
+  {
+    "id": "xc-0490",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Loại hình sân khấu truyền thống có hóa trang và động tác ước lệ rõ nét",
+    "answer": "Hát tuồng"
+  },
+  {
+    "id": "xc-0010",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đèn cầm tay dùng pin, hữu ích khi mất điện",
+    "answer": "Đèn pin"
+  },
+  {
+    "id": "xc-0050",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ đựng có nhiều lỗ để rửa rau và ráo nước",
+    "answer": "Rổ"
+  },
+  {
+    "id": "xc-0084",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái có vị chua, thường vắt lấy nước làm đồ uống hoặc gia vị",
+    "answer": "Quả chanh"
+  },
+  {
+    "id": "xc-0124",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây leo có lá bắc mỏng nhiều màu, trông như những tờ giấy",
+    "answer": "Hoa giấy"
+  },
+  {
+    "id": "xc-0163",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ chó mõm nhọn, đuôi rậm, thường xuất hiện trong truyện ngụ ngôn",
+    "answer": "Cáo"
+  },
+  {
+    "id": "xc-0207",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim dùng mỏ gõ vào thân cây để tìm thức ăn",
+    "answer": "Chim gõ kiến"
+  },
+  {
+    "id": "xc-0241",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh nhiều lớp vỏ, thường có nhân sầu riêng và trứng muối",
+    "answer": "Bánh pía"
+  },
+  {
+    "id": "xc-0281",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người tư vấn pháp luật, bào chữa hoặc bảo vệ quyền lợi theo quy định",
+    "answer": "Luật sư"
+  },
+  {
+    "id": "xc-0316",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Thước hình tam giác dùng kiểm tra và vẽ góc vuông",
+    "answer": "Ê ke"
+  },
+  {
+    "id": "xc-0346",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Cột không khí xoay mạnh, thường có dạng phễu",
+    "answer": "Lốc xoáy"
+  },
+  {
+    "id": "xc-0380",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện có phần chở hàng hoặc chở người được kéo bằng sức người hay máy",
+    "answer": "Xe kéo"
+  },
+  {
+    "id": "xc-0409",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ dây kéo cỡ lớn, thường đặt giữa hai chân người chơi",
+    "answer": "Đàn cello"
+  },
+  {
+    "id": "xc-0432",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn di chuyển và biểu diễn trên tấm ván có bánh",
+    "answer": "Trượt ván"
+  },
+  {
+    "id": "xc-0462",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Ba Lan",
+    "answer": "Warsaw"
+  },
+  {
+    "id": "xc-0491",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Loại hình sân khấu phát triển ở Nam Bộ, thường có vọng cổ",
+    "answer": "Cải lương"
+  },
+  {
+    "id": "xc-0011",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đèn ánh sáng dịu thường đặt cạnh giường",
+    "answer": "Đèn ngủ"
+  },
+  {
+    "id": "xc-0051",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ đan hoặc nhựa mắt nhỏ, thường dùng vo gạo",
+    "answer": "Rá"
+  },
+  {
+    "id": "xc-0085",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái vỏ nâu, cùi trong, hạt đen bóng, nổi tiếng ở Hưng Yên",
+    "answer": "Quả nhãn"
+  },
+  {
+    "id": "xc-0125",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Loài hoa nhỏ thường nở vào gần giữa buổi sáng, tên có một mốc giờ",
+    "answer": "Hoa mười giờ"
+  },
+  {
+    "id": "xc-0164",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú ăn thịt có tiếng kêu gợi liên tưởng tiếng cười",
+    "answer": "Linh cẩu"
+  },
+  {
+    "id": "xc-0208",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim rất nhỏ có thể bay đứng để hút mật hoa",
+    "answer": "Chim ruồi"
+  },
+  {
+    "id": "xc-0242",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Tấm bánh mỏng từ bột gạo, dùng cuốn hoặc nướng",
+    "answer": "Bánh tráng"
+  },
+  {
+    "id": "xc-0282",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người ghi nhận, tổng hợp và kiểm tra thông tin tài chính",
+    "answer": "Kế toán"
+  },
+  {
+    "id": "xc-0317",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Dụng cụ làm nhọn đầu bút chì bằng lưỡi cắt nhỏ",
+    "answer": "Gọt bút chì"
+  },
+  {
+    "id": "xc-0347",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Xoáy thuận nhiệt đới có sức gió mạnh, gây mưa lớn",
+    "answer": "Bão"
+  },
+  {
+    "id": "xc-0381",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện ba bánh dùng sức đạp, thường có ghế khách ở phía trước",
+    "answer": "Xích lô"
+  },
+  {
+    "id": "xc-0410",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Tên thường dùng ở Việt Nam cho nhạc cụ phím điện tử có nhiều âm sắc",
+    "answer": "Đàn organ"
+  },
+  {
+    "id": "xc-0433",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn dùng giày có lưỡi kim loại để di chuyển trên băng",
+    "answer": "Trượt băng"
+  },
+  {
+    "id": "xc-0463",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Na Uy",
+    "answer": "Oslo"
+  },
+  {
+    "id": "xc-0492",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Dân ca đối đáp nổi tiếng của vùng Bắc Ninh và Bắc Giang",
+    "answer": "Quan họ"
+  },
+  {
+    "id": "xc-0012",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Tấm vải treo để che nắng hoặc tạo sự riêng tư ở cửa sổ",
+    "answer": "Rèm cửa"
+  },
+  {
+    "id": "xc-0052",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Mặt phẳng kê thực phẩm khi thái, chặt",
+    "answer": "Thớt"
+  },
+  {
+    "id": "xc-0086",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái có vỏ phủ những gai mềm dài như lông",
+    "answer": "Quả chôm chôm"
+  },
+  {
+    "id": "xc-0126",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa có đầu tròn nhiều cánh, tên gắn với vật dùng để thanh toán",
+    "answer": "Hoa đồng tiền"
+  },
+  {
+    "id": "xc-0165",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú lớn da dày, có một hoặc hai sừng trên mũi tùy loài",
+    "answer": "Tê giác"
+  },
+  {
+    "id": "xc-0209",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim săn mồi thường hoạt động về đêm, mắt hướng về phía trước",
+    "answer": "Chim cú"
+  },
+  {
+    "id": "xc-0243",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Tên gọi loại bánh gạo mỏng thường được phơi khô rồi nướng",
+    "answer": "Bánh đa"
+  },
+  {
+    "id": "xc-0283",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Hoạt động kiểm tra, đưa ý kiến về tính phù hợp của thông tin tài chính",
+    "answer": "Kiểm toán"
+  },
+  {
+    "id": "xc-0318",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Đồ dùng đựng bút, tẩy và dụng cụ học tập nhỏ",
+    "answer": "Hộp bút"
+  },
+  {
+    "id": "xc-0348",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Sự lên xuống mực nước biển có tính chu kỳ do lực hấp dẫn thiên thể",
+    "answer": "Thủy triều"
+  },
+  {
+    "id": "xc-0382",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện gồm đầu máy và toa chạy trên đường ray",
+    "answer": "Tàu hỏa"
+  },
+  {
+    "id": "xc-0411",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ dây gảy nhỏ thường có bốn dây, gắn với Hawaii",
+    "answer": "Đàn ukulele"
+  },
+  {
+    "id": "xc-0434",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn dùng ván gắn dưới chân để di chuyển trên tuyết",
+    "answer": "Trượt tuyết"
+  },
+  {
+    "id": "xc-0464",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Thụy Điển",
+    "answer": "Stockholm"
+  },
+  {
+    "id": "xc-0493",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Loại hình ca nhạc truyền thống thường có đào nương, đàn đáy và phách",
+    "answer": "Ca trù"
+  },
+  {
+    "id": "xc-0013",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Tấm vật liệu mềm phủ trên sàn để trang trí hoặc giữ ấm",
+    "answer": "Thảm trải sàn"
+  },
+  {
+    "id": "xc-0053",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dao nhỏ dùng gọt vỏ rau củ và trái cây",
+    "answer": "Dao gọt"
+  },
+  {
+    "id": "xc-0087",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái vỏ tím dày, múi bên trong trắng và mềm",
+    "answer": "Quả măng cụt"
+  },
+  {
+    "id": "xc-0127",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa thường có phần tràng phụ dạng chén hoặc loa ở giữa",
+    "answer": "Hoa thủy tiên"
+  },
+  {
+    "id": "xc-0166",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú lớn thường ngâm mình trong sông hồ, có miệng rất rộng",
+    "answer": "Hà mã"
+  },
+  {
+    "id": "xc-0210",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim không bay có kích thước lớn nhất còn sống",
+    "answer": "Đà điểu"
+  },
+  {
+    "id": "xc-0244",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh nhỏ nướng trong khuôn đất, phổ biến ở miền Trung",
+    "answer": "Bánh căn"
+  },
+  {
+    "id": "xc-0284",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người quản lý tiền mặt và thực hiện thu chi trong đơn vị",
+    "answer": "Thủ quỹ"
+  },
+  {
+    "id": "xc-0319",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Tập giấy đóng lại dùng ghi chép khi học",
+    "answer": "Quyển vở"
+  },
+  {
+    "id": "xc-0349",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Sự dao động của mặt biển, thường do gió tạo ra",
+    "answer": "Sóng biển"
+  },
+  {
+    "id": "xc-0383",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện chạy trên ray và dùng điện làm nguồn động lực",
+    "answer": "Tàu điện"
+  },
+  {
+    "id": "xc-0412",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ có nhiều dây mắc trên khung gần hình tam giác",
+    "answer": "Đàn hạc"
+  },
+  {
+    "id": "xc-0435",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Hoạt động chinh phục địa hình núi hoặc vách cao",
+    "answer": "Leo núi"
+  },
+  {
+    "id": "xc-0465",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Phần Lan",
+    "answer": "Helsinki"
+  },
+  {
+    "id": "xc-0494",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Loại hình dân ca nghi lễ gắn với vùng đất Phú Thọ",
+    "answer": "Hát xoan"
+  },
+  {
+    "id": "xc-0014",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đồ nội thất nhiều ngăn dùng để xếp sách",
+    "answer": "Giá sách"
+  },
+  {
+    "id": "xc-0054",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Hai que dài dùng để gắp thức ăn",
+    "answer": "Đũa"
+  },
+  {
+    "id": "xc-0088",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái nhiều mắt, khi chín thịt ngọt, ở miền Nam gọi là mãng cầu ta",
+    "answer": "Quả na"
+  },
+  {
+    "id": "xc-0128",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa lớn thơm, thường có sáu phiến bao hoa xòe rộng",
+    "answer": "Hoa ly"
+  },
+  {
+    "id": "xc-0167",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú sống ở vùng khô hạn, trên lưng có bướu",
+    "answer": "Lạc đà"
+  },
+  {
+    "id": "xc-0211",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim chân dài, nhiều loài có bộ lông hồng và mỏ cong xuống",
+    "answer": "Chim hồng hạc"
+  },
+  {
+    "id": "xc-0245",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món chiên có tôm gắn với Hồ Tây ở Hà Nội",
+    "answer": "Bánh tôm"
+  },
+  {
+    "id": "xc-0285",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người nhận tiền thanh toán tại cửa hàng",
+    "answer": "Thu ngân"
+  },
+  {
+    "id": "xc-0320",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Cuốn sổ nhỏ để ghi những điều cần nhớ",
+    "answer": "Sổ tay"
+  },
+  {
+    "id": "xc-0350",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Dòng nước chuyển động có hướng trong biển hoặc đại dương",
+    "answer": "Dòng hải lưu"
+  },
+  {
+    "id": "xc-0384",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện có thể hoạt động dưới mặt nước",
+    "answer": "Tàu ngầm"
+  },
+  {
+    "id": "xc-0413",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ hơi làm từ ống trúc có các lỗ bấm",
+    "answer": "Sáo trúc"
+  },
+  {
+    "id": "xc-0436",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn đối kháng dùng kiếm thể thao và trang bị bảo hộ",
+    "answer": "Đấu kiếm"
+  },
+  {
+    "id": "xc-0466",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Đan Mạch, có tượng nàng tiên cá nổi tiếng",
+    "answer": "Copenhagen"
+  },
+  {
+    "id": "xc-0495",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Lối hát dân gian của Nghệ Tĩnh, thường nhắc cùng hát giặm",
+    "answer": "Hát ví"
+  },
+  {
+    "id": "xc-0015",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đồ nội thất có cánh hoặc ngăn để cất trang phục",
+    "answer": "Tủ quần áo"
+  },
+  {
+    "id": "xc-0055",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ đựng thức ăn có lòng nông và vành rộng",
+    "answer": "Đĩa"
+  },
+  {
+    "id": "xc-0089",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái dài hoặc bầu, khi chín ruột vàng cam, nhiều hạt đen ở giữa",
+    "answer": "Quả đu đủ"
+  },
+  {
+    "id": "xc-0129",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa nhỏ tụ thành cụm tròn lớn, thường gặp ở Đà Lạt",
+    "answer": "Hoa cẩm tú cầu"
+  },
+  {
+    "id": "xc-0168",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Tên gọi nhiều loài thú móng guốc nhanh nhẹn, thường có sừng",
+    "answer": "Linh dương"
+  },
+  {
+    "id": "xc-0212",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim nước cổ dài, thường được coi là biểu tượng vẻ đẹp thanh lịch",
+    "answer": "Thiên nga"
+  },
+  {
+    "id": "xc-0246",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh nếp chiên, thường có nhân đậu xanh, tên miền Bắc",
+    "answer": "Bánh rán"
+  },
+  {
+    "id": "xc-0286",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người chế biến món ăn chuyên nghiệp",
+    "answer": "Đầu bếp"
+  },
+  {
+    "id": "xc-0321",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Sách dùng làm tài liệu chính thức cho một môn học ở trường",
+    "answer": "Sách giáo khoa"
+  },
+  {
+    "id": "xc-0351",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Động vật biển sống thành tập đoàn, nhiều loài tạo bộ xương đá vôi",
+    "answer": "San hô"
+  },
+  {
+    "id": "xc-0385",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Thuyền dùng sức gió tác động lên buồm để di chuyển",
+    "answer": "Thuyền buồm"
+  },
+  {
+    "id": "xc-0414",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ hơi dạng ống thường thổi dọc",
+    "answer": "Tiêu"
+  },
+  {
+    "id": "xc-0437",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn đối kháng dùng kỹ thuật vật, giữ hoặc quật đối thủ theo luật",
+    "answer": "Đấu vật"
+  },
+  {
+    "id": "xc-0467",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Hà Lan, nổi tiếng với hệ thống kênh đào",
+    "answer": "Amsterdam"
+  },
+  {
+    "id": "xc-0496",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Loại hình âm nhạc truyền thống gắn với Nam Bộ",
+    "answer": "Đờn ca tài tử"
+  },
+  {
+    "id": "xc-0016",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Vật dụng để treo quần áo lên thanh ngang",
+    "answer": "Móc áo"
+  },
+  {
+    "id": "xc-0056",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ có vòi dùng để pha và rót trà",
+    "answer": "Ấm trà"
+  },
+  {
+    "id": "xc-0090",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái có vỏ hồng hoặc vàng, ruột nhiều hạt đen li ti",
+    "answer": "Thanh long"
+  },
+  {
+    "id": "xc-0130",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa tím có mùi thơm, tên tiếng Anh là lavender",
+    "answer": "Hoa oải hương"
+  },
+  {
+    "id": "xc-0169",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ hươu sống vùng lạnh, gắn với xe kéo của ông già Noel",
+    "answer": "Tuần lộc"
+  },
+  {
+    "id": "xc-0213",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim chân dài thường kiếm ăn trên ruộng nước, xuất hiện nhiều trong ca dao",
+    "answer": "Con cò"
+  },
+  {
+    "id": "xc-0247",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Tên miền Nam của loại bánh nếp chiên hình tròn, thường phủ mè",
+    "answer": "Bánh cam"
+  },
+  {
+    "id": "xc-0287",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người hỗ trợ sơ chế và chuẩn bị cho đầu bếp",
+    "answer": "Phụ bếp"
+  },
+  {
+    "id": "xc-0322",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Sách hoặc dữ liệu tra nghĩa, cách viết và cách dùng từ",
+    "answer": "Từ điển"
+  },
+  {
+    "id": "xc-0352",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Hệ cấu trúc dưới biển hình thành chủ yếu từ bộ xương san hô",
+    "answer": "Rạn san hô"
+  },
+  {
+    "id": "xc-0386",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Thuyền máy cỡ nhỏ thường chạy nhanh trên nước",
+    "answer": "Ca nô"
+  },
+  {
+    "id": "xc-0415",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ hơi truyền thống có loa kèn loe và âm thanh vang",
+    "answer": "Kèn bầu"
+  },
+  {
+    "id": "xc-0438",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn đối kháng dùng đòn đấm với găng tay",
+    "answer": "Quyền anh"
+  },
+  {
+    "id": "xc-0468",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Bỉ",
+    "answer": "Brussels"
+  },
+  {
+    "id": "xc-0497",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Âm nhạc cung đình, di sản nổi tiếng gắn với Huế",
+    "answer": "Nhã nhạc"
+  },
+  {
+    "id": "xc-0017",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Vật dụng đan hoặc đúc có thành, dùng gom đồ lặt vặt",
+    "answer": "Giỏ đựng đồ"
+  },
+  {
+    "id": "xc-0057",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Chén nhỏ, thường có quai, dùng uống trà",
+    "answer": "Tách trà"
+  },
+  {
+    "id": "xc-0091",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái có vỏ và thịt nâu, còn gọi là sapôchê",
+    "answer": "Hồng xiêm"
+  },
+  {
+    "id": "xc-0131",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa nhỏ hồng trắng của cây lương thực, nổi tiếng ở Hà Giang",
+    "answer": "Hoa tam giác mạch"
+  },
+  {
+    "id": "xc-0170",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú họ hươu, con đực thường có gạc phân nhánh",
+    "answer": "Nai"
+  },
+  {
+    "id": "xc-0214",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Chim họ diệc thường kiếm ăn lúc chiều tối hoặc ban đêm",
+    "answer": "Con vạc"
+  },
+  {
+    "id": "xc-0248",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món bánh từ chuối, có thể hấp, nướng hoặc chiên",
+    "answer": "Bánh chuối"
+  },
+  {
+    "id": "xc-0288",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người chuyên làm các loại bánh",
+    "answer": "Thợ bánh"
+  },
+  {
+    "id": "xc-0323",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Hình biểu diễn thu nhỏ bề mặt Trái Đất hoặc một khu vực",
+    "answer": "Bản đồ"
+  },
+  {
+    "id": "xc-0353",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Khối cát nổi cao do gió hoặc nước tích tụ",
+    "answer": "Cồn cát"
+  },
+  {
+    "id": "xc-0387",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện chở người và xe qua sông hoặc eo nước",
+    "answer": "Phà"
+  },
+  {
+    "id": "xc-0416",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Kèn đồng thường có ba van bấm, xuất hiện nhiều trong jazz",
+    "answer": "Kèn trumpet"
+  },
+  {
+    "id": "xc-0439",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn võ có nguồn gốc Okinawa, Nhật Bản, nổi bật với đấm và đá",
+    "answer": "Karate"
+  },
+  {
+    "id": "xc-0469",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Hungary, nằm bên sông Danube",
+    "answer": "Budapest"
+  },
+  {
+    "id": "xc-0498",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Dòng tranh dân gian in mộc bản nổi tiếng ở Bắc Ninh",
+    "answer": "Tranh Đông Hồ"
+  },
+  {
+    "id": "xc-0018",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Vật chứa đồ bỏ đi, thường có nắp",
+    "answer": "Thùng rác"
+  },
+  {
+    "id": "xc-0058",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ có mặt phẳng và mép thấp dùng bưng nhiều món",
+    "answer": "Khay"
+  },
+  {
+    "id": "xc-0092",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Trái có ruột chua thơm, nhiều hạt bọc dịch vàng, còn gọi chanh dây",
+    "answer": "Chanh leo"
+  },
+  {
+    "id": "xc-0132",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa trắng hoặc tím nhạt gắn với vùng Tây Bắc",
+    "answer": "Hoa ban"
+  },
+  {
+    "id": "xc-0171",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Họ hàng hoang dã của lợn nhà, thường có lông cứng và răng nanh",
+    "answer": "Lợn rừng"
+  },
+  {
+    "id": "xc-0215",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Gia cầm có chân có màng, bơi giỏi, thường kêu cạp cạp",
+    "answer": "Con vịt"
+  },
+  {
+    "id": "xc-0249",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh thường làm từ khoai lang bào hoặc thái lát trộn bột rồi chiên",
+    "answer": "Bánh khoai"
+  },
+  {
+    "id": "xc-0289",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người cắt và khâu trang phục",
+    "answer": "Thợ may"
+  },
+  {
+    "id": "xc-0324",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Mô hình hình cầu thể hiện bề mặt Trái Đất",
+    "answer": "Quả địa cầu"
+  },
+  {
+    "id": "xc-0354",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Vùng khô hạn có lượng mưa rất thấp",
+    "answer": "Sa mạc"
+  },
+  {
+    "id": "xc-0388",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Tàu thuyền thường phục vụ du lịch hoặc nghỉ dưỡng",
+    "answer": "Du thuyền"
+  },
+  {
+    "id": "xc-0417",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ hơi có dăm đơn và thân thường bằng kim loại, gắn với jazz",
+    "answer": "Kèn saxophone"
+  },
+  {
+    "id": "xc-0440",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn võ Nhật Bản chú trọng các kỹ thuật ném, vật và khống chế",
+    "answer": "Judo"
+  },
+  {
+    "id": "xc-0470",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Thái Lan",
+    "answer": "Bangkok"
+  },
+  {
+    "id": "xc-0499",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Dòng tranh dân gian gắn với khu phố cổ Hà Nội",
+    "answer": "Tranh Hàng Trống"
+  },
+  {
+    "id": "xc-0019",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Tấm vải phủ lên mặt bàn khi trang trí hoặc ăn uống",
+    "answer": "Khăn trải bàn"
+  },
+  {
+    "id": "xc-0059",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Vật chứa bữa ăn để mang đi học hoặc đi làm",
+    "answer": "Hộp cơm"
+  },
+  {
+    "id": "xc-0093",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Loại dưa có hoa văn như mạng lưới trên vỏ",
+    "answer": "Dưa lưới"
+  },
+  {
+    "id": "xc-0133",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa thơm có cánh dày, còn gọi hoa sứ",
+    "answer": "Hoa đại"
+  },
+  {
+    "id": "xc-0172",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú có nhiều lông cứng biến đổi thành gai để tự vệ",
+    "answer": "Nhím"
+  },
+  {
+    "id": "xc-0216",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Gia cầm cổ dài, tiếng kêu lớn, thường được nuôi giữ nhà",
+    "answer": "Con ngỗng"
+  },
+  {
+    "id": "xc-0250",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh chiên phồng rỗng ruột, bên ngoài thường có mè",
+    "answer": "Bánh tiêu"
+  },
+  {
+    "id": "xc-0290",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người làm đồ dùng và công trình từ gỗ",
+    "answer": "Thợ mộc"
+  },
+  {
+    "id": "xc-0325",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Thiết bị quan sát vật hoặc cấu trúc rất nhỏ",
+    "answer": "Kính hiển vi"
+  },
+  {
+    "id": "xc-0355",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Khu vực có nước và thực vật giữa vùng sa mạc",
+    "answer": "Ốc đảo"
+  },
+  {
+    "id": "xc-0389",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện bay dùng túi khí nóng để tạo lực nâng",
+    "answer": "Khinh khí cầu"
+  },
+  {
+    "id": "xc-0418",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ nhỏ nhiều lỗ, phát âm khi thổi hoặc hút hơi",
+    "answer": "Kèn harmonica"
+  },
+  {
+    "id": "xc-0441",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Trò chơi chiến thuật có vua, hậu, xe, tượng, mã và tốt",
+    "answer": "Cờ vua"
+  },
+  {
+    "id": "xc-0471",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Hàn Quốc",
+    "answer": "Seoul"
+  },
+  {
+    "id": "xc-0500",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Sản phẩm gốm của làng nghề nổi tiếng ở Gia Lâm, Hà Nội",
+    "answer": "Gốm Bát Tràng"
+  },
+  {
+    "id": "xc-0020",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đồ đắp có lớp ruột mềm giúp giữ ấm khi ngủ",
+    "answer": "Chăn bông"
+  },
+  {
+    "id": "xc-0060",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ úp che thức ăn để tránh ruồi và bụi",
+    "answer": "Lồng bàn"
+  },
+  {
+    "id": "xc-0094",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Quả dài giòn nhiều nước, thường ăn sống, còn gọi dưa chuột",
+    "answer": "Dưa leo"
+  },
+  {
+    "id": "xc-0134",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa có hình chiếc kèn, loại trắng thường xuất hiện ở Hà Nội tháng tư",
+    "answer": "Hoa loa kèn"
+  },
+  {
+    "id": "xc-0173",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú gặm nhấm đuôi rậm, thường leo cây và ăn hạt",
+    "answer": "Sóc"
+  },
+  {
+    "id": "xc-0217",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Gia cầm lớn có phần da đỏ ở đầu, gắn với lễ Tạ ơn ở Mỹ",
+    "answer": "Gà tây"
+  },
+  {
+    "id": "xc-0251",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Bánh hấp vỏ bột mì mềm, thường có nhân bên trong",
+    "answer": "Bánh bao"
+  },
+  {
+    "id": "xc-0291",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người lắp đặt hoặc sửa chữa hệ thống điện",
+    "answer": "Thợ điện"
+  },
+  {
+    "id": "xc-0326",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Thiết bị quan sát các thiên thể ở xa",
+    "answer": "Kính thiên văn"
+  },
+  {
+    "id": "xc-0356",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Vùng đất tương đối thấp, bằng phẳng trên diện rộng",
+    "answer": "Đồng bằng"
+  },
+  {
+    "id": "xc-0390",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Máy bay có cánh quạt nâng lớn, có thể cất hạ cánh gần như thẳng đứng",
+    "answer": "Trực thăng"
+  },
+  {
+    "id": "xc-0419",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Trống truyền thống hai mặt, tên có trong một làn điệu dân ca",
+    "answer": "Trống cơm"
+  },
+  {
+    "id": "xc-0442",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Trò chơi chiến thuật có tướng, sĩ, tượng, xe, pháo, mã và tốt",
+    "answer": "Cờ tướng"
+  },
+  {
+    "id": "xc-0472",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Trung Quốc",
+    "answer": "Bắc Kinh"
+  },
+  {
+    "id": "xc-0501",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Sản phẩm dệt của làng nghề nổi tiếng ở Hà Đông, Hà Nội",
+    "answer": "Lụa Vạn Phúc"
+  },
+  {
+    "id": "xc-0021",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Tấm vải phủ lên nệm để nằm và dễ thay giặt",
+    "answer": "Ga giường"
+  },
+  {
+    "id": "xc-0061",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ mặc phía trước người để tránh bẩn khi nấu ăn",
+    "answer": "Tạp dề"
+  },
+  {
+    "id": "xc-0095",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Quả ruột vàng cam, có thể nấu canh hoặc làm sữa",
+    "answer": "Bí đỏ"
+  },
+  {
+    "id": "xc-0135",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa lớn trên cây thường trồng làm hàng rào, có cột nhị dài",
+    "answer": "Hoa dâm bụt"
+  },
+  {
+    "id": "xc-0174",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Tên tiếng Việt chỉ nhóm thú có túi nổi tiếng với cách di chuyển bằng nhảy",
+    "answer": "Chuột túi"
+  },
+  {
+    "id": "xc-0218",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Gà trưởng thành giống cái, thường được nuôi để lấy trứng",
+    "answer": "Gà mái"
+  },
+  {
+    "id": "xc-0252",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món bún ăn với thịt lợn nướng và nước chấm, nổi tiếng ở Hà Nội",
+    "answer": "Bún chả"
+  },
+  {
+    "id": "xc-0292",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người nối kim loại bằng các phương pháp hàn",
+    "answer": "Thợ hàn"
+  },
+  {
+    "id": "xc-0327",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Ống nhỏ thường bằng thủy tinh dùng chứa mẫu trong thí nghiệm",
+    "answer": "Ống nghiệm"
+  },
+  {
+    "id": "xc-0357",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Vùng đất cao có bề mặt tương đối bằng phẳng",
+    "answer": "Cao nguyên"
+  },
+  {
+    "id": "xc-0391",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phương tiện bay không dùng động cơ trong phần lớn hành trình",
+    "answer": "Tàu lượn"
+  },
+  {
+    "id": "xc-0420",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc khí bằng đồng gắn với văn hóa Đông Sơn",
+    "answer": "Trống đồng"
+  },
+  {
+    "id": "xc-0443",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Trò chơi đặt quân đen trắng lên giao điểm để tranh lãnh thổ",
+    "answer": "Cờ vây"
+  },
+  {
+    "id": "xc-0473",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Ấn Độ",
+    "answer": "New Delhi"
+  },
+  {
+    "id": "xc-0502",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Loại nón rộng và phẳng, thường gắn với hình ảnh liền chị quan họ",
+    "answer": "Nón quai thao"
+  },
+  {
+    "id": "xc-0022",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Lớp dày mềm đặt trên giường giúp nằm êm",
+    "answer": "Đệm"
+  },
+  {
+    "id": "xc-0062",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Vật đeo bao bàn tay; loại cách nhiệt dùng lấy đồ nóng",
+    "answer": "Găng tay"
+  },
+  {
+    "id": "xc-0096",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Quả thường dùng nấu canh, vỏ xanh, còn gọi bí đao",
+    "answer": "Bí xanh"
+  },
+  {
+    "id": "xc-0136",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa mọc trên mặt nước, lá thường nổi và có khe ở gốc",
+    "answer": "Hoa súng"
+  },
+  {
+    "id": "xc-0175",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú gặm nhấm nhỏ, còn gọi bọ ú, thường được nuôi làm thú cưng",
+    "answer": "Chuột lang"
+  },
+  {
+    "id": "xc-0219",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng sống thành đàn, có kiến chúa và kiến thợ",
+    "answer": "Con kiến"
+  },
+  {
+    "id": "xc-0253",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món bún nước thường có riêu cua và cà chua",
+    "answer": "Bún riêu"
+  },
+  {
+    "id": "xc-0293",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người bảo dưỡng và khắc phục hỏng hóc phương tiện",
+    "answer": "Thợ sửa xe"
+  },
+  {
+    "id": "xc-0328",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Đồ chứa có vạch chia dùng đo thể tích chất lỏng",
+    "answer": "Cốc đong"
+  },
+  {
+    "id": "xc-0358",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Vùng đất thấp kéo dài giữa núi hoặc đồi",
+    "answer": "Thung lũng"
+  },
+  {
+    "id": "xc-0392",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Khu vực có đường băng và công trình phục vụ máy bay",
+    "answer": "Sân bay"
+  },
+  {
+    "id": "xc-0421",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhóm nhạc cụ gõ bằng kim loại gắn với văn hóa Tây Nguyên",
+    "answer": "Cồng chiêng"
+  },
+  {
+    "id": "xc-0444",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn thể thao dùng cơ đánh các bi trên bàn phủ nỉ",
+    "answer": "Bi da"
+  },
+  {
+    "id": "xc-0474",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Nepal",
+    "answer": "Kathmandu"
+  },
+  {
+    "id": "xc-0503",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Trang phục truyền thống nữ gồm bốn thân áo, gắn với Bắc Bộ",
+    "answer": "Áo tứ thân"
+  },
+  {
+    "id": "xc-0023",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Loại giường có hai hoặc nhiều chỗ nằm xếp theo chiều cao",
+    "answer": "Giường tầng"
+  },
+  {
+    "id": "xc-0063",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dụng cụ lòng sâu dùng cùng chày để nghiền nguyên liệu",
+    "answer": "Cối giã"
+  },
+  {
+    "id": "xc-0097",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Quả dài thường nấu canh, khi già phần xơ có thể dùng cọ rửa",
+    "answer": "Mướp"
+  },
+  {
+    "id": "xc-0137",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa nhiều màu, tên thường gắn với vùng núi cao và Sa Pa",
+    "answer": "Hoa đỗ quyên"
+  },
+  {
+    "id": "xc-0176",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú tai dài, chân sau khỏe, thường được vẽ đang ăn cà rốt",
+    "answer": "Thỏ"
+  },
+  {
+    "id": "xc-0220",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng sống theo tập đoàn, nhiều loài ăn gỗ và làm tổ",
+    "answer": "Mối"
+  },
+  {
+    "id": "xc-0254",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món bún Hà Nội có nhiều nguyên liệu thái nhỏ như trứng, gà và giò",
+    "answer": "Bún thang"
+  },
+  {
+    "id": "xc-0294",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người tạo kiểu và cắt ngắn mái tóc cho khách",
+    "answer": "Thợ cắt tóc"
+  },
+  {
+    "id": "xc-0329",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Thiết bị đo khối lượng và hiển thị bằng chữ số",
+    "answer": "Cân điện tử"
+  },
+  {
+    "id": "xc-0359",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Thung lũng hẹp, sâu, thường có vách dốc",
+    "answer": "Hẻm núi"
+  },
+  {
+    "id": "xc-0393",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Công trình phục vụ hành khách lên xuống tàu hỏa",
+    "answer": "Nhà ga"
+  },
+  {
+    "id": "xc-0422",
+    "category": "Nhạc cụ",
+    "type": "scramble",
+    "prompt": "Nhạc cụ gõ nhỏ thường dùng giữ nhịp trong đờn ca tài tử",
+    "answer": "Song loan"
+  },
+  {
+    "id": "xc-0445",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn lăn bóng để làm đổ các chai gỗ ở cuối đường băng",
+    "answer": "Bowling"
+  },
+  {
+    "id": "xc-0475",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Australia, không phải Sydney",
+    "answer": "Canberra"
+  },
+  {
+    "id": "xc-0504",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Trang phục thân áo đơn giản, thường gắn với miền Tây Nam Bộ",
+    "answer": "Áo bà ba"
+  },
+  {
+    "id": "xc-0024",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị tạo gió treo trên trần nhà",
+    "answer": "Quạt trần"
+  },
+  {
+    "id": "xc-0064",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Thanh cầm tay dùng giã nguyên liệu trong cối",
+    "answer": "Chày"
+  },
+  {
+    "id": "xc-0098",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Quả xanh vỏ sần, vị đắng, còn gọi mướp đắng",
+    "answer": "Khổ qua"
+  },
+  {
+    "id": "xc-0138",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Hoa có cánh mềm xếp lớp, tên mang nghĩa điềm lành",
+    "answer": "Hoa cát tường"
+  },
+  {
+    "id": "xc-0177",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú bơi giỏi, thân dài, sống gắn với môi trường nước",
+    "answer": "Rái cá"
+  },
+  {
+    "id": "xc-0221",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng có hai đôi cánh dài, thường bay gần ao hồ",
+    "answer": "Chuồn chuồn"
+  },
+  {
+    "id": "xc-0255",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món bún nước có hương vị mắm đậm, phổ biến ở miền Tây",
+    "answer": "Bún mắm"
+  },
+  {
+    "id": "xc-0295",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người chụp ảnh chuyên nghiệp hoặc theo hoạt động sáng tác",
+    "answer": "Nhiếp ảnh gia"
+  },
+  {
+    "id": "xc-0330",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Mặt bảng sẫm màu thường dùng viết bằng phấn",
+    "answer": "Bảng đen"
+  },
+  {
+    "id": "xc-0360",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Khoảng trống tự nhiên trong lòng núi hoặc dưới mặt đất",
+    "answer": "Hang động"
+  },
+  {
+    "id": "xc-0394",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Nơi xe khách đón trả khách và tổ chức chuyến đi",
+    "answer": "Bến xe"
+  },
+  {
+    "id": "xc-0446",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn dùng gậy đánh bóng vào lỗ với số lần đánh ít nhất",
+    "answer": "Golf"
+  },
+  {
+    "id": "xc-0476",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô New Zealand",
+    "answer": "Wellington"
+  },
+  {
+    "id": "xc-0505",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Khăn có hoa văn ô vuông, quen thuộc trong đời sống Nam Bộ",
+    "answer": "Khăn rằn"
+  },
+  {
+    "id": "xc-0025",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Quạt điện nhỏ thường đặt trên mặt bàn",
+    "answer": "Quạt bàn"
+  },
+  {
+    "id": "xc-0065",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Thiết bị dùng lưỡi quay để nghiền nhỏ thực phẩm",
+    "answer": "Máy xay"
+  },
+  {
+    "id": "xc-0099",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Củ thường màu cam, hay dùng làm nước ép hoặc nấu súp",
+    "answer": "Cà rốt"
+  },
+  {
+    "id": "xc-0139",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây thân đốt rỗng, mọc thành bụi, gắn với làng quê Việt Nam",
+    "answer": "Cây tre"
+  },
+  {
+    "id": "xc-0178",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú gặm nhấm có khả năng xây đập bằng cành cây",
+    "answer": "Hải ly"
+  },
+  {
+    "id": "xc-0222",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng có chân sau khỏe để bật nhảy, thường ăn lá",
+    "answer": "Châu chấu"
+  },
+  {
+    "id": "xc-0256",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món mì miền Trung thường ăn với ít nước dùng và bánh tráng",
+    "answer": "Mì Quảng"
+  },
+  {
+    "id": "xc-0296",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người sáng tác tranh bằng đường nét và màu sắc",
+    "answer": "Họa sĩ"
+  },
+  {
+    "id": "xc-0331",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Bảng sáng màu thường viết bằng bút lông chuyên dụng",
+    "answer": "Bảng trắng"
+  },
+  {
+    "id": "xc-0361",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Khối khoáng thường rủ xuống từ trần hang đá vôi",
+    "answer": "Thạch nhũ"
+  },
+  {
+    "id": "xc-0395",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Khu vực ven biển có công trình để tàu neo đậu và bốc dỡ hàng",
+    "answer": "Cảng biển"
+  },
+  {
+    "id": "xc-0447",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Nội dung điền kinh vượt qua xà ngang theo chiều cao",
+    "answer": "Nhảy cao"
+  },
+  {
+    "id": "xc-0477",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Canada",
+    "answer": "Ottawa"
+  },
+  {
+    "id": "xc-0506",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Cặp lễ vật quen thuộc trong cưới hỏi, gắn với tục ăn trầu",
+    "answer": "Trầu cau"
+  },
+  {
+    "id": "xc-0026",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị dùng màng lọc để giảm bụi trong không khí",
+    "answer": "Máy lọc không khí"
+  },
+  {
+    "id": "xc-0066",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Thiết bị tách nước từ rau hoặc trái cây bằng lực nén",
+    "answer": "Máy ép"
+  },
+  {
+    "id": "xc-0100",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Củ nhiều tinh bột, thường cắt que để chiên",
+    "answer": "Khoai tây"
+  },
+  {
+    "id": "xc-0140",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Nhóm cây thân đốt thanh mảnh, thường được trồng làm cảnh",
+    "answer": "Cây trúc"
+  },
+  {
+    "id": "xc-0179",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú biển có chi dạng vây, hay nghỉ trên bờ hoặc băng",
+    "answer": "Hải cẩu"
+  },
+  {
+    "id": "xc-0223",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng nhảy khỏe gần gũi châu chấu, thường có thân thon",
+    "answer": "Cào cào"
+  },
+  {
+    "id": "xc-0257",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món mì sợi dai màu sẫm đặc trưng ở Hội An",
+    "answer": "Cao lầu"
+  },
+  {
+    "id": "xc-0297",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người sáng tác âm nhạc",
+    "answer": "Nhạc sĩ"
+  },
+  {
+    "id": "xc-0332",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Thiết bị phóng hình ảnh từ nguồn phát lên màn",
+    "answer": "Máy chiếu"
+  },
+  {
+    "id": "xc-0362",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Cấu trúc địa chất nơi magma có thể phun lên bề mặt",
+    "answer": "Núi lửa"
+  },
+  {
+    "id": "xc-0396",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Thiết bị tín hiệu màu đỏ, vàng, xanh điều tiết xe và người",
+    "answer": "Đèn giao thông"
+  },
+  {
+    "id": "xc-0448",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Nội dung điền kinh bật nhảy để đạt khoảng cách ngang lớn",
+    "answer": "Nhảy xa"
+  },
+  {
+    "id": "xc-0478",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Ai Cập, nằm bên sông Nile",
+    "answer": "Cairo"
+  },
+  {
+    "id": "xc-0507",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Mâm bày các loại trái cây trong ngày Tết và dịp lễ",
+    "answer": "Mâm ngũ quả"
+  },
+  {
+    "id": "xc-0027",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Thiết bị xử lý nước qua các lõi lọc trước khi uống",
+    "answer": "Máy lọc nước"
+  },
+  {
+    "id": "xc-0067",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dụng cụ nhiều vòng dây dùng đánh trứng hoặc trộn bột",
+    "answer": "Phới lồng"
+  },
+  {
+    "id": "xc-0101",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Củ có vị ngọt, có giống ruột vàng, tím hoặc trắng",
+    "answer": "Khoai lang"
+  },
+  {
+    "id": "xc-0141",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây lớn thường có rễ phụ buông từ cành, gắn với đình làng",
+    "answer": "Cây đa"
+  },
+  {
+    "id": "xc-0180",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Thú biển có vành tai ngoài nhỏ, có thể chống thân đi trên cạn",
+    "answer": "Sư tử biển"
+  },
+  {
+    "id": "xc-0224",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng thường gáy bằng cách cọ cánh, là nhân vật trong tác phẩm của Tô Hoài",
+    "answer": "Dế mèn"
+  },
+  {
+    "id": "xc-0258",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món sợi phổ biến ở miền Nam, có thể ăn nước hoặc khô",
+    "answer": "Hủ tiếu"
+  },
+  {
+    "id": "xc-0298",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người biểu diễn bằng giọng hát",
+    "answer": "Ca sĩ"
+  },
+  {
+    "id": "xc-0333",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Bề mặt để hứng hình ảnh từ máy chiếu",
+    "answer": "Màn chiếu"
+  },
+  {
+    "id": "xc-0363",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Magma đã phun lên bề mặt Trái Đất",
+    "answer": "Dung nham"
+  },
+  {
+    "id": "xc-0397",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Các vạch kẻ trên mặt đường dành cho người đi bộ băng qua",
+    "answer": "Vạch qua đường"
+  },
+  {
+    "id": "xc-0449",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Nội dung điền kinh ném một dụng cụ dài nhọn đi xa",
+    "answer": "Ném lao"
+  },
+  {
+    "id": "xc-0479",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Kenya",
+    "answer": "Nairobi"
+  },
+  {
+    "id": "xc-0508",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Hai vế văn hoặc thơ có sự đối ứng, thường treo vào dịp Tết",
+    "answer": "Câu đối"
+  },
+  {
+    "id": "xc-0028",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Bình có lớp cách nhiệt giúp đồ uống nóng hoặc lạnh lâu hơn",
+    "answer": "Bình giữ nhiệt"
+  },
+  {
+    "id": "xc-0068",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Thanh trụ lăn để làm dẹt bột khi làm bánh",
+    "answer": "Cây cán bột"
+  },
+  {
+    "id": "xc-0102",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Củ thường có ruột trắng điểm tím, hay dùng nấu chè",
+    "answer": "Khoai môn"
+  },
+  {
+    "id": "xc-0142",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây sân trường có lá to, tán thường xếp thành nhiều tầng",
+    "answer": "Cây bàng"
+  },
+  {
+    "id": "xc-0181",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Loài cá voi có răng lớn nhất, có đầu rất to",
+    "answer": "Cá nhà táng"
+  },
+  {
+    "id": "xc-0225",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Bọ cánh cứng nhỏ thường có cánh đỏ hoặc cam với các chấm đen",
+    "answer": "Bọ rùa"
+  },
+  {
+    "id": "xc-0259",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món sợi trong nấu với thịt gà",
+    "answer": "Miến gà"
+  },
+  {
+    "id": "xc-0299",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người thể hiện vai trong phim hoặc sân khấu",
+    "answer": "Diễn viên"
+  },
+  {
+    "id": "xc-0334",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Nơi tổ chức, lưu trữ tài liệu để đọc và mượn",
+    "answer": "Thư viện"
+  },
+  {
+    "id": "xc-0364",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Sự rung chuyển của mặt đất do giải phóng năng lượng trong vỏ Trái Đất",
+    "answer": "Động đất"
+  },
+  {
+    "id": "xc-0398",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Bảng ký hiệu hoặc chữ dùng hướng dẫn, cảnh báo trên đường",
+    "answer": "Biển báo"
+  },
+  {
+    "id": "xc-0450",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Nội dung điền kinh đẩy quả cầu kim loại bằng một tay",
+    "answer": "Đẩy tạ"
+  },
+  {
+    "id": "xc-0480",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Cuba",
+    "answer": "Havana"
+  },
+  {
+    "id": "xc-0509",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Nghệ thuật viết chữ coi trọng hình thức và nét bút",
+    "answer": "Thư pháp"
+  },
+  {
+    "id": "xc-0029",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đồ đựng nước nóng có ruột cách nhiệt, thường dùng trong gia đình",
+    "answer": "Phích nước"
+  },
+  {
+    "id": "xc-0069",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dụng cụ tạo hình cho bột hoặc hỗn hợp trước khi làm chín",
+    "answer": "Khuôn bánh"
+  },
+  {
+    "id": "xc-0103",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Củ thường có màu trắng, vị nhẹ, dùng nấu canh hoặc muối",
+    "answer": "Củ cải"
+  },
+  {
+    "id": "xc-0143",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây có quả dạng đậu, thịt quả chua dùng nấu canh",
+    "answer": "Cây me"
+  },
+  {
+    "id": "xc-0182",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Loài cá có đầu giống ngựa, con đực mang túi ấp trứng",
+    "answer": "Cá ngựa"
+  },
+  {
+    "id": "xc-0226",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng có hai chân trước dạng càng gập để bắt mồi",
+    "answer": "Bọ ngựa"
+  },
+  {
+    "id": "xc-0260",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Cháo thường ăn với nội tạng lợn đã làm chín",
+    "answer": "Cháo lòng"
+  },
+  {
+    "id": "xc-0300",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người chỉ đạo nghệ thuật quá trình thực hiện phim hoặc vở diễn",
+    "answer": "Đạo diễn"
+  },
+  {
+    "id": "xc-0335",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Không gian được trang bị để thực hiện các phép thử khoa học",
+    "answer": "Phòng thí nghiệm"
+  },
+  {
+    "id": "xc-0365",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Chuỗi sóng biển dài mạnh có thể do động đất dưới đáy biển gây ra",
+    "answer": "Sóng thần"
+  },
+  {
+    "id": "xc-0399",
+    "category": "Giao thông",
+    "type": "scramble",
+    "prompt": "Phần ngăn giữa các làn hoặc chiều xe chạy",
+    "answer": "Dải phân cách"
+  },
+  {
+    "id": "xc-0451",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn nâng thanh đòn có bánh tạ theo kỹ thuật quy định",
+    "answer": "Cử tạ"
+  },
+  {
+    "id": "xc-0481",
+    "category": "Thế giới",
+    "type": "scramble",
+    "prompt": "Thủ đô Argentina",
+    "answer": "Buenos Aires"
+  },
+  {
+    "id": "xc-0510",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Tục trao tiền mừng tuổi trong phong bao dịp Tết",
+    "answer": "Lì xì"
+  },
+  {
+    "id": "xc-0030",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Chậu cố định trong phòng tắm để rửa tay và mặt",
+    "answer": "Chậu rửa mặt"
+  },
+  {
+    "id": "xc-0070",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Tấm kim loại nhôm rất mỏng dùng bọc thực phẩm",
+    "answer": "Giấy bạc"
+  },
+  {
+    "id": "xc-0104",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Củ có màu đỏ tím đậm, thường dùng tạo màu món ăn",
+    "answer": "Củ dền"
+  },
+  {
+    "id": "xc-0144",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây lá kim thường được trang trí vào dịp Giáng sinh",
+    "answer": "Cây thông"
+  },
+  {
+    "id": "xc-0183",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Nhóm cá thân dẹt, vây ngực xòe rộng như cánh",
+    "answer": "Cá đuối"
+  },
+  {
+    "id": "xc-0227",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Nhóm bọ cánh cứng, nhiều loài vo và lăn viên phân",
+    "answer": "Bọ hung"
+  },
+  {
+    "id": "xc-0261",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món gạo nấu nhừ cùng cá, thường có rau gia vị",
+    "answer": "Cháo cá"
+  },
+  {
+    "id": "xc-0301",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người viết kịch bản cho phim hoặc sân khấu",
+    "answer": "Biên kịch"
+  },
+  {
+    "id": "xc-0336",
+    "category": "Học tập",
+    "type": "scramble",
+    "prompt": "Phòng lớn dùng cho việc giảng dạy ở trường đại học",
+    "answer": "Giảng đường"
+  },
+  {
+    "id": "xc-0366",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Khối băng lớn trên đất liền có khả năng chuyển động chậm",
+    "answer": "Băng hà"
+  },
+  {
+    "id": "xc-0452",
+    "category": "Thể thao mở rộng",
+    "type": "scramble",
+    "prompt": "Môn thi đấu trên các dụng cụ như xà, vòng treo và cầu thăng bằng",
+    "answer": "Thể dục dụng cụ"
+  },
+  {
+    "id": "xc-0511",
+    "category": "Văn hóa và lễ hội",
+    "type": "scramble",
+    "prompt": "Tục người đầu tiên đến nhà vào năm mới được coi trọng trong ngày Tết",
+    "answer": "Xông đất"
+  },
+  {
+    "id": "xc-0031",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đồ chứa nước đủ lớn để người ngâm mình khi tắm",
+    "answer": "Bồn tắm"
+  },
+  {
+    "id": "xc-0071",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Màng mỏng bám quanh miệng hộp để che thức ăn",
+    "answer": "Màng bọc"
+  },
+  {
+    "id": "xc-0105",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Thân rễ của sen, cắt ngang thấy nhiều lỗ tròn",
+    "answer": "Củ sen"
+  },
+  {
+    "id": "xc-0145",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây được khai thác mủ để sản xuất vật liệu đàn hồi",
+    "answer": "Cây cao su"
+  },
+  {
+    "id": "xc-0184",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Loài cá nước ngọt gắn với tục tiễn ông Công ông Táo",
+    "answer": "Cá chép"
+  },
+  {
+    "id": "xc-0228",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng có cơ quan phát sáng ở bụng",
+    "answer": "Đom đóm"
+  },
+  {
+    "id": "xc-0262",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món cơm từ hạt gạo vỡ, thường ăn cùng sườn nướng",
+    "answer": "Cơm tấm"
+  },
+  {
+    "id": "xc-0302",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người thu thập thông tin và thực hiện tin bài",
+    "answer": "Phóng viên"
+  },
+  {
+    "id": "xc-0367",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Khối băng lớn tách ra nổi trên mặt nước",
+    "answer": "Tảng băng"
+  },
+  {
+    "id": "xc-0032",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đầu phun chia nước thành nhiều tia để tắm",
+    "answer": "Vòi hoa sen"
+  },
+  {
+    "id": "xc-0072",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Dung dịch tẩy dầu mỡ trên bát đĩa",
+    "answer": "Nước rửa chén"
+  },
+  {
+    "id": "xc-0106",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Rau thân rỗng, thường luộc hoặc xào tỏi",
+    "answer": "Rau muống"
+  },
+  {
+    "id": "xc-0146",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây có quả chứa hạt dùng rang xay làm đồ uống có caffeine",
+    "answer": "Cây cà phê"
+  },
+  {
+    "id": "xc-0185",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Loài cá nước ngọt thường xuất hiện trong món canh rau cải ở Việt Nam",
+    "answer": "Cá rô"
+  },
+  {
+    "id": "xc-0229",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng thường tạo âm thanh râm ran vào mùa hè",
+    "answer": "Ve sầu"
+  },
+  {
+    "id": "xc-0263",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Cơm nấu trong ống tre hoặc nứa, gắn với nhiều vùng núi",
+    "answer": "Cơm lam"
+  },
+  {
+    "id": "xc-0303",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người chỉnh sửa, lựa chọn và tổ chức nội dung trước khi xuất bản",
+    "answer": "Biên tập viên"
+  },
+  {
+    "id": "xc-0368",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Hệ rừng thích nghi vùng ven biển chịu tác động của nước mặn và thủy triều",
+    "answer": "Rừng ngập mặn"
+  },
+  {
+    "id": "xc-0033",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Đồ dùng có cán và nhiều sợi cứng để chà sạch",
+    "answer": "Bàn chải"
+  },
+  {
+    "id": "xc-0073",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Vật liệu mềm hoặc xốp dùng chà sạch bát đĩa",
+    "answer": "Miếng rửa bát"
+  },
+  {
+    "id": "xc-0107",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Rau lá nhỏ, thường nấu canh với thịt băm",
+    "answer": "Rau ngót"
+  },
+  {
+    "id": "xc-0147",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây lương thực trồng ở ruộng, cho hạt thóc để xay thành gạo",
+    "answer": "Cây lúa"
+  },
+  {
+    "id": "xc-0186",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Loài cá thân dài đầu khá lớn, miền Bắc còn gọi cá quả",
+    "answer": "Cá lóc"
+  },
+  {
+    "id": "xc-0230",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng có một đôi cánh, thường bị thu hút bởi thức ăn",
+    "answer": "Con ruồi"
+  },
+  {
+    "id": "xc-0264",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Phần cơm giòn được làm khô hoặc chiên, đặc sản nổi tiếng Ninh Bình",
+    "answer": "Cơm cháy"
+  },
+  {
+    "id": "xc-0304",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Người điều khiển máy bay",
+    "answer": "Phi công"
+  },
+  {
+    "id": "xc-0369",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Hệ rừng ở vùng nóng, nhiều nơi có lượng mưa và đa dạng sinh học cao",
+    "answer": "Rừng nhiệt đới"
+  },
+  {
+    "id": "xc-0034",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Chất dạng kem dùng cùng bàn chải để làm sạch răng",
+    "answer": "Kem đánh răng"
+  },
+  {
+    "id": "xc-0074",
+    "category": "Nhà bếp",
+    "type": "scramble",
+    "prompt": "Đồ chứa nhỏ để đựng muối, tiêu và các nguyên liệu nêm",
+    "answer": "Lọ gia vị"
+  },
+  {
+    "id": "xc-0108",
+    "category": "Rau củ và trái cây",
+    "type": "scramble",
+    "prompt": "Rau ăn lá, có giống màu đỏ tím",
+    "answer": "Rau dền"
+  },
+  {
+    "id": "xc-0148",
+    "category": "Cây và hoa",
+    "type": "scramble",
+    "prompt": "Cây lương thực có bắp nhiều hàng hạt, còn gọi cây bắp",
+    "answer": "Cây ngô"
+  },
+  {
+    "id": "xc-0187",
+    "category": "Động vật mở rộng",
+    "type": "scramble",
+    "prompt": "Cá nước ngọt có râu dài, da trơn, không có vảy",
+    "answer": "Cá trê"
+  },
+  {
+    "id": "xc-0231",
+    "category": "Chim và côn trùng",
+    "type": "scramble",
+    "prompt": "Côn trùng thân dẹt, thường hoạt động về đêm trong nơi ẩm tối",
+    "answer": "Con gián"
+  },
+  {
+    "id": "xc-0265",
+    "category": "Món ăn Việt",
+    "type": "scramble",
+    "prompt": "Món cuốn nhân trong bánh đa nem rồi chiên, miền Nam gọi chả giò",
+    "answer": "Nem rán"
+  },
+  {
+    "id": "xc-0305",
+    "category": "Nghề nghiệp",
+    "type": "scramble",
+    "prompt": "Nhân viên phục vụ hành khách trên máy bay hoặc phương tiện vận tải",
+    "answer": "Tiếp viên"
+  },
+  {
+    "id": "xc-0370",
+    "category": "Thiên nhiên",
+    "type": "scramble",
+    "prompt": "Vùng nước ven biển được ngăn cách một phần với biển bởi dải cát hoặc địa hình",
+    "answer": "Đầm phá"
+  },
+  {
+    "id": "xc-0035",
+    "category": "Đồ dùng gia đình",
+    "type": "scramble",
+    "prompt": "Sản phẩm làm sạch tạo bọt khi dùng với nước",
+    "answer": "Xà phòng"
   }
 ]
