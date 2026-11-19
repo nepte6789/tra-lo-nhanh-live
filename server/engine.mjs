@@ -19,11 +19,13 @@ export function validateBank(items) {
 const graphemes = new Intl.Segmenter('vi', {granularity:'grapheme'});
 export function scrambleAnswer(answer, pick=randomInt) {
  const words=String(answer).normalize('NFC').trim().toLocaleUpperCase('vi').split(/\s+/u).filter(Boolean).map(w=>Array.from(graphemes.segment(w),x=>x.segment));
- const original=words.flat(), shuffled=original.slice();
- for(let i=shuffled.length-1;i>0;i--){const j=pick(i+1);[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];}
- // A shuffle can return the original order. Change it when distinct letters exist.
- if(shuffled.every((c,i)=>c===original[i])){const j=shuffled.findIndex(c=>c!==shuffled[0]);if(j>0)[shuffled[0],shuffled[j]]=[shuffled[j],shuffled[0]];}
- let offset=0;return words.map(word=>{const group=shuffled.slice(offset,offset+word.length);offset+=word.length;return group;});
+ return words.map(original=>{
+  const shuffled=original.slice();
+  for(let i=shuffled.length-1;i>0;i--){const j=pick(i+1);[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];}
+  // Change unchanged permutations using letters from this word only.
+  if(shuffled.every((c,i)=>c===original[i])){const j=shuffled.findIndex(c=>c!==shuffled[0]);if(j>0)[shuffled[0],shuffled[j]]=[shuffled[j],shuffled[0]];}
+  return shuffled;
+ });
 }
 export class Game {
  constructor(bank,{now=Date.now,saved={}}={}) {

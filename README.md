@@ -13,7 +13,9 @@ Các câu đoán đáp án, xếp chữ, đố vui và emoji hiển thị đúng
 1. **Câu hỏi / gợi ý.**
 2. **Hàng ô đáp án trống hoàn toàn**, không chữ, không dấu hỏi, chia nhóm theo số chữ của mỗi từ: HỒ GƯƠM → 2 ô trống, khoảng cách, 4 ô trống.
 3. Nhãn **CHỮ CÁI BỊ XÁO TRỘN**.
-4. **Hàng ô nhỏ riêng bên dưới**, chứa chữ cái đảo vị trí, giữ dấu tiếng Việt và **chia nhóm theo từng từ giống hàng ô trống**: HỒ GƯƠM → 2 ô chữ, khoảng cách, 4 ô chữ.
+4. **Hàng ô nhỏ riêng bên dưới**, chứa chữ cái **chỉ đảo vị trí trong từng từ**, không trộn chữ giữa các từ, giữ dấu tiếng Việt và **chia nhóm theo từng từ giống hàng ô trống**: HỒ GƯƠM → 2 ô chữ, khoảng cách, 4 ô chữ.
+
+Ví dụ **TỦ LẠNH**: nhóm đầu chỉ chứa T, Ủ; nhóm sau chỉ chứa L, Ạ, N, H. Mỗi nhóm tự xáo riêng.
 
 Hai hàng tách biệt: không đặt chữ vào ô đáp án trước khi chốt câu. Chữ xáo trộn giữ nguyên trong suốt câu, không đổi mỗi lần nhận bình luận. Câu tính toán và trắc nghiệm không hiện hai hàng này.
 
