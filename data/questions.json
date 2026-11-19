@@ -1,0 +1,2792 @@
+[
+  {
+    "id": "q0001",
+    "category": "Đời sống",
+    "type": "scramble",
+    "prompt": "Đồ vật dùng để ngồi",
+    "answer": "Cái ghế"
+  },
+  {
+    "id": "q0002",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ vật che mưa, thường có cán cầm",
+    "answer": "Cái ô"
+  },
+  {
+    "id": "q0003",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Dụng cụ để cắt giấy",
+    "answer": "Cái kéo"
+  },
+  {
+    "id": "q0004",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ vật dùng để soi khuôn mặt",
+    "answer": "Cái gương"
+  },
+  {
+    "id": "q0005",
+    "category": "Đời sống",
+    "type": "scramble",
+    "prompt": "Thiết bị giữ thức ăn lạnh",
+    "answer": "Tủ lạnh"
+  },
+  {
+    "id": "q0006",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Dụng cụ quét nhà",
+    "answer": "Cái chổi"
+  },
+  {
+    "id": "q0007",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Vật dùng để mở ổ khóa",
+    "answer": "Chìa khóa"
+  },
+  {
+    "id": "q0008",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ vật đội trên đầu, làm bằng lá, dạng hình nón",
+    "answer": "Nón lá"
+  },
+  {
+    "id": "q0009",
+    "category": "Đời sống",
+    "type": "scramble",
+    "prompt": "Đồ dùng để đựng sách khi đi học",
+    "answer": "Cặp sách"
+  },
+  {
+    "id": "q0010",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ vật báo giờ bằng kim hoặc chữ số",
+    "answer": "Đồng hồ"
+  },
+  {
+    "id": "q0011",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Thiết bị làm sạch quần áo tự động",
+    "answer": "Máy giặt"
+  },
+  {
+    "id": "q0012",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ dùng đựng nước uống có quai",
+    "answer": "Cái cốc"
+  },
+  {
+    "id": "q0013",
+    "category": "Đời sống",
+    "type": "scramble",
+    "prompt": "Thiết bị biến điện thành gió để làm mát",
+    "answer": "Quạt điện"
+  },
+  {
+    "id": "q0014",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Vật dùng để viết lên bảng đen",
+    "answer": "Phấn"
+  },
+  {
+    "id": "q0015",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ dùng có răng để chải tóc",
+    "answer": "Cái lược"
+  },
+  {
+    "id": "q0016",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Vật dụng dùng để lau khô người sau khi tắm",
+    "answer": "Khăn tắm"
+  },
+  {
+    "id": "q0017",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Vật dụng mang ở chân trước khi đi giày",
+    "answer": "Tất"
+  },
+  {
+    "id": "q0018",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ vật dùng để gối đầu khi ngủ",
+    "answer": "Cái gối"
+  },
+  {
+    "id": "q0019",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Đồ vật dùng để đựng cơm khi ăn",
+    "answer": "Cái bát"
+  },
+  {
+    "id": "q0020",
+    "category": "Đời sống",
+    "type": "text",
+    "prompt": "Dụng cụ dùng để xúc thức ăn, còn gọi là muỗng",
+    "answer": "Thìa"
+  },
+  {
+    "id": "q0021",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Món nước nổi tiếng Việt Nam, thường ăn với bánh phở",
+    "answer": "Phở"
+  },
+  {
+    "id": "q0022",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Bánh truyền thống hình vuông vào Tết",
+    "answer": "Bánh chưng"
+  },
+  {
+    "id": "q0023",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Đồ uống pha từ hạt rang xay, thường có caffeine",
+    "answer": "Cà phê"
+  },
+  {
+    "id": "q0024",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Món cơm cuộn lá rong biển của Nhật Bản",
+    "answer": "Sushi"
+  },
+  {
+    "id": "q0025",
+    "category": "Ẩm thực",
+    "type": "scramble",
+    "prompt": "Gia vị có vị mặn, công thức NaCl",
+    "answer": "Muối"
+  },
+  {
+    "id": "q0026",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Trái cây nhiều múi, vỏ thường màu cam",
+    "answer": "Quả cam"
+  },
+  {
+    "id": "q0027",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Trái cây có vỏ gai, mùi đặc trưng rất mạnh",
+    "answer": "Sầu riêng"
+  },
+  {
+    "id": "q0028",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Quả vỏ đỏ sần, cùi trắng, hạt nâu, nổi tiếng ở Lục Ngạn",
+    "answer": "Quả vải"
+  },
+  {
+    "id": "q0029",
+    "category": "Ẩm thực",
+    "type": "scramble",
+    "prompt": "Món bánh có sợi hình tròn, nước dùng bò, gắn với Huế",
+    "answer": "Bún bò Huế"
+  },
+  {
+    "id": "q0030",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Món ăn từ gạo nếp hấp chín",
+    "answer": "Xôi"
+  },
+  {
+    "id": "q0031",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Đồ uống từ lá chè",
+    "answer": "Trà"
+  },
+  {
+    "id": "q0032",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Quả có nước uống bên trong, vỏ xơ dày",
+    "answer": "Quả dừa"
+  },
+  {
+    "id": "q0033",
+    "category": "Ẩm thực",
+    "type": "scramble",
+    "prompt": "Món bánh mì tròn dẹt của Ý, phủ phô mai",
+    "answer": "Pizza"
+  },
+  {
+    "id": "q0034",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Món rau củ lên men nổi tiếng Hàn Quốc",
+    "answer": "Kim chi"
+  },
+  {
+    "id": "q0035",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Loại bánh Tết thường có dạng hình trụ dài",
+    "answer": "Bánh tét"
+  },
+  {
+    "id": "q0036",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Gia vị ngọt thường làm từ mía",
+    "answer": "Đường"
+  },
+  {
+    "id": "q0037",
+    "category": "Ẩm thực",
+    "type": "scramble",
+    "prompt": "Món đậu nành xay, lọc và đông thành khối",
+    "answer": "Đậu phụ"
+  },
+  {
+    "id": "q0038",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Món bánh có nhân, hấp trong lá chuối, thường ăn với chả lụa",
+    "answer": "Bánh giò"
+  },
+  {
+    "id": "q0039",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Thức uống làm từ đậu nành",
+    "answer": "Sữa đậu nành"
+  },
+  {
+    "id": "q0040",
+    "category": "Ẩm thực",
+    "type": "text",
+    "prompt": "Món ăn gồm bánh tráng cuốn tôm, thịt và rau sống",
+    "answer": "Gỏi cuốn"
+  },
+  {
+    "id": "q0041",
+    "category": "Động vật",
+    "type": "scramble",
+    "prompt": "Con vật có mai cứng, di chuyển chậm",
+    "answer": "Con rùa"
+  },
+  {
+    "id": "q0042",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Con vật có vòi dài",
+    "answer": "Con voi"
+  },
+  {
+    "id": "q0043",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài chim thường được ví là biểu tượng hòa bình",
+    "answer": "Bồ câu"
+  },
+  {
+    "id": "q0044",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài côn trùng tạo ra mật",
+    "answer": "Con ong"
+  },
+  {
+    "id": "q0045",
+    "category": "Động vật",
+    "type": "scramble",
+    "prompt": "Loài vật thường gáy báo sáng ở nông thôn",
+    "answer": "Gà trống"
+  },
+  {
+    "id": "q0046",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài thú có túi, nổi tiếng ở Úc",
+    "answer": "Kangaroo"
+  },
+  {
+    "id": "q0047",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Động vật có vú lớn nhất còn sống",
+    "answer": "Cá voi xanh"
+  },
+  {
+    "id": "q0048",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài thú có cổ rất dài",
+    "answer": "Hươu cao cổ"
+  },
+  {
+    "id": "q0049",
+    "category": "Động vật",
+    "type": "scramble",
+    "prompt": "Loài chim không biết bay, sống ở Nam Cực",
+    "answer": "Chim cánh cụt"
+  },
+  {
+    "id": "q0050",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài vật nuôi thường kêu meo meo",
+    "answer": "Con mèo"
+  },
+  {
+    "id": "q0051",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài vật nuôi thường kêu gâu gâu",
+    "answer": "Con chó"
+  },
+  {
+    "id": "q0052",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài vật có tám chân, giăng tơ",
+    "answer": "Con nhện"
+  },
+  {
+    "id": "q0053",
+    "category": "Động vật",
+    "type": "scramble",
+    "prompt": "Loài bò sát có thể đổi màu, tên bắt đầu bằng tắc",
+    "answer": "Tắc kè hoa"
+  },
+  {
+    "id": "q0054",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài động vật có vú biết bay chủ động",
+    "answer": "Con dơi"
+  },
+  {
+    "id": "q0055",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài vật thường nhả tơ làm kén để dệt lụa",
+    "answer": "Con tằm"
+  },
+  {
+    "id": "q0056",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài cá có bộ xương sụn, nhiều loài săn mồi ở biển",
+    "answer": "Cá mập"
+  },
+  {
+    "id": "q0057",
+    "category": "Động vật",
+    "type": "scramble",
+    "prompt": "Loài vật có bộ lông sọc đen trắng, giống ngựa",
+    "answer": "Ngựa vằn"
+  },
+  {
+    "id": "q0058",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài chim có đuôi xòe nhiều mắt tròn sặc sỡ",
+    "answer": "Con công"
+  },
+  {
+    "id": "q0059",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài vật ăn tre, lông đen trắng, biểu tượng bảo tồn",
+    "answer": "Gấu trúc"
+  },
+  {
+    "id": "q0060",
+    "category": "Động vật",
+    "type": "text",
+    "prompt": "Loài côn trùng trưởng thành có cánh, biến thái từ sâu",
+    "answer": "Bướm"
+  },
+  {
+    "id": "q0061",
+    "category": "Việt Nam",
+    "type": "scramble",
+    "prompt": "Thủ đô của Việt Nam",
+    "answer": "Hà Nội"
+  },
+  {
+    "id": "q0062",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Hồ ở Hà Nội gắn với truyền thuyết trả gươm",
+    "answer": "Hồ Gươm"
+  },
+  {
+    "id": "q0063",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Di sản vịnh biển nổi tiếng ở Quảng Ninh",
+    "answer": "Vịnh Hạ Long"
+  },
+  {
+    "id": "q0064",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Phố cổ di sản ở miền Trung, nổi tiếng với đèn lồng",
+    "answer": "Hội An"
+  },
+  {
+    "id": "q0065",
+    "category": "Việt Nam",
+    "type": "scramble",
+    "prompt": "Thành phố cao nguyên nổi tiếng với hồ Xuân Hương",
+    "answer": "Đà Lạt"
+  },
+  {
+    "id": "q0066",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Đỉnh núi cao nhất Việt Nam",
+    "answer": "Fansipan"
+  },
+  {
+    "id": "q0067",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Ngày Quốc khánh Việt Nam là ngày mấy tháng mấy?",
+    "answer": "2/9"
+  },
+  {
+    "id": "q0068",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Trang phục truyền thống Việt Nam có hai tà dài",
+    "answer": "Áo dài"
+  },
+  {
+    "id": "q0069",
+    "category": "Việt Nam",
+    "type": "scramble",
+    "prompt": "Cây cầu ở Đà Nẵng mang hình linh vật phun lửa",
+    "answer": "Cầu Rồng"
+  },
+  {
+    "id": "q0070",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Cố đô gắn với triều Nguyễn",
+    "answer": "Huế"
+  },
+  {
+    "id": "q0071",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Hang Sơn Đoòng nằm ở tỉnh nào trước sắp xếp năm 2025?",
+    "answer": "Quảng Bình"
+  },
+  {
+    "id": "q0072",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Đảo lớn nhất Việt Nam",
+    "answer": "Phú Quốc"
+  },
+  {
+    "id": "q0073",
+    "category": "Việt Nam",
+    "type": "scramble",
+    "prompt": "Nhạc cụ truyền thống chỉ có một dây",
+    "answer": "Đàn bầu"
+  },
+  {
+    "id": "q0074",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Sông chảy qua trung tâm thành phố Huế",
+    "answer": "Sông Hương"
+  },
+  {
+    "id": "q0075",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Loài hoa có trong tên hình tượng Tháp Mười đẹp nhất",
+    "answer": "Hoa sen"
+  },
+  {
+    "id": "q0076",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Múa dân gian dùng những thanh tre gõ vào nhau",
+    "answer": "Múa sạp"
+  },
+  {
+    "id": "q0077",
+    "category": "Việt Nam",
+    "type": "scramble",
+    "prompt": "Lễ hội đầu năm ở Đồ Sơn nổi tiếng với hoạt động nào?",
+    "answer": "Chọi trâu"
+  },
+  {
+    "id": "q0078",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Bến cảng gắn với việc Bác Hồ ra đi tìm đường cứu nước năm 1911",
+    "answer": "Bến Nhà Rồng"
+  },
+  {
+    "id": "q0079",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Quê hương của làn điệu quan họ nổi tiếng, tên gồm Bắc và một chữ nữa",
+    "answer": "Bắc Ninh"
+  },
+  {
+    "id": "q0080",
+    "category": "Việt Nam",
+    "type": "text",
+    "prompt": "Nhà tù lịch sử trên đảo ngoài khơi Bà Rịa - Vũng Tàu trước năm 2025",
+    "answer": "Côn Đảo"
+  },
+  {
+    "id": "q0081",
+    "category": "Khoa học",
+    "type": "scramble",
+    "prompt": "Hành tinh chúng ta đang sống",
+    "answer": "Trái Đất"
+  },
+  {
+    "id": "q0082",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Ngôi sao ở trung tâm Hệ Mặt Trời",
+    "answer": "Mặt Trời"
+  },
+  {
+    "id": "q0083",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Vệ tinh tự nhiên của Trái Đất",
+    "answer": "Mặt Trăng"
+  },
+  {
+    "id": "q0084",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Nước có công thức hóa học là gì?",
+    "answer": "H2O"
+  },
+  {
+    "id": "q0085",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Khí cần cho hô hấp của con người",
+    "answer": "Oxy"
+  },
+  {
+    "id": "q0086",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Đơn vị đo cường độ dòng điện trong SI",
+    "answer": "Ampe"
+  },
+  {
+    "id": "q0087",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Bộ phận cơ thể bơm máu",
+    "answer": "Tim"
+  },
+  {
+    "id": "q0088",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Quá trình cây xanh dùng ánh sáng tạo chất hữu cơ",
+    "answer": "Quang hợp"
+  },
+  {
+    "id": "q0089",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Nước tinh khiết đóng băng ở bao nhiêu độ C tại áp suất thường?",
+    "answer": "0"
+  },
+  {
+    "id": "q0090",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Nước tinh khiết sôi ở bao nhiêu độ C tại áp suất 1 atm?",
+    "answer": "100"
+  },
+  {
+    "id": "q0091",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Hành tinh lớn nhất Hệ Mặt Trời",
+    "answer": "Sao Mộc"
+  },
+  {
+    "id": "q0092",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Hành tinh thường được gọi là hành tinh đỏ",
+    "answer": "Sao Hỏa"
+  },
+  {
+    "id": "q0093",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Kim loại có ký hiệu hóa học Fe",
+    "answer": "Sắt"
+  },
+  {
+    "id": "q0094",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Kim loại có ký hiệu hóa học Au",
+    "answer": "Vàng"
+  },
+  {
+    "id": "q0095",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Đơn vị đo tần số trong SI",
+    "answer": "Hertz"
+  },
+  {
+    "id": "q0096",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Lực hút giữa các vật có khối lượng gọi là lực gì?",
+    "answer": "Hấp dẫn"
+  },
+  {
+    "id": "q0097",
+    "category": "Khoa học",
+    "type": "scramble",
+    "prompt": "Cơ quan chính trao đổi khí ở người",
+    "answer": "Phổi"
+  },
+  {
+    "id": "q0098",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Chất mang thông tin di truyền, viết tắt ba chữ cái",
+    "answer": "DNA"
+  },
+  {
+    "id": "q0099",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Một năm nhuận dương lịch có bao nhiêu ngày?",
+    "answer": "366"
+  },
+  {
+    "id": "q0100",
+    "category": "Khoa học",
+    "type": "text",
+    "prompt": "Một giờ có bao nhiêu giây?",
+    "answer": "3600"
+  },
+  {
+    "id": "q0101",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Mỗi đội bóng đá có bao nhiêu cầu thủ trên sân khi bắt đầu trận?",
+    "answer": "11"
+  },
+  {
+    "id": "q0102",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Môn thể thao dùng vợt và quả cầu có lông",
+    "answer": "Cầu lông"
+  },
+  {
+    "id": "q0103",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Môn thể thao dùng tay đưa bóng vào rổ",
+    "answer": "Bóng rổ"
+  },
+  {
+    "id": "q0104",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Giải bóng đá thế giới FIFA dành cho đội tuyển nam thường tổ chức mấy năm một lần?",
+    "answer": "4"
+  },
+  {
+    "id": "q0105",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Mỗi đội bóng chuyền trong nhà có bao nhiêu người trên sân?",
+    "answer": "6"
+  },
+  {
+    "id": "q0106",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Môn thể thao thi đấu trên bàn với quả bóng nhỏ và vợt",
+    "answer": "Bóng bàn"
+  },
+  {
+    "id": "q0107",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Một trận bóng đá tiêu chuẩn có hai hiệp chính, tổng bao nhiêu phút?",
+    "answer": "90"
+  },
+  {
+    "id": "q0108",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Môn võ có nguồn gốc Hàn Quốc, nổi bật với đòn chân",
+    "answer": "Taekwondo"
+  },
+  {
+    "id": "q0109",
+    "category": "Thể thao",
+    "type": "scramble",
+    "prompt": "Trong cờ vua, quân nào di chuyển hình chữ L?",
+    "answer": "Quân mã"
+  },
+  {
+    "id": "q0110",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Một bàn cờ vua có bao nhiêu ô?",
+    "answer": "64"
+  },
+  {
+    "id": "q0111",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Biểu tượng Olympic có bao nhiêu vòng tròn?",
+    "answer": "5"
+  },
+  {
+    "id": "q0112",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Môn thể thao bơi, đạp xe và chạy bộ kết hợp",
+    "answer": "Ba môn phối hợp"
+  },
+  {
+    "id": "q0113",
+    "category": "Thể thao",
+    "type": "scramble",
+    "prompt": "Môn thể thao có động tác giao bóng và đập bóng qua lưới cao",
+    "answer": "Bóng chuyền"
+  },
+  {
+    "id": "q0114",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Trong cờ vua, mục tiêu là chiếu hết quân nào?",
+    "answer": "Vua"
+  },
+  {
+    "id": "q0115",
+    "category": "Thể thao",
+    "type": "text",
+    "prompt": "Đường chạy marathon tiêu chuẩn dài bao nhiêu km?",
+    "answer": "42.195"
+  },
+  {
+    "id": "q0116",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì có răng mà không có miệng, dùng để chải tóc?",
+    "answer": "Cái lược"
+  },
+  {
+    "id": "q0117",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì càng lấy đi thì càng lớn?",
+    "answer": "Cái hố"
+  },
+  {
+    "id": "q0118",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì có cổ nhưng không có đầu, thường đựng nước?",
+    "answer": "Cái chai"
+  },
+  {
+    "id": "q0119",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì có mặt và kim nhưng không biết may?",
+    "answer": "Đồng hồ"
+  },
+  {
+    "id": "q0120",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì đi khắp thế giới mà vẫn ở góc phong bì?",
+    "answer": "Con tem"
+  },
+  {
+    "id": "q0121",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì có nhiều phím nhưng không mở được ổ khóa, dùng chơi nhạc?",
+    "answer": "Đàn piano"
+  },
+  {
+    "id": "q0122",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì càng lau thì chính nó càng ướt?",
+    "answer": "Cái khăn"
+  },
+  {
+    "id": "q0123",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì có chân nhưng không đi, dùng đặt đồ?",
+    "answer": "Cái bàn"
+  },
+  {
+    "id": "q0124",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì không có cánh mà bay trên trời, tạo mưa?",
+    "answer": "Đám mây"
+  },
+  {
+    "id": "q0125",
+    "category": "Đố vui",
+    "type": "riddle",
+    "prompt": "Cái gì bạn phải đập vỏ trước khi chiên?",
+    "answer": "Quả trứng"
+  },
+  {
+    "id": "q0126",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🐘",
+    "answer": "Con voi"
+  },
+  {
+    "id": "q0127",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🐢",
+    "answer": "Con rùa"
+  },
+  {
+    "id": "q0128",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🍉",
+    "answer": "Dưa hấu"
+  },
+  {
+    "id": "q0129",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🌻",
+    "answer": "Hoa hướng dương"
+  },
+  {
+    "id": "q0130",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🚲",
+    "answer": "Xe đạp"
+  },
+  {
+    "id": "q0131",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "✈️",
+    "answer": "Máy bay"
+  },
+  {
+    "id": "q0132",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🐝",
+    "answer": "Con ong"
+  },
+  {
+    "id": "q0133",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🍍",
+    "answer": "Quả dứa"
+  },
+  {
+    "id": "q0134",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🦋",
+    "answer": "Bướm"
+  },
+  {
+    "id": "q0135",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🌈",
+    "answer": "Cầu vồng"
+  },
+  {
+    "id": "q0136",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🍓",
+    "answer": "Dâu tây"
+  },
+  {
+    "id": "q0137",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🦒",
+    "answer": "Hươu cao cổ"
+  },
+  {
+    "id": "q0138",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🐧",
+    "answer": "Chim cánh cụt"
+  },
+  {
+    "id": "q0139",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🍌",
+    "answer": "Quả chuối"
+  },
+  {
+    "id": "q0140",
+    "category": "Nhìn emoji",
+    "type": "emoji",
+    "prompt": "🎸",
+    "answer": "Đàn guitar"
+  },
+  {
+    "id": "q0141",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Một tuần có bao nhiêu ngày?",
+    "answer": "7",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "id": "q0142",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Hình tam giác có mấy cạnh?",
+    "answer": "3",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "q0143",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Đâu là thủ đô Nhật Bản?",
+    "answer": "Tokyo",
+    "options": [
+      "Seoul",
+      "Tokyo",
+      "Bangkok",
+      "Hà Nội"
+    ]
+  },
+  {
+    "id": "q0144",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Đâu là số nguyên tố?",
+    "answer": "7",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "9"
+    ]
+  },
+  {
+    "id": "q0145",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Màu nào có trong quốc kỳ Việt Nam?",
+    "answer": "Đỏ",
+    "options": [
+      "Tím",
+      "Xanh dương",
+      "Đỏ",
+      "Cam"
+    ]
+  },
+  {
+    "id": "q0146",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Đâu là động vật có vú?",
+    "answer": "Cá heo",
+    "options": [
+      "Cá mập",
+      "Cá chép",
+      "Cá heo",
+      "Cá ngừ"
+    ]
+  },
+  {
+    "id": "q0147",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Một mét bằng bao nhiêu centimet?",
+    "answer": "100",
+    "options": [
+      "10",
+      "100",
+      "1000",
+      "10000"
+    ]
+  },
+  {
+    "id": "q0148",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Đâu là hành tinh gần Mặt Trời nhất?",
+    "answer": "Sao Thủy",
+    "options": [
+      "Sao Hỏa",
+      "Trái Đất",
+      "Sao Thủy",
+      "Sao Mộc"
+    ]
+  },
+  {
+    "id": "q0149",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Đâu là kim loại lỏng ở khoảng 20°C?",
+    "answer": "Thủy ngân",
+    "options": [
+      "Nhôm",
+      "Đồng",
+      "Sắt",
+      "Thủy ngân"
+    ]
+  },
+  {
+    "id": "q0150",
+    "category": "Trắc nghiệm",
+    "type": "choice",
+    "prompt": "Đâu là nhạc cụ có dây?",
+    "answer": "Guitar",
+    "options": [
+      "Sáo",
+      "Trống",
+      "Guitar",
+      "Kèn"
+    ]
+  },
+  {
+    "id": "q0151",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 + 3 = ?",
+    "answer": "5"
+  },
+  {
+    "id": "q0152",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 × 3 = ?",
+    "answer": "6"
+  },
+  {
+    "id": "q0153",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 ÷ 3 = ?",
+    "answer": "2"
+  },
+  {
+    "id": "q0154",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 + 7 = ?",
+    "answer": "9"
+  },
+  {
+    "id": "q0155",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 × 7 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0156",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 ÷ 7 = ?",
+    "answer": "2"
+  },
+  {
+    "id": "q0157",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 + 11 = ?",
+    "answer": "13"
+  },
+  {
+    "id": "q0158",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 × 11 = ?",
+    "answer": "22"
+  },
+  {
+    "id": "q0159",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "22 ÷ 11 = ?",
+    "answer": "2"
+  },
+  {
+    "id": "q0160",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 + 15 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0161",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "2 × 15 = ?",
+    "answer": "30"
+  },
+  {
+    "id": "q0162",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "30 ÷ 15 = ?",
+    "answer": "2"
+  },
+  {
+    "id": "q0163",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 + 3 = ?",
+    "answer": "6"
+  },
+  {
+    "id": "q0164",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 × 3 = ?",
+    "answer": "9"
+  },
+  {
+    "id": "q0165",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 ÷ 3 = ?",
+    "answer": "3"
+  },
+  {
+    "id": "q0166",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 + 7 = ?",
+    "answer": "10"
+  },
+  {
+    "id": "q0167",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 × 7 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0168",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 ÷ 7 = ?",
+    "answer": "3"
+  },
+  {
+    "id": "q0169",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 + 11 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0170",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 × 11 = ?",
+    "answer": "33"
+  },
+  {
+    "id": "q0171",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "33 ÷ 11 = ?",
+    "answer": "3"
+  },
+  {
+    "id": "q0172",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 + 15 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0173",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "3 × 15 = ?",
+    "answer": "45"
+  },
+  {
+    "id": "q0174",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "45 ÷ 15 = ?",
+    "answer": "3"
+  },
+  {
+    "id": "q0175",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 + 3 = ?",
+    "answer": "7"
+  },
+  {
+    "id": "q0176",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 × 3 = ?",
+    "answer": "12"
+  },
+  {
+    "id": "q0177",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 ÷ 3 = ?",
+    "answer": "4"
+  },
+  {
+    "id": "q0178",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 + 7 = ?",
+    "answer": "11"
+  },
+  {
+    "id": "q0179",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 × 7 = ?",
+    "answer": "28"
+  },
+  {
+    "id": "q0180",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "28 ÷ 7 = ?",
+    "answer": "4"
+  },
+  {
+    "id": "q0181",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 + 11 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0182",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 × 11 = ?",
+    "answer": "44"
+  },
+  {
+    "id": "q0183",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "44 ÷ 11 = ?",
+    "answer": "4"
+  },
+  {
+    "id": "q0184",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 + 15 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0185",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "4 × 15 = ?",
+    "answer": "60"
+  },
+  {
+    "id": "q0186",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "60 ÷ 15 = ?",
+    "answer": "4"
+  },
+  {
+    "id": "q0187",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 + 3 = ?",
+    "answer": "8"
+  },
+  {
+    "id": "q0188",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 × 3 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0189",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 ÷ 3 = ?",
+    "answer": "5"
+  },
+  {
+    "id": "q0190",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 + 7 = ?",
+    "answer": "12"
+  },
+  {
+    "id": "q0191",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 × 7 = ?",
+    "answer": "35"
+  },
+  {
+    "id": "q0192",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "35 ÷ 7 = ?",
+    "answer": "5"
+  },
+  {
+    "id": "q0193",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 + 11 = ?",
+    "answer": "16"
+  },
+  {
+    "id": "q0194",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 × 11 = ?",
+    "answer": "55"
+  },
+  {
+    "id": "q0195",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "55 ÷ 11 = ?",
+    "answer": "5"
+  },
+  {
+    "id": "q0196",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 + 15 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0197",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "5 × 15 = ?",
+    "answer": "75"
+  },
+  {
+    "id": "q0198",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "75 ÷ 15 = ?",
+    "answer": "5"
+  },
+  {
+    "id": "q0199",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 + 3 = ?",
+    "answer": "9"
+  },
+  {
+    "id": "q0200",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 × 3 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0201",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 ÷ 3 = ?",
+    "answer": "6"
+  },
+  {
+    "id": "q0202",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 + 7 = ?",
+    "answer": "13"
+  },
+  {
+    "id": "q0203",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 × 7 = ?",
+    "answer": "42"
+  },
+  {
+    "id": "q0204",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "42 ÷ 7 = ?",
+    "answer": "6"
+  },
+  {
+    "id": "q0205",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 + 11 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0206",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 × 11 = ?",
+    "answer": "66"
+  },
+  {
+    "id": "q0207",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "66 ÷ 11 = ?",
+    "answer": "6"
+  },
+  {
+    "id": "q0208",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 + 15 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0209",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "6 × 15 = ?",
+    "answer": "90"
+  },
+  {
+    "id": "q0210",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "90 ÷ 15 = ?",
+    "answer": "6"
+  },
+  {
+    "id": "q0211",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 + 3 = ?",
+    "answer": "10"
+  },
+  {
+    "id": "q0212",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 × 3 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0213",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 ÷ 3 = ?",
+    "answer": "7"
+  },
+  {
+    "id": "q0214",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 + 7 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0215",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 × 7 = ?",
+    "answer": "49"
+  },
+  {
+    "id": "q0216",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "49 ÷ 7 = ?",
+    "answer": "7"
+  },
+  {
+    "id": "q0217",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 + 11 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0218",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 × 11 = ?",
+    "answer": "77"
+  },
+  {
+    "id": "q0219",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "77 ÷ 11 = ?",
+    "answer": "7"
+  },
+  {
+    "id": "q0220",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 + 15 = ?",
+    "answer": "22"
+  },
+  {
+    "id": "q0221",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "7 × 15 = ?",
+    "answer": "105"
+  },
+  {
+    "id": "q0222",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "105 ÷ 15 = ?",
+    "answer": "7"
+  },
+  {
+    "id": "q0223",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 + 3 = ?",
+    "answer": "11"
+  },
+  {
+    "id": "q0224",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 × 3 = ?",
+    "answer": "24"
+  },
+  {
+    "id": "q0225",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "24 ÷ 3 = ?",
+    "answer": "8"
+  },
+  {
+    "id": "q0226",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 + 7 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0227",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 × 7 = ?",
+    "answer": "56"
+  },
+  {
+    "id": "q0228",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "56 ÷ 7 = ?",
+    "answer": "8"
+  },
+  {
+    "id": "q0229",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 + 11 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0230",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 × 11 = ?",
+    "answer": "88"
+  },
+  {
+    "id": "q0231",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "88 ÷ 11 = ?",
+    "answer": "8"
+  },
+  {
+    "id": "q0232",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 + 15 = ?",
+    "answer": "23"
+  },
+  {
+    "id": "q0233",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "8 × 15 = ?",
+    "answer": "120"
+  },
+  {
+    "id": "q0234",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "120 ÷ 15 = ?",
+    "answer": "8"
+  },
+  {
+    "id": "q0235",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 + 3 = ?",
+    "answer": "12"
+  },
+  {
+    "id": "q0236",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 × 3 = ?",
+    "answer": "27"
+  },
+  {
+    "id": "q0237",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "27 ÷ 3 = ?",
+    "answer": "9"
+  },
+  {
+    "id": "q0238",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 + 7 = ?",
+    "answer": "16"
+  },
+  {
+    "id": "q0239",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 × 7 = ?",
+    "answer": "63"
+  },
+  {
+    "id": "q0240",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "63 ÷ 7 = ?",
+    "answer": "9"
+  },
+  {
+    "id": "q0241",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 + 11 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0242",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 × 11 = ?",
+    "answer": "99"
+  },
+  {
+    "id": "q0243",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "99 ÷ 11 = ?",
+    "answer": "9"
+  },
+  {
+    "id": "q0244",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 + 15 = ?",
+    "answer": "24"
+  },
+  {
+    "id": "q0245",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "9 × 15 = ?",
+    "answer": "135"
+  },
+  {
+    "id": "q0246",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "135 ÷ 15 = ?",
+    "answer": "9"
+  },
+  {
+    "id": "q0247",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 + 3 = ?",
+    "answer": "13"
+  },
+  {
+    "id": "q0248",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 × 3 = ?",
+    "answer": "30"
+  },
+  {
+    "id": "q0249",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "30 ÷ 3 = ?",
+    "answer": "10"
+  },
+  {
+    "id": "q0250",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 + 7 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0251",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 × 7 = ?",
+    "answer": "70"
+  },
+  {
+    "id": "q0252",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "70 ÷ 7 = ?",
+    "answer": "10"
+  },
+  {
+    "id": "q0253",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 + 11 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0254",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 × 11 = ?",
+    "answer": "110"
+  },
+  {
+    "id": "q0255",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "110 ÷ 11 = ?",
+    "answer": "10"
+  },
+  {
+    "id": "q0256",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 + 15 = ?",
+    "answer": "25"
+  },
+  {
+    "id": "q0257",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "10 × 15 = ?",
+    "answer": "150"
+  },
+  {
+    "id": "q0258",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "150 ÷ 15 = ?",
+    "answer": "10"
+  },
+  {
+    "id": "q0259",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 + 3 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0260",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 × 3 = ?",
+    "answer": "33"
+  },
+  {
+    "id": "q0261",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "33 ÷ 3 = ?",
+    "answer": "11"
+  },
+  {
+    "id": "q0262",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 + 7 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0263",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 × 7 = ?",
+    "answer": "77"
+  },
+  {
+    "id": "q0264",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "77 ÷ 7 = ?",
+    "answer": "11"
+  },
+  {
+    "id": "q0265",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 + 11 = ?",
+    "answer": "22"
+  },
+  {
+    "id": "q0266",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 × 11 = ?",
+    "answer": "121"
+  },
+  {
+    "id": "q0267",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "121 ÷ 11 = ?",
+    "answer": "11"
+  },
+  {
+    "id": "q0268",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 + 15 = ?",
+    "answer": "26"
+  },
+  {
+    "id": "q0269",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "11 × 15 = ?",
+    "answer": "165"
+  },
+  {
+    "id": "q0270",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "165 ÷ 15 = ?",
+    "answer": "11"
+  },
+  {
+    "id": "q0271",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 + 3 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0272",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 × 3 = ?",
+    "answer": "36"
+  },
+  {
+    "id": "q0273",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "36 ÷ 3 = ?",
+    "answer": "12"
+  },
+  {
+    "id": "q0274",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 + 7 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0275",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 × 7 = ?",
+    "answer": "84"
+  },
+  {
+    "id": "q0276",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "84 ÷ 7 = ?",
+    "answer": "12"
+  },
+  {
+    "id": "q0277",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 + 11 = ?",
+    "answer": "23"
+  },
+  {
+    "id": "q0278",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 × 11 = ?",
+    "answer": "132"
+  },
+  {
+    "id": "q0279",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "132 ÷ 11 = ?",
+    "answer": "12"
+  },
+  {
+    "id": "q0280",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 + 15 = ?",
+    "answer": "27"
+  },
+  {
+    "id": "q0281",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "12 × 15 = ?",
+    "answer": "180"
+  },
+  {
+    "id": "q0282",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "180 ÷ 15 = ?",
+    "answer": "12"
+  },
+  {
+    "id": "q0283",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 + 3 = ?",
+    "answer": "16"
+  },
+  {
+    "id": "q0284",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 × 3 = ?",
+    "answer": "39"
+  },
+  {
+    "id": "q0285",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "39 ÷ 3 = ?",
+    "answer": "13"
+  },
+  {
+    "id": "q0286",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 + 7 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0287",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 × 7 = ?",
+    "answer": "91"
+  },
+  {
+    "id": "q0288",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "91 ÷ 7 = ?",
+    "answer": "13"
+  },
+  {
+    "id": "q0289",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 + 11 = ?",
+    "answer": "24"
+  },
+  {
+    "id": "q0290",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 × 11 = ?",
+    "answer": "143"
+  },
+  {
+    "id": "q0291",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "143 ÷ 11 = ?",
+    "answer": "13"
+  },
+  {
+    "id": "q0292",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 + 15 = ?",
+    "answer": "28"
+  },
+  {
+    "id": "q0293",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "13 × 15 = ?",
+    "answer": "195"
+  },
+  {
+    "id": "q0294",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "195 ÷ 15 = ?",
+    "answer": "13"
+  },
+  {
+    "id": "q0295",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 + 3 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0296",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 × 3 = ?",
+    "answer": "42"
+  },
+  {
+    "id": "q0297",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "42 ÷ 3 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0298",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 + 7 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0299",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 × 7 = ?",
+    "answer": "98"
+  },
+  {
+    "id": "q0300",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "98 ÷ 7 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0301",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 + 11 = ?",
+    "answer": "25"
+  },
+  {
+    "id": "q0302",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 × 11 = ?",
+    "answer": "154"
+  },
+  {
+    "id": "q0303",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "154 ÷ 11 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0304",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 + 15 = ?",
+    "answer": "29"
+  },
+  {
+    "id": "q0305",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "14 × 15 = ?",
+    "answer": "210"
+  },
+  {
+    "id": "q0306",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "210 ÷ 15 = ?",
+    "answer": "14"
+  },
+  {
+    "id": "q0307",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 + 3 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0308",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 × 3 = ?",
+    "answer": "45"
+  },
+  {
+    "id": "q0309",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "45 ÷ 3 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0310",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 + 7 = ?",
+    "answer": "22"
+  },
+  {
+    "id": "q0311",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 × 7 = ?",
+    "answer": "105"
+  },
+  {
+    "id": "q0312",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "105 ÷ 7 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0313",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 + 11 = ?",
+    "answer": "26"
+  },
+  {
+    "id": "q0314",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 × 11 = ?",
+    "answer": "165"
+  },
+  {
+    "id": "q0315",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "165 ÷ 11 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0316",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 + 15 = ?",
+    "answer": "30"
+  },
+  {
+    "id": "q0317",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "15 × 15 = ?",
+    "answer": "225"
+  },
+  {
+    "id": "q0318",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "225 ÷ 15 = ?",
+    "answer": "15"
+  },
+  {
+    "id": "q0319",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 + 3 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0320",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 × 3 = ?",
+    "answer": "48"
+  },
+  {
+    "id": "q0321",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "48 ÷ 3 = ?",
+    "answer": "16"
+  },
+  {
+    "id": "q0322",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 + 7 = ?",
+    "answer": "23"
+  },
+  {
+    "id": "q0323",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 × 7 = ?",
+    "answer": "112"
+  },
+  {
+    "id": "q0324",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "112 ÷ 7 = ?",
+    "answer": "16"
+  },
+  {
+    "id": "q0325",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 + 11 = ?",
+    "answer": "27"
+  },
+  {
+    "id": "q0326",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 × 11 = ?",
+    "answer": "176"
+  },
+  {
+    "id": "q0327",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "176 ÷ 11 = ?",
+    "answer": "16"
+  },
+  {
+    "id": "q0328",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 + 15 = ?",
+    "answer": "31"
+  },
+  {
+    "id": "q0329",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "16 × 15 = ?",
+    "answer": "240"
+  },
+  {
+    "id": "q0330",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "240 ÷ 15 = ?",
+    "answer": "16"
+  },
+  {
+    "id": "q0331",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 + 3 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0332",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 × 3 = ?",
+    "answer": "51"
+  },
+  {
+    "id": "q0333",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "51 ÷ 3 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0334",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 + 7 = ?",
+    "answer": "24"
+  },
+  {
+    "id": "q0335",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 × 7 = ?",
+    "answer": "119"
+  },
+  {
+    "id": "q0336",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "119 ÷ 7 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0337",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 + 11 = ?",
+    "answer": "28"
+  },
+  {
+    "id": "q0338",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 × 11 = ?",
+    "answer": "187"
+  },
+  {
+    "id": "q0339",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "187 ÷ 11 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0340",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 + 15 = ?",
+    "answer": "32"
+  },
+  {
+    "id": "q0341",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "17 × 15 = ?",
+    "answer": "255"
+  },
+  {
+    "id": "q0342",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "255 ÷ 15 = ?",
+    "answer": "17"
+  },
+  {
+    "id": "q0343",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 + 3 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0344",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 × 3 = ?",
+    "answer": "54"
+  },
+  {
+    "id": "q0345",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "54 ÷ 3 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0346",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 + 7 = ?",
+    "answer": "25"
+  },
+  {
+    "id": "q0347",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 × 7 = ?",
+    "answer": "126"
+  },
+  {
+    "id": "q0348",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "126 ÷ 7 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0349",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 + 11 = ?",
+    "answer": "29"
+  },
+  {
+    "id": "q0350",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 × 11 = ?",
+    "answer": "198"
+  },
+  {
+    "id": "q0351",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "198 ÷ 11 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0352",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 + 15 = ?",
+    "answer": "33"
+  },
+  {
+    "id": "q0353",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "18 × 15 = ?",
+    "answer": "270"
+  },
+  {
+    "id": "q0354",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "270 ÷ 15 = ?",
+    "answer": "18"
+  },
+  {
+    "id": "q0355",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 + 3 = ?",
+    "answer": "22"
+  },
+  {
+    "id": "q0356",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 × 3 = ?",
+    "answer": "57"
+  },
+  {
+    "id": "q0357",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "57 ÷ 3 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0358",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 + 7 = ?",
+    "answer": "26"
+  },
+  {
+    "id": "q0359",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 × 7 = ?",
+    "answer": "133"
+  },
+  {
+    "id": "q0360",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "133 ÷ 7 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0361",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 + 11 = ?",
+    "answer": "30"
+  },
+  {
+    "id": "q0362",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 × 11 = ?",
+    "answer": "209"
+  },
+  {
+    "id": "q0363",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "209 ÷ 11 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0364",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 + 15 = ?",
+    "answer": "34"
+  },
+  {
+    "id": "q0365",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "19 × 15 = ?",
+    "answer": "285"
+  },
+  {
+    "id": "q0366",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "285 ÷ 15 = ?",
+    "answer": "19"
+  },
+  {
+    "id": "q0367",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 + 3 = ?",
+    "answer": "23"
+  },
+  {
+    "id": "q0368",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 × 3 = ?",
+    "answer": "60"
+  },
+  {
+    "id": "q0369",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "60 ÷ 3 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0370",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 + 7 = ?",
+    "answer": "27"
+  },
+  {
+    "id": "q0371",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 × 7 = ?",
+    "answer": "140"
+  },
+  {
+    "id": "q0372",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "140 ÷ 7 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0373",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 + 11 = ?",
+    "answer": "31"
+  },
+  {
+    "id": "q0374",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 × 11 = ?",
+    "answer": "220"
+  },
+  {
+    "id": "q0375",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "220 ÷ 11 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0376",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 + 15 = ?",
+    "answer": "35"
+  },
+  {
+    "id": "q0377",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "20 × 15 = ?",
+    "answer": "300"
+  },
+  {
+    "id": "q0378",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "300 ÷ 15 = ?",
+    "answer": "20"
+  },
+  {
+    "id": "q0379",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 + 3 = ?",
+    "answer": "24"
+  },
+  {
+    "id": "q0380",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 × 3 = ?",
+    "answer": "63"
+  },
+  {
+    "id": "q0381",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "63 ÷ 3 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0382",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 + 7 = ?",
+    "answer": "28"
+  },
+  {
+    "id": "q0383",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 × 7 = ?",
+    "answer": "147"
+  },
+  {
+    "id": "q0384",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "147 ÷ 7 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0385",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 + 11 = ?",
+    "answer": "32"
+  },
+  {
+    "id": "q0386",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 × 11 = ?",
+    "answer": "231"
+  },
+  {
+    "id": "q0387",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "231 ÷ 11 = ?",
+    "answer": "21"
+  },
+  {
+    "id": "q0388",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 + 15 = ?",
+    "answer": "36"
+  },
+  {
+    "id": "q0389",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "21 × 15 = ?",
+    "answer": "315"
+  },
+  {
+    "id": "q0390",
+    "category": "Tính nhanh",
+    "type": "math",
+    "prompt": "315 ÷ 15 = ?",
+    "answer": "21"
+  }
+]
