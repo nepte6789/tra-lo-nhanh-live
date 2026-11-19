@@ -24,7 +24,7 @@ function question(){const q=state.question;const key=JSON.stringify([state.round
     for(let i=0;i<letters.length;i++){const slot=document.createElement('span');slot.className='answer-slot';slot.setAttribute('aria-hidden','true');group.append(slot);}
     $('answerSlots').append(group);
    }
-   for(const c of groups.flat()){const tile=document.createElement('span');tile.className='letter';tile.textContent=c;$('letters').append(tile);}
+   for(const letters of groups){const word=document.createElement('span');word.className='scrambled-word';word.setAttribute('aria-label',`${letters.length} chữ cái xáo trộn`);for(const c of letters){const tile=document.createElement('span');tile.className='letter';tile.textContent=c;word.append(tile);}$('letters').append(word);}
 
   }
   if(q.type==='choice')q.options.forEach((o,i)=>{const e=document.createElement('div'),b=document.createElement('b');e.className='option';b.textContent='ABCD'[i];e.append(b,document.createTextNode(o));$('options').append(e);});

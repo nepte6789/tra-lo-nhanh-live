@@ -55,3 +55,7 @@
 .compact-slots .answer-word{gap:6px}
 #letters.compact-letters .letter{width:28px;min-width:28px;height:32px;font-size:19px;border-radius:5px}
 .question-card[data-type=emoji] #prompt{font-size:82px!important;margin:8px auto 15px}
+#letters.letters{column-gap:30px;row-gap:12px}
+.scrambled-word{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:8px;max-width:100%}
+#letters.compact-letters{column-gap:22px}
+.compact-letters .scrambled-word{gap:6px}
