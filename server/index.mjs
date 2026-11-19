@@ -14,13 +14,13 @@ const game=new Game(read('questions.json',JSON.parse(readFileSync(resolve(root,'
 const host=process.env.HOST||'127.0.0.1',port=Number(process.env.PORT||3010),token=process.env.ADMIN_TOKEN||'';
 if(host!=='127.0.0.1'&&(!token||token.length<24))throw Error('Mở mạng LAN cần ADMIN_TOKEN ít nhất 24 ký tự.');
 let dirty=true,lastVersion=-1,cache='',lastStats=0,revision=0;
-const changed=()=>{dirty=true;}; const live=new LiveLink(game,changed);
+const changed=priority=>{dirty=true;if(priority==='winner')flush();}; const live=new LiveLink(game,changed);
 const catalog=()=>({categories:[...new Set(game.bank.map(q=>q.category))].sort(),types:[...new Set(game.bank.map(q=>q.type))],total:game.bank.length,counts:Object.fromEntries([...new Set(game.bank.map(q=>q.category))].map(c=>[c,game.bank.filter(q=>q.category===c).length]))});
 const validHost=req=>{try{return ['localhost','127.0.0.1',host,...(process.env.ALLOWED_HOSTS||'').split(',').map(s=>s.trim())].includes(new URL('http://'+req.headers.host).hostname);}catch{return false;}};
 const validOrigin=req=>!req.headers.origin||req.headers.origin===`http://${req.headers.host}`;
 const authorized=req=>!token||req.headers.authorization===`Bearer ${token}`;
-const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8'};
-const staticFiles=new Set(['index.html','overlay.html','style.css','control.js','overlay.js']);
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.ttf':'font/ttf'};
+const staticFiles=new Set(['index.html','overlay.html','style.css','control.js','overlay.js','fonts/be-vietnam-pro-600.ttf','fonts/be-vietnam-pro-800.ttf']);
 function json(res,status,obj){res.writeHead(status,{'Content-Type':mime['.json'],'Cache-Control':'no-store'});res.end(JSON.stringify(obj));}
 const server=http.createServer(async(req,res)=>{
  if(!validHost(req)||!validOrigin(req))return json(res,403,{error:'Nguồn truy cập không hợp lệ'});
@@ -61,8 +61,9 @@ wss.on('connection',ws=>{
   }changed();send(ws,{t:'ok',cmd:m.cmd});}catch(e){send(ws,{t:'error',error:e.message});}
  });
 });
-// Inbound comments are processed immediately. Rendering is coalesced at 10 Hz.
-const loop=setInterval(()=>{game.tick();const statsDue=Date.now()-lastStats>=1000;if(game.version!==lastVersion||dirty||statsDue){lastVersion=game.version;dirty=false;lastStats=Date.now();cache=JSON.stringify(snapshot());for(const ws of wss.clients)send(ws,cache);}},100);
+// A real LIVE winner is sent immediately; routine stats remain coalesced at 10 Hz.
+function flush(){lastVersion=game.version;dirty=false;lastStats=Date.now();cache=JSON.stringify(snapshot());for(const ws of wss.clients)send(ws,cache);}
+const loop=setInterval(()=>{game.tick();const statsDue=Date.now()-lastStats>=1000;if(game.version!==lastVersion||dirty||statsDue)flush();},100);
 function save(){if(saveBlocked)return;try{const out=game.export();out.players=out.players.filter(p=>!p.id.startsWith('demo:'));writeFileSync(statePath+'.tmp',JSON.stringify(out));renameSync(statePath+'.tmp',statePath);}catch(e){console.error('Không lưu được điểm:',e.message);}}
 const saver=setInterval(save,3000),heartbeat=setInterval(()=>{for(const ws of wss.clients){if(!ws.alive){ws.terminate();continue;}ws.alive=false;ws.ping();}},30000);
 server.listen(port,host,()=>console.log(`Trả lời nhanh: http://${host}:${port}\nMàn hình LIVE: http://${host}:${port}/overlay.html`));

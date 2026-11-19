@@ -6,6 +6,16 @@ Game câu hỏi tương tác qua bình luận, chạy trên máy tính. Giao di�
 
 [Ảnh màn hình LIVE](docs/screenshots/overlay.png) · [Ảnh bảng điều khiển](docs/screenshots/studio.png)
 
+## Bản cập nhật overlay và người thắng
+
+- Font **Be Vietnam Pro** có dấu tiếng Việt, đặt sẵn trong repo, không gọi Google Fonts khi đang LIVE. Font theo SIL Open Font License tại `public/fonts/OFL.txt`.
+- Khung hỏi và người thắng rõ hơn, chữ lớn, tăng độ tương phản. Top quà trái, Top điểm phải.
+- LIVE thật tự khóa **người đúng đầu tiên**, dừng câu đang thử và loại người thử khỏi bảng. Kết nối xong bấm **Bắt đầu** để vào câu mới. Chế độ nhiều người đúng chỉ dùng ngoại tuyến.
+- Kết quả thắng từ bình luận thật được gửi ngay tới màn hình, không chờ đợt gom cập nhật 100 ms. Không chờ tải avatar/âm thanh mới hiện tên.
+- Cho phép sửa từ sai sang đúng ngay, không chặn bình luận đúng bằng khoảng nghỉ 100 ms.
+- Dùng thời gian sự kiện (khi TikTok cung cấp) để bỏ bình luận từ câu cũ; với dấu thời gian chỉ chính xác tới giây, không phân biệt được hai sự kiện trong cùng giây. Không đoán lại thứ tự từ dấu thời gian thô.
+- **Nhanh nhất = đáp án đúng hợp lệ đến máy chủ đầu tiên.** Không bảo đảm trùng thứ tự bình luận trên mọi điện thoại hay loại bỏ độ trễ mạng TikTok.
+
 ## Cài trên Windows
 
 1. Cài **Node.js 20 trở lên** tại https://nodejs.org/ (bản LTS).
@@ -41,7 +51,7 @@ npm start
 - **Mọi người đúng:** tất cả người trả lời đúng trước hết giờ nhận điểm; mỗi tài khoản chỉ nhận điểm một lần/câu.
 - Nhận tiếng Việt có dấu/không dấu, bỏ khoảng trắng và dấu câu. Không đoán gần đúng để tránh trao điểm nhầm.
 - Trắc nghiệm nhận A/B/C/D hoặc nguyên đáp án.
-- Bỏ qua sự kiện bình luận trùng mã; một người gửi sai có thể thử lại sau 100 ms.
+- Bỏ qua sự kiện bình luận trùng mã; một người gửi sai có thể sửa lại ngay, không chặn đáp án đúng liên tiếp.
 - Tạm dừng dừng đồng hồ và nhận đáp án. Hiện đáp án / Câu tiếp / Dừng thao tác riêng.
 - Điểm, thời lượng và chế độ mới áp dụng từ câu tiếp theo; bật/tắt tự chuyển câu áp dụng ngay.
 - Top quà tính theo giá trị xu của sự kiện quà, độc lập điểm trả lời. Quà chuỗi được cộng khi kết thúc chuỗi; không phải số tiền có thể rút của streamer.
@@ -98,13 +108,13 @@ Bảng điều khiển → Thư viện → **Tải bộ JSON** để sao lưu, r
 
 ## Tốc độ và dữ liệu
 
-- Không reload trang khi chuyển câu. Kết nối WebSocket duy trì lâu dài, cập nhật màn hình tối đa 10 lần/giây.
+- Không reload trang khi chuyển câu. Kết nối WebSocket duy trì lâu dài, gom cập nhật thường lệ 10 lần/giây; kết quả người thắng LIVE được gửi ngay.
 - Bình luận được kiểm tra ngay trong bộ nhớ; chuẩn hóa đáp án một lần mỗi câu, lookup bằng `Set`.
 - Chỉ gửi top 10, tối đa 20 người thắng hiển thị và số tổng; không đẩy toàn bộ người chơi ra màn hình.
 - Bỏ qua gửi cho cửa sổ quá chậm, snapshot sau tự đồng bộ; heartbeat phát hiện kết nối chết, trình duyệt tự nối lại.
 - Lưu nguyên tử mỗi 3 giây trong `data/runtime/state.json`, lưu thêm khi dừng bình thường. Tắt máy đột ngột có thể mất tối đa khoảng 3 giây gần nhất.
 - Giữ điểm sau khởi động, nhưng buổi chơi trở về trạng thái dừng. File trạng thái lỗi được giữ lại, không ghi đè tự động.
-- Giới hạn 100.000 người có điểm, 200.000 người thử đáp án/câu và cache 50.000 mã bình luận gần nhất để giới hạn bộ nhớ. Chạy LIVE nhiều ngày nên sao lưu rồi tạo buổi mới.
+- Giới hạn 100.000 người có điểm, cache 50.000 mã bình luận gần nhất để giới hạn bộ nhớ. Chạy LIVE nhiều ngày nên sao lưu rồi tạo buổi mới.
 - Giới hạn lệnh bảng điều khiển 30/giây; không giới hạn bình luận TikTok ở mức này.
 
 Kiểm tra:

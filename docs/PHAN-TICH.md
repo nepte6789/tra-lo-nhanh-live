@@ -24,7 +24,7 @@
 
 1. Không tạo kết nối hay tải HTML mới khi có đáp án/câu mới.
 2. Nhận bình luận và xử lý bằng Map/Set ngay trong bộ nhớ, không gọi mạng hay đọc file trên đường xử lý đáp án.
-3. WebSocket chỉ gửi snapshot gọn, gom cập nhật 100 ms. Bảng xếp hạng giới hạn 10 dòng, người thắng hiển thị tối đa 20 người; tổng đúng vẫn tính đầy đủ.
+3. WebSocket chỉ gửi snapshot gọn, gom cập nhật thường lệ 100 ms; riêng người thắng LIVE thật được đẩy ngay trong lần xử lý sự kiện. Bảng xếp hạng giới hạn 10 dòng, người thắng hiển thị tối đa 20 người; tổng đúng vẫn tính đầy đủ.
 4. Không tải thư viện frontend, font hay ảnh từ CDN lúc khởi động. Avatar người dùng là tùy chọn và có ký tự thay thế khi tải lỗi.
 5. Ghi dữ liệu theo đợt 3 giây, dùng file tạm rồi rename. Các điểm thử loại khỏi dữ liệu lưu.
 6. Giới hạn cache và hàng đợi gửi để tránh tích lũy vô hạn. Khán giả không thể gửi lệnh điều khiển qua WebSocket overlay.
@@ -43,3 +43,11 @@ Kiểm tra trình duyệt riêng: bắt đầu câu, hiện kết quả, điểm
 - Kết nối LIVE TikTok thực, các biến thể sự kiện quà của mọi loại quà, thời gian trễ đến máy chủ.
 - Phát âm/thêm nguồn trong LIVE Studio và OBS trên máy Windows của người dùng.
 - Độ tải trên cấu hình máy người dùng và kết nối mạng của họ.
+
+## Cải tiến theo phản hồi về người thắng
+
+Kiểm tra mã cũ phát hiện cửa sổ chặn bình luận 100 ms có thể bỏ đáp án đúng khi cùng người chơi vừa sửa đáp án sai. Đã bỏ cửa sổ chặn đó. Set người đã đúng và mã tin nhắn vẫn chặn cộng trùng. LIVE thật cưỡng chế first-only; người thứ 2, 3, 4 không đổi người thắng hoặc ticker sau khi câu bị khóa.
+
+Thêm kiểm tra sửa đáp án ngay, sự kiện cũ sang câu mới (timestamp millisecond/second), dọn người thử khi kết nối, khóa chế độ và callback thông báo đồng bộ khi đúng. Sự kiện TikTok không có timestamp hoặc timestamp chỉ đến giây không đủ để chứng minh thứ tự gửi tuyệt đối; chương trình dùng thứ tự nhận tại máy chủ và không cố chờ để xếp lại.
+
+Font Be Vietnam Pro đặt cục bộ (600 và 800) với giấy phép OFL. Không dùng font mạng cho overlay; tên người thắng xuất hiện trước khi avatar tải xong.

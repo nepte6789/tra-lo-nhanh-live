@@ -22,6 +22,7 @@ export class Game {
   this.players=new Map((saved.players||[]).map(p=>[p.id,p])); this.phase='idle';this.round=0;this.deck=[];this.current=null;this.version=0;this.totalComments=0;this.accepted=0;this.scoreOrder=[...this.players.values()].reduce((n,p)=>Math.max(n,p.order||0),0);this.rate=new Map();this.seen=new Map();this.lastEvent=null;this.winners=[];this.giftRevision=0;
  }
  configure(p) {
+  if(this.live && p.mode && p.mode!=='first')throw Error('LIVE thật chỉ ghi nhận người đúng đầu tiên.');
   const s=this.settings;
   for(const k of ['title','subtitle']) if(typeof p[k]==='string') s[k]=clean(p[k],70);
   for(const [k,min,max] of [['duration',5,300],['breakTime',1,20],['points',1,100]]) if(p[k]!==undefined){const v=Number(p[k]);if(!Number.isFinite(v))throw Error('Thiết lập số không hợp lệ');s[k]=Math.min(max,Math.max(min,Math.round(v)));}
@@ -34,7 +35,7 @@ export class Game {
   const eligible=this.bank.filter(q=>(this.settings.category==='all'||q.category===this.settings.category)&&(this.settings.type==='all'||q.type===this.settings.type));
   if(!eligible.length)throw Error('Không có câu phù hợp. Hãy chọn lại bộ hoặc loại câu hỏi.');
   if(!this.deck.length){this.deck=eligible.slice();for(let i=this.deck.length-1;i>0;i--){const j=randomInt(i+1);[this.deck[i],this.deck[j]]=[this.deck[j],this.deck[i]];}}
-  this.current=this.deck.pop();this.round++;this.phase='question';this.roundMode=this.settings.mode;this.roundPoints=this.settings.points;this.endsAt=this.now()+this.settings.duration*1000;this.correct=new Set();this.winners=[];this.rate.clear();this.paused=false;this.lastEvent=null;
+  this.current=this.deck.pop();this.round++;this.phase='question';this.roundMode=this.live?'first':this.settings.mode;this.roundPoints=this.settings.points;this.startedAt=this.now();this.endsAt=this.startedAt+this.settings.duration*1000;this.correct=new Set();this.winners=[];this.rate.clear();this.paused=false;this.lastEvent=null;
   const letters=Array.from(this.current.answer.toUpperCase()).filter(c=>c!==' ');for(let i=letters.length-1;i>0;i--){const j=randomInt(i+1);[letters[i],letters[j]]=[letters[j],letters[i]];}this.scrambled=letters;
   this.answers=new Set([this.current.answer,...this.current.aliases].map(normalize));
   if(this.current.type==='choice'){const ix=this.current.options.findIndex(o=>normalize(o)===normalize(this.current.answer));this.answers.add('abcd'[ix]);}
@@ -45,15 +46,15 @@ export class Game {
  stop(){this.phase='idle';this.paused=false;this.version++;}
  tick(){if(this.paused)return;if(this.phase==='question'&&this.now()>=this.endsAt)this.reveal('timeout');else if(this.phase==='reveal'&&this.settings.auto&&this.now()>=this.nextAt){try{this.next();}catch{this.stop();}}}
  player(id,name,avatar=''){let p=this.players.get(id);if(!p){if(this.players.size>=100000)return null;p={id,name:clean(name),avatar:'',score:0,diamonds:0,correct:0,order:0};this.players.set(id,p);}p.name=clean(name)||p.name;if(typeof avatar==='string'&&/^https:\/\//.test(avatar)&&avatar.length<1000)p.avatar=avatar;return p;}
- comment({id,name,text,msgId,avatar,round}){
+ setLive(active){this.live=active;if(active){for(const id of this.players.keys())if(id.startsWith('demo:'))this.players.delete(id);this.stop();this.winners=[];this.lastEvent=null;this.correct=new Set();this.configure({mode:'first'});}}
+ comment({id,name,text,msgId,avatar,round,sentAt,timePrecision=1}){
   if(typeof id!=='string'||!id||id.length>150||typeof text!=='string'||text.length>500)return false;
   this.totalComments++;
   if(msgId){msgId=String(msgId).slice(0,200);if(this.seen.has(msgId))return false;this.seen.set(msgId,1);if(this.seen.size>50000)this.seen.delete(this.seen.keys().next().value);}
   if(this.phase!=='question'||this.paused||(round!==undefined&&round!==this.round))return false;
   if(this.now()>=this.endsAt){this.reveal('timeout');return false;}
+  if(Number.isFinite(sentAt)&&sentAt<Math.floor(this.startedAt/(timePrecision===1000?1000:1))*(timePrecision===1000?1000:1))return false;
   if(this.correct.has(id))return false;
-  if(!this.rate.has(id)&&this.rate.size>=200000)return false;
-  const t=this.now(),prev=this.rate.get(id);if(prev!==undefined&&t-prev<100)return false;this.rate.set(id,t);
   if(!this.answers.has(normalize(text)))return false;
   const p=this.player(id,name,avatar);if(!p)return false;
   this.correct.add(id);p.score+=this.roundPoints;p.correct++;p.order=++this.scoreOrder;this.accepted++;
@@ -63,7 +64,7 @@ export class Game {
  }
  gift({id,name,avatar,diamonds}){if(typeof id!=='string'||!id||id.length>150||!Number.isFinite(diamonds)||diamonds<=0||diamonds>1e9)return false;const p=this.player(id,name,avatar);if(!p)return false;p.diamonds+=diamonds;this.giftRevision++;this.version++;return true;}
  top(key){return [...this.players.values()].filter(p=>p[key]>0).sort((a,b)=>b[key]-a[key]||a.order-b.order||a.id.localeCompare(b.id)).slice(0,10).map(p=>({id:p.id,name:p.name,avatar:p.avatar,score:p.score,diamonds:p.diamonds}));}
- snapshot(){const q=this.current;return {version:this.version,serverTime:this.now(),phase:this.phase,paused:!!this.paused,round:this.round,endsAt:this.endsAt,nextAt:this.nextAt,remaining:this.remaining,settings:this.settings,question:q?{id:q.id,prompt:q.prompt,type:q.type,category:q.category,options:q.options,scrambled:q.type==='scramble'?this.scrambled:undefined,length:q.answer.replace(/\s/g,'').length,...(this.phase==='reveal'?{answer:q.answer,explanation:q.explanation}: {})}:null,winners:this.winners,correctCount:this.correct?.size||0,event:this.lastEvent,topScores:this.top('score'),topGifts:this.top('diamonds'),stats:{players:this.players.size,comments:this.totalComments,accepted:this.accepted}};}
+ snapshot(){const q=this.current;return {version:this.version,serverTime:this.now(),phase:this.phase,paused:!!this.paused,round:this.round,endsAt:this.endsAt,nextAt:this.nextAt,remaining:this.remaining,settings:this.settings,roundMode:this.roundMode,question:q?{id:q.id,prompt:q.prompt,type:q.type,category:q.category,options:q.options,scrambled:q.type==='scramble'?this.scrambled:undefined,length:q.answer.replace(/\s/g,'').length,...(this.phase==='reveal'?{answer:q.answer,explanation:q.explanation}: {})}:null,winners:this.winners,correctCount:this.correct?.size||0,event:this.lastEvent,topScores:this.top('score'),topGifts:this.top('diamonds'),stats:{players:this.players.size,comments:this.totalComments,accepted:this.accepted}};}
  export(){return {settings:this.settings,players:[...this.players.values()]};}
  reset(){this.players.clear();this.scoreOrder=0;this.accepted=0;this.totalComments=0;this.stop();}
  replaceBank(items){const bank=validateBank(items);this.bank=bank;this.deck=[];this.settings.category='all';this.settings.type='all';this.stop();}
