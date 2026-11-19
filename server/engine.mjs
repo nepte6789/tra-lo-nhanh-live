@@ -16,6 +16,15 @@ export function validateBank(items) {
     return {id,category:clean(q.category||'Tự thêm',60),type,prompt:clean(q.prompt,500),answer:q.answer.trim(),aliases:q.aliases||[],...(options?{options}:{}),...(q.explanation?{explanation:clean(q.explanation,400)}:{})};
   });
 }
+const graphemes = new Intl.Segmenter('vi', {granularity:'grapheme'});
+export function scrambleAnswer(answer, pick=randomInt) {
+ const words=String(answer).normalize('NFC').trim().toLocaleUpperCase('vi').split(/\s+/u).filter(Boolean).map(w=>Array.from(graphemes.segment(w),x=>x.segment));
+ const original=words.flat(), shuffled=original.slice();
+ for(let i=shuffled.length-1;i>0;i--){const j=pick(i+1);[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];}
+ // A shuffle can return the original order. Change it when distinct letters exist.
+ if(shuffled.every((c,i)=>c===original[i])){const j=shuffled.findIndex(c=>c!==shuffled[0]);if(j>0)[shuffled[0],shuffled[j]]=[shuffled[j],shuffled[0]];}
+ let offset=0;return words.map(word=>{const group=shuffled.slice(offset,offset+word.length);offset+=word.length;return group;});
+}
 export class Game {
  constructor(bank,{now=Date.now,saved={}}={}) {
   this.bank=validateBank(bank); this.now=now; this.settings={title:'TRẢ LỜI NHANH',subtitle:'Nhanh trí • Vui mỗi ngày',duration:25,breakTime:3,mode:'first',points:1,auto:true,category:'all',type:'all',sound:true,...saved.settings};
@@ -36,7 +45,7 @@ export class Game {
   if(!eligible.length)throw Error('Không có câu phù hợp. Hãy chọn lại bộ hoặc loại câu hỏi.');
   if(!this.deck.length){this.deck=eligible.slice();for(let i=this.deck.length-1;i>0;i--){const j=randomInt(i+1);[this.deck[i],this.deck[j]]=[this.deck[j],this.deck[i]];}}
   this.current=this.deck.pop();this.round++;this.phase='question';this.roundMode=this.live?'first':this.settings.mode;this.roundPoints=this.settings.points;this.startedAt=this.now();this.endsAt=this.startedAt+this.settings.duration*1000;this.correct=new Set();this.winners=[];this.rate.clear();this.paused=false;this.lastEvent=null;
-  const letters=Array.from(this.current.answer.toUpperCase()).filter(c=>c!==' ');for(let i=letters.length-1;i>0;i--){const j=randomInt(i+1);[letters[i],letters[j]]=[letters[j],letters[i]];}this.scrambled=letters;
+  this.letterGroups=scrambleAnswer(this.current.answer);this.scrambled=this.letterGroups.flat();
   this.answers=new Set([this.current.answer,...this.current.aliases].map(normalize));
   if(this.current.type==='choice'){const ix=this.current.options.findIndex(o=>normalize(o)===normalize(this.current.answer));this.answers.add('abcd'[ix]);}
   this.version++;return this.current;
@@ -64,7 +73,7 @@ export class Game {
  }
  gift({id,name,avatar,diamonds}){if(typeof id!=='string'||!id||id.length>150||!Number.isFinite(diamonds)||diamonds<=0||diamonds>1e9)return false;const p=this.player(id,name,avatar);if(!p)return false;p.diamonds+=diamonds;this.giftRevision++;this.version++;return true;}
  top(key){return [...this.players.values()].filter(p=>p[key]>0).sort((a,b)=>b[key]-a[key]||a.order-b.order||a.id.localeCompare(b.id)).slice(0,10).map(p=>({id:p.id,name:p.name,avatar:p.avatar,score:p.score,diamonds:p.diamonds}));}
- snapshot(){const q=this.current;return {version:this.version,serverTime:this.now(),phase:this.phase,paused:!!this.paused,round:this.round,endsAt:this.endsAt,nextAt:this.nextAt,remaining:this.remaining,settings:this.settings,roundMode:this.roundMode,question:q?{id:q.id,prompt:q.prompt,type:q.type,category:q.category,options:q.options,scrambled:q.type==='scramble'?this.scrambled:undefined,length:q.answer.replace(/\s/g,'').length,...(this.phase==='reveal'?{answer:q.answer,explanation:q.explanation}: {})}:null,winners:this.winners,correctCount:this.correct?.size||0,event:this.lastEvent,topScores:this.top('score'),topGifts:this.top('diamonds'),stats:{players:this.players.size,comments:this.totalComments,accepted:this.accepted}};}
+ snapshot(){const q=this.current;return {version:this.version,serverTime:this.now(),phase:this.phase,paused:!!this.paused,round:this.round,endsAt:this.endsAt,nextAt:this.nextAt,remaining:this.remaining,settings:this.settings,roundMode:this.roundMode,question:q?{id:q.id,prompt:q.prompt,type:q.type,category:q.category,options:q.options,scrambled:!['choice','math'].includes(q.type)?this.scrambled:undefined,letterGroups:!['choice','math'].includes(q.type)?this.letterGroups:undefined,length:this.scrambled.length,...(this.phase==='reveal'?{answer:q.answer,explanation:q.explanation}: {})}:null,winners:this.winners,correctCount:this.correct?.size||0,event:this.lastEvent,topScores:this.top('score'),topGifts:this.top('diamonds'),stats:{players:this.players.size,comments:this.totalComments,accepted:this.accepted}};}
  export(){return {settings:this.settings,players:[...this.players.values()]};}
  reset(){this.players.clear();this.scoreOrder=0;this.accepted=0;this.totalComments=0;this.stop();}
  replaceBank(items){const bank=validateBank(items);this.bank=bank;this.deck=[];this.settings.category='all';this.settings.type='all';this.stop();}

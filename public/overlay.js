@@ -13,8 +13,12 @@ function question(){const q=state.question;const key=JSON.stringify([state.round
  $('typeLabel').textContent=state.paused?'TẠM DỪNG':state.phase==='idle'?'AI SẼ NHANH NHẤT?':labels[q?.type]||'CÂU HỎI';
  if(reveal){const w=state.winners[0];$('winnerName').textContent=w?.name||'Hẹn bạn ở câu tiếp theo!';$('winnerAvatar').replaceChildren();if(w){const a=portrait($('winnerAvatar'),w);a.className='';a.style.cssText='width:100%;height:100%;display:grid;place-items:center';}else $('winnerAvatar').textContent='✦';$('solution').textContent=q.answer.toUpperCase();$('scoreChip').textContent=w?`+${w.points} điểm · Tổng ${w.score}${state.correctCount>1?` · ${state.correctCount} người đúng`:''}`:'Cùng khám phá câu hỏi mới';$('explanation').textContent=q.explanation||'';}
  else{$('prompt').textContent=state.phase==='idle'?'Sẵn sàng thử tài?':q?.prompt||'';$('prompt').style.fontSize=(q?.prompt?.length>350?28:q?.prompt?.length>180?34:q?.prompt?.length>90?42:50)+'px';$('letters').replaceChildren();$('options').replaceChildren();if(state.phase==='question'){
-  if(q.type==='scramble'){for(const c of q.scrambled){const e=document.createElement('span');e.className='letter';e.textContent=c;$('letters').append(e);}}
-  else if(!['choice','math','emoji'].includes(q.type)){for(let i=0;i<Math.min(q.length,18);i++){const e=document.createElement('span');e.className='letter blank';e.textContent='?';$('letters').append(e);}}
+  if(!['choice','math'].includes(q.type)){
+   const groups=q.letterGroups||(q.scrambled?[q.scrambled]:[]),count=groups.reduce((n,g)=>n+g.length,0);
+   $('letters').classList.toggle('compact-letters',count>24);
+   $('letters').setAttribute('aria-label','Chữ cái đã xáo trộn, chia nhóm theo độ dài từng từ');
+   for(const letters of groups){const group=document.createElement('span');group.className='letter-word';group.setAttribute('aria-label',`${letters.length} chữ cái`);for(const c of letters){const tile=document.createElement('span');tile.className='letter';tile.textContent=c;group.append(tile);}$('letters').append(group);}
+  }
   if(q.type==='choice')q.options.forEach((o,i)=>{const e=document.createElement('div'),b=document.createElement('b');e.className='option';b.textContent='ABCD'[i];e.append(b,document.createTextNode(o));$('options').append(e);});
  }$('answerHelp').textContent=state.phase==='idle'?'Bình luận đáp án để tham gia':q?.type==='choice'?'Bình luận A, B, C, D hoặc nội dung đáp án':(state.roundMode||state.settings.mode)==='all'?'Mọi đáp án đúng trong thời gian đều được điểm':'Người có bình luận đúng đến máy chủ đầu tiên được điểm';}
 }

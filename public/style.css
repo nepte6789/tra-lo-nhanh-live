@@ -37,3 +37,10 @@
 .board-title{gap:7px;padding:0 0 18px;border-color:#ffffff10}.board-title span{font-size:27px;line-height:1.6;font-weight:800;letter-spacing:-.6px;color:#ffe09c}.board-title small{font-size:13px;font-weight:600;letter-spacing:1.2px;color:#b2a0c5}
 .board ol{margin:8px 0 0}.board li{height:52px;gap:10px;font-size:22px;font-weight:600;border-color:#ffffff08}.rank{font-size:17px;min-width:24px;color:#ac98bf}.board li:first-child{background:#ffe09c0a;border-radius:9px}.board li:first-child .rank{width:26px;min-width:26px;font-weight:800;background:#ffe09c;color:#382140}.avatar{width:34px;height:34px;font-size:17px;background:#5e4278;color:#eadcf6}.player-name{color:#eee6fa;font-size:21px;letter-spacing:-.3px}.player-value{font-size:23px;color:#96f0d0;font-weight:800;font-variant-numeric:tabular-nums}.gifts-board .player-value{color:#dfb3ff}.empty-board{font-size:20px!important;height:130px!important;color:#b2a0c4}
 .live-footer{font-size:18px;line-height:1.5;color:#ad98bf;padding:25px 3px}.join-note{margin-top:8px;padding:25px 28px;background:#3b265144;border:1px solid #ad8ec02b;border-radius:20px;gap:20px}.chat-icon{font-size:37px}.join-note b{font-size:23px;letter-spacing:0;color:#f1e8fa}.join-note p{font-size:20px;margin-top:8px;color:#c4b0d4}.bottom-caption{font-size:15px;letter-spacing:1px;color:#aa92be;margin-top:24px;line-height:1.6}
+/* Preserve answer word lengths: HỒ GƯƠM becomes a group of 2 and a group of 4. */
+.letters{column-gap:30px;row-gap:15px;align-items:center}
+.letter-word{display:inline-flex;gap:8px;flex-wrap:wrap;justify-content:center;max-width:100%}
+.letters .letter{flex-shrink:0}
+.compact-letters{column-gap:22px;row-gap:12px}
+.compact-letters .letter-word{gap:6px}
+.compact-letters .letter{min-width:32px;height:44px;padding:0 7px;font-size:25px;border-radius:8px}

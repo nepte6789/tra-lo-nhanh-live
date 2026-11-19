@@ -6,6 +6,12 @@ Game câu hỏi tương tác qua bình luận, chạy trên máy tính. Giao di�
 
 [Ảnh màn hình LIVE](docs/screenshots/overlay.png) · [Ảnh bảng điều khiển](docs/screenshots/studio.png)
 
+## Ô chữ xáo trộn theo từng từ
+
+Các câu đoán đáp án, xếp chữ, đố vui và emoji đều hiện chữ cái của đáp án đã đảo vị trí bên dưới gợi ý. Khoảng cách giữa các nhóm giữ số chữ cái từng từ: **HỒ GƯƠM → 2 ô, khoảng cách, 4 ô**. Chữ được xáo trộn chung rồi chia vào các nhóm; không hiện nguyên đáp án trước khi chốt câu. Dấu tiếng Việt giữ nguyên, chữ không bị xáo lại mỗi lần nhận bình luận. Câu tính toán và trắc nghiệm không hiện các ô này.
+
+[Xem mẫu HỒ GƯƠM](docs/screenshots/word-tiles.png)
+
 ## Bản cập nhật overlay và người thắng
 
 - Font **Be Vietnam Pro** có dấu tiếng Việt, đặt sẵn trong repo, không gọi Google Fonts khi đang LIVE. Font theo SIL Open Font License tại `public/fonts/OFL.txt`.
