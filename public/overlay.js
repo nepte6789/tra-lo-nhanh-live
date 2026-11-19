@@ -12,15 +12,23 @@ function question(){const q=state.question;const key=JSON.stringify([state.round
  const reveal=state.phase==='reveal';$('questionView').classList.toggle('hidden',reveal);$('winnerView').classList.toggle('hidden',!reveal);
  $('typeLabel').textContent=state.paused?'TẠM DỪNG':state.phase==='idle'?'AI SẼ NHANH NHẤT?':labels[q?.type]||'CÂU HỎI';
  if(reveal){const w=state.winners[0];$('winnerName').textContent=w?.name||'Hẹn bạn ở câu tiếp theo!';$('winnerAvatar').replaceChildren();if(w){const a=portrait($('winnerAvatar'),w);a.className='';a.style.cssText='width:100%;height:100%;display:grid;place-items:center';}else $('winnerAvatar').textContent='✦';$('solution').textContent=q.answer.toUpperCase();$('scoreChip').textContent=w?`+${w.points} điểm · Tổng ${w.score}${state.correctCount>1?` · ${state.correctCount} người đúng`:''}`:'Cùng khám phá câu hỏi mới';$('explanation').textContent=q.explanation||'';}
- else{$('prompt').textContent=state.phase==='idle'?'Sẵn sàng thử tài?':q?.prompt||'';$('prompt').style.fontSize=(q?.prompt?.length>350?28:q?.prompt?.length>180?34:q?.prompt?.length>90?42:50)+'px';$('letters').replaceChildren();$('options').replaceChildren();if(state.phase==='question'){
+ else{$('prompt').textContent=state.phase==='idle'?'Sẵn sàng thử tài?':q?.prompt||'';$('prompt').style.fontSize=(q?.prompt?.length>350?28:q?.prompt?.length>180?34:q?.prompt?.length>90?42:50)+'px';$('answerSlots').replaceChildren();$('scrambleLabel').classList.add('hidden');$('letters').replaceChildren();$('options').replaceChildren();if(state.phase==='question'){
   if(!['choice','math'].includes(q.type)){
    const groups=q.letterGroups||(q.scrambled?[q.scrambled]:[]),count=groups.reduce((n,g)=>n+g.length,0);
+   $('answerSlots').classList.toggle('compact-slots',count>24);
    $('letters').classList.toggle('compact-letters',count>24);
-   $('letters').setAttribute('aria-label','Chữ cái đã xáo trộn, chia nhóm theo độ dài từng từ');
-   for(const letters of groups){const group=document.createElement('span');group.className='letter-word';group.setAttribute('aria-label',`${letters.length} chữ cái`);for(const c of letters){const tile=document.createElement('span');tile.className='letter';tile.textContent=c;group.append(tile);}$('letters').append(group);}
+   $('scrambleLabel').classList.remove('hidden');
+   $('letters').setAttribute('aria-label','Chữ cái đã xáo trộn');
+   for(const letters of groups){
+    const group=document.createElement('span');group.className='answer-word';group.setAttribute('aria-label',`${letters.length} ô trống`);
+    for(let i=0;i<letters.length;i++){const slot=document.createElement('span');slot.className='answer-slot';slot.setAttribute('aria-hidden','true');group.append(slot);}
+    $('answerSlots').append(group);
+   }
+   for(const c of groups.flat()){const tile=document.createElement('span');tile.className='letter';tile.textContent=c;$('letters').append(tile);}
+
   }
   if(q.type==='choice')q.options.forEach((o,i)=>{const e=document.createElement('div'),b=document.createElement('b');e.className='option';b.textContent='ABCD'[i];e.append(b,document.createTextNode(o));$('options').append(e);});
- }$('answerHelp').textContent=state.phase==='idle'?'Bình luận đáp án để tham gia':q?.type==='choice'?'Bình luận A, B, C, D hoặc nội dung đáp án':(state.roundMode||state.settings.mode)==='all'?'Mọi đáp án đúng trong thời gian đều được điểm':'Người có bình luận đúng đến máy chủ đầu tiên được điểm';}
+ }$('answerHelp').textContent=state.phase==='idle'?'Bình luận đáp án để tham gia':q?.type==='choice'?'Bình luận A, B, C, D hoặc nội dung đáp án':(state.roundMode||state.settings.mode)==='all'?'Mọi đáp án đúng trong thời gian đều được điểm':`👉 Gõ đáp án vào bình luận · Nhanh nhất được điểm!${q?.letterGroups?' ('+q.letterGroups.flat().length+' chữ cái)':''}`;}
 }
 function render(s){const firstRender=!received;received=true;state=s;offset=s.serverTime-Date.now();$('liveTitle').textContent=s.settings.title;$('liveSubtitle').textContent=s.settings.subtitle;$('round').textContent=String(s.round).padStart(2,'0');$('category').textContent=s.question?.category||'Sẵn sàng chơi';$('playerCount').textContent=s.stats.players;
  $('connection').textContent=s.live.status==='connected'?`LIVE @${s.live.username}`:s.live.status==='connecting'?'Đang kết nối TikTok':'Chưa kết nối TikTok';question();

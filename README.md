@@ -8,7 +8,14 @@ Game câu hỏi tương tác qua bình luận, chạy trên máy tính. Giao di�
 
 ## Ô chữ xáo trộn theo từng từ
 
-Các câu đoán đáp án, xếp chữ, đố vui và emoji đều hiện chữ cái của đáp án đã đảo vị trí bên dưới gợi ý. Khoảng cách giữa các nhóm giữ số chữ cái từng từ: **HỒ GƯƠM → 2 ô, khoảng cách, 4 ô**. Chữ được xáo trộn chung rồi chia vào các nhóm; không hiện nguyên đáp án trước khi chốt câu. Dấu tiếng Việt giữ nguyên, chữ không bị xáo lại mỗi lần nhận bình luận. Câu tính toán và trắc nghiệm không hiện các ô này.
+Các câu đoán đáp án, xếp chữ, đố vui và emoji hiển thị đúng thứ tự:
+
+1. **Câu hỏi / gợi ý.**
+2. **Hàng ô đáp án trống hoàn toàn**, không chữ, không dấu hỏi, chia nhóm theo số chữ của mỗi từ: HỒ GƯƠM → 2 ô trống, khoảng cách, 4 ô trống.
+3. Nhãn **CHỮ CÁI BỊ XÁO TRỘN**.
+4. **Hàng ô nhỏ riêng bên dưới**, chứa toàn bộ chữ cái đảo vị trí, giữ dấu tiếng Việt.
+
+Hai hàng tách biệt: không đặt chữ vào ô đáp án trước khi chốt câu. Chữ xáo trộn giữ nguyên trong suốt câu, không đổi mỗi lần nhận bình luận. Câu tính toán và trắc nghiệm không hiện hai hàng này.
 
 [Xem mẫu HỒ GƯƠM](docs/screenshots/word-tiles.png)
 
