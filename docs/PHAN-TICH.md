@@ -51,3 +51,9 @@ Kiểm tra mã cũ phát hiện cửa sổ chặn bình luận 100 ms có thể 
 Thêm kiểm tra sửa đáp án ngay, sự kiện cũ sang câu mới (timestamp millisecond/second), dọn người thử khi kết nối, khóa chế độ và callback thông báo đồng bộ khi đúng. Sự kiện TikTok không có timestamp hoặc timestamp chỉ đến giây không đủ để chứng minh thứ tự gửi tuyệt đối; chương trình dùng thứ tự nhận tại máy chủ và không cố chờ để xếp lại.
 
 Font Be Vietnam Pro đặt cục bộ (600 và 800) với giấy phép OFL. Không dùng font mạng cho overlay; tên người thắng xuất hiện trước khi avatar tải xong.
+
+## Cập nhật dòng Top 1 và đọc kết quả
+
+Thêm marquee tên Top điểm số 1 kèm nhãn đỏ, vòng thời gian và dòng hướng dẫn mới. Màn kết quả có đếm ngược chuẩn bị câu tiếp. Thêm giọng tiếng Việt qua SpeechSynthesis, dự phòng msedge-tts với giới hạn thời gian, dung lượng và số tác vụ đồng thời. Bản xem trước luôn tắt giọng, không phát lặp theo snapshot hoặc kết nối lại.
+
+Kiểm thử trình duyệt dùng giọng giả để xác nhận chính xác đáp án/tên, phát một lần, chuyển câu và preview im lặng. Phép thử trực tuyến trong môi trường phát triển đã gặp timeout; không coi là đã xác minh chất lượng âm thanh thực trên Windows/OBS. Khả năng phát thật cần giọng Việt của máy hoặc dịch vụ trực tuyến đáp ứng.

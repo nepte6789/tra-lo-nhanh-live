@@ -31,6 +31,17 @@ Hai hàng tách biệt: không đặt chữ vào ô đáp án trước khi chố
 - Dùng thời gian sự kiện (khi TikTok cung cấp) để bỏ bình luận từ câu cũ; với dấu thời gian chỉ chính xác tới giây, không phân biệt được hai sự kiện trong cùng giây. Không đoán lại thứ tự từ dấu thời gian thô.
 - **Nhanh nhất = đáp án đúng hợp lệ đến máy chủ đầu tiên.** Không bảo đảm trùng thứ tự bình luận trên mọi điện thoại hay loại bỏ độ trễ mạng TikTok.
 
+## Tên Top 1, đếm ngược và giọng đọc
+
+- Dòng trên khung hỏi hiện tên người Top điểm số 1 và nhãn đỏ **Đúng +N điểm** (N là điểm mỗi câu); tên chạy ngang, vòng tròn hiển thị thời gian còn lại.
+- Dòng hướng dẫn: **Gõ đáp án vào bình luận để ghi điểm . Tặng quà để lên bảng vàng**.
+- Khi có người nhanh nhất, hiện kết quả ngay và đọc **“Đáp án là … [Tên người chơi] trả lời đúng.”**, một lần cho mỗi câu. Cùng lúc đếm ngược **Chuẩn bị câu mới…**. Không chờ âm thanh mới hiện kết quả.
+- Trong thiết lập có **Đọc đáp án và người thắng**, bật sẵn. Mở cửa sổ LIVE và bấm **Bật âm thanh & giọng đọc** một lần. Bản xem trước `?audio=0` luôn im lặng.
+- Ưu tiên giọng tiếng Việt của trình duyệt/máy. Nếu không có thì thử giọng Microsoft Edge trực tuyến qua server, cần Internet; lỗi hoặc quá thời gian sẽ hiện thông báo, không làm đứng trò chơi.
+- Nếu giọng đọc không có sẵn, kiểm tra giọng tiếng Việt trong hệ điều hành/trình duyệt và kết nối mạng. Chỉ mở một nguồn có âm thanh để tránh đọc đôi.
+- Đếm ngược tự chuyển vẫn theo **Nghỉ giữa câu**. Đặt khoảng **5–8 giây** nếu muốn chừa đủ thời gian đọc tên dài; không đợi xác nhận đọc xong để chuyển câu. Kết quả mới ngắt giọng cũ, không tích hàng đợi.
+- Nếu đã cài bản trước: dừng ứng dụng, cập nhật repo, chạy **npm ci** để bổ sung thư viện giọng đọc rồi mở `start.bat` lại. Giữ `data/runtime` để không mất điểm.
+
 ## Cài trên Windows
 
 1. Cài **Node.js 20 trở lên** tại https://nodejs.org/ (bản LTS).

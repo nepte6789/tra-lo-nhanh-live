@@ -11,7 +11,7 @@ function connect(){ws=new WebSocket(`${location.protocol==='https:'?'wss':'ws'}:
  if(m.t==='error')notice(m.error,true);if(m.t==='ok'){if(m.cmd==='settings')ackSettings=true;notice(m.cmd==='settings'?'Đã lưu thiết lập.':'Đã thực hiện.');}};}
 connect();$('sourceUrl').textContent=location.origin+'/overlay.html';$('copyUrl').onclick=async()=>{try{await navigator.clipboard.writeText($('sourceUrl').textContent);notice('Đã sao chép liên kết màn hình LIVE.');}catch{notice('Hãy sao chép liên kết hiển thị bên trên.');}};
 for(const cmd of ['start','next','pause','reveal','stop'])$(cmd).onclick=()=>send(cmd);
-form.onsubmit=e=>{e.preventDefault();const data=Object.fromEntries(new FormData(form));data.auto=form.elements.auto.checked;data.sound=form.elements.sound.checked;send('settings',{settings:data});};
+form.onsubmit=e=>{e.preventDefault();const data=Object.fromEntries(new FormData(form));data.auto=form.elements.auto.checked;data.sound=form.elements.sound.checked;data.speech=form.elements.speech.checked;send('settings',{settings:data});};
 $('connectBtn').onclick=()=>send('connect',{username:$('username').value});$('disconnectBtn').onclick=()=>send('disconnect');
 $('sendDemo').onclick=()=>send('simulate',{name:$('demoName').value,text:$('demoAnswer').value,round:state?.round});$('demoAnswer').onkeydown=e=>{if(e.key==='Enter')$('sendDemo').click();};$('correctDemo').onclick=()=>send('demoCorrect',{name:$('demoName').value,round:state?.round});$('giftDemo').onclick=()=>send('demoGift',{name:$('demoName').value,diamonds:10});
 $('resetBtn').onclick=()=>{const confirm=prompt('Xóa toàn bộ điểm và Top quà? Gõ XÓA để xác nhận.');if(confirm==='XÓA')send('reset',{confirm});};

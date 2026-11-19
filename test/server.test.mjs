@@ -14,6 +14,6 @@ test('server serves UI, rejects hostile requests, protects controls, handles rea
  const reader=new WebSocket(`ws://127.0.0.1:${port}/ws`);sockets.push(reader);await once(reader,'open');reader.send(JSON.stringify({cmd:'reset',confirm:'XÓA'}));
  // Independent control sockets represent batches; regular viewers cannot send admin commands.
  for(let i=0;i<20;i++){control.send(JSON.stringify({cmd:'simulate',name:'Test '+i,text:'dung',round:latest.round}));}
- await waitFor(()=>latest?.stats.accepted===20);assert.equal(latest.phase,'question');assert.equal(latest.topScores.length,10);assert(!latest.question.answer);
+ await waitFor(()=>latest?.stats.accepted===20);assert.equal(latest.phase,'question');assert.equal((await fetch(base+'/api/winner-voice?round='+latest.round)).status,409);assert.equal(latest.topScores.length,10);assert(!latest.question.answer);
  control.send(JSON.stringify({cmd:'reveal'}));await waitFor(()=>latest.phase==='reveal');assert.equal(latest.question.answer,'đúng');
 });

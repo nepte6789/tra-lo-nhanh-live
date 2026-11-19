@@ -29,7 +29,7 @@ export function scrambleAnswer(answer, pick=randomInt) {
 }
 export class Game {
  constructor(bank,{now=Date.now,saved={}}={}) {
-  this.bank=validateBank(bank); this.now=now; this.settings={title:'TRẢ LỜI NHANH',subtitle:'Nhanh trí • Vui mỗi ngày',duration:25,breakTime:3,mode:'first',points:1,auto:true,category:'all',type:'all',sound:true,...saved.settings};
+  this.bank=validateBank(bank); this.now=now; this.settings={title:'TRẢ LỜI NHANH',subtitle:'Nhanh trí • Vui mỗi ngày',duration:25,breakTime:3,mode:'first',points:1,auto:true,category:'all',type:'all',sound:true,speech:true,...saved.settings};
   this.players=new Map((saved.players||[]).map(p=>[p.id,p])); this.phase='idle';this.round=0;this.deck=[];this.current=null;this.version=0;this.totalComments=0;this.accepted=0;this.scoreOrder=[...this.players.values()].reduce((n,p)=>Math.max(n,p.order||0),0);this.rate=new Map();this.seen=new Map();this.lastEvent=null;this.winners=[];this.giftRevision=0;
  }
  configure(p) {
@@ -38,7 +38,7 @@ export class Game {
   for(const k of ['title','subtitle']) if(typeof p[k]==='string') s[k]=clean(p[k],70);
   for(const [k,min,max] of [['duration',5,300],['breakTime',1,20],['points',1,100]]) if(p[k]!==undefined){const v=Number(p[k]);if(!Number.isFinite(v))throw Error('Thiết lập số không hợp lệ');s[k]=Math.min(max,Math.max(min,Math.round(v)));}
   if(p.mode && ['first','all'].includes(p.mode))s.mode=p.mode;
-  for(const k of ['auto','sound'])if(typeof p[k]==='boolean')s[k]=p[k];
+  for(const k of ['auto','sound','speech'])if(typeof p[k]==='boolean')s[k]=p[k];
   for(const k of ['category','type'])if(typeof p[k]==='string'&&p[k]!==s[k]){if(p[k]!=='all'&&!this.bank.some(q=>q[k]===p[k]))throw Error('Không tìm thấy bộ hoặc loại câu hỏi');s[k]=p[k];this.deck=[];}
   this.version++;
  }
