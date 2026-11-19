@@ -174,3 +174,25 @@ Các biến khác: `PORT` (mặc định 3010), `DATA_DIR` (thư mục lưu đi�
 Nội dung câu hỏi là nội dung mới; video người dùng chỉ dùng để phân tích cách bố trí và luật chơi, không đưa video, tên hoặc avatar trong mẫu vào repo. Không dùng tài nguyên trả phí của phần mềm trong video.
 
 Giấy phép MIT cho mã nguồn trong repo; các thư viện có giấy phép riêng.
+
+## Khi báo “Kết nối lỗi” dù kênh đang LIVE
+
+Nhập đúng **tên người dùng** từ hồ sơ (ví dụ `@tenkenh`), không dùng tên hiển thị. Hỗ trợ cả link đầy đủ `https://www.tiktok.com/@tenkenh/live`, không dùng link rút gọn `vt.tiktok.com`.
+
+Bản hiện tại hiển thị khung lỗi ngay dưới ô tên kênh, có mã, chi tiết và nút **Sao chép lỗi**. Nội dung nhạy cảm được ẩn trước khi gửi lên giao diện hoặc ghi log. Các nhóm lỗi:
+
+| Mã | Ý nghĩa và cách kiểm tra |
+| --- | --- |
+| `ROOM_ID` | Chưa lấy được mã phòng; kiểm tra @, đợi 20–30 giây sau khi phát rồi thử lại. Cũng có thể do TikTok chặn/đổi giao thức. |
+| `OFFLINE` | TikTok trả về chưa LIVE; không khẳng định người dùng chưa phát, cần kiểm tra trang LIVE công khai và đúng tên kênh. |
+| `RATE_LIMIT` | Dịch vụ ký giới hạn lượt; đợi theo thông báo, không bấm liên tục. |
+| `SIGN_PERMISSION` / `SIGN_SERVER` | Quyền hoặc phản hồi của dịch vụ ký; xem chi tiết trước khi thay đổi cấu hình. |
+| `BLOCKED` | Truy cập từ máy/mạng bị chặn; kiểm tra trang LIVE trong trình duyệt và cấu hình mạng/VPN/proxy. |
+| `NETWORK` | Lỗi mạng, DNS hoặc timeout. |
+| `UNKNOWN` | Sao chép lỗi để kiểm tra, không đoán nguyên nhân. |
+
+Lỗi mã phòng/mạng tạm thời được tự thử thêm **một lần**, có nút Ngắt để hủy. Không tự thử lặp với lỗi offline, chặn hoặc giới hạn lượt. Khi kết nối, bỏ tải danh sách quà mở rộng; sự kiện quà vẫn lấy giá trị từ `giftDetails`.
+
+Nếu có khóa Euler Stream do bạn tự quản lý, có thể đặt `SIGN_API_KEY` trong môi trường chạy trên máy. Không cần gửi khóa vào chat; đây không phải cookie hay mật khẩu TikTok. Không cần mua khóa trước khi biết mã lỗi.
+
+Bản này chỉ cải thiện kết nối và chẩn đoán. Chưa xác minh khắc phục được lỗi của máy người dùng nếu chưa có chi tiết thực tế.

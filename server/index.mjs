@@ -61,9 +61,9 @@ wss.on('connection',ws=>{
    case 'reset':if(m.confirm!=='XÓA')throw Error('Gõ XÓA để xác nhận.');game.reset();break;
    case 'connect':await live.connect(m.username);break;
    case 'disconnect':await live.disconnect();break;
-   case 'demoCorrect':if(['connected','connecting'].includes(live.state.status))throw Error('Ngắt LIVE thật trước khi thử.');if(game.phase!=='question')throw Error('Bắt đầu câu hỏi trước.');game.comment({id:'demo:'+String(m.name||'Khách').slice(0,80),name:String(m.name||'Khách')+' · thử',text:game.current.answer,round:m.round});break;
-   case 'simulate':if(['connected','connecting'].includes(live.state.status))throw Error('Ngắt kết nối LIVE thật trước khi thử.');game.comment({id:'demo:'+String(m.name||'Khách').slice(0,80),name:String(m.name||'Khách')+' · thử',text:String(m.text||''),round:m.round});break;
-   case 'demoGift':if(['connected','connecting'].includes(live.state.status))throw Error('Ngắt LIVE thật trước khi thử.');game.gift({id:'demo:'+String(m.name||'Khách').slice(0,80),name:String(m.name||'Khách')+' · thử',diamonds:Number(m.diamonds)});break;
+   case 'demoCorrect':if(['connected','connecting','retrying'].includes(live.state.status))throw Error('Ngắt LIVE thật trước khi thử.');if(game.phase!=='question')throw Error('Bắt đầu câu hỏi trước.');game.comment({id:'demo:'+String(m.name||'Khách').slice(0,80),name:String(m.name||'Khách')+' · thử',text:game.current.answer,round:m.round});break;
+   case 'simulate':if(['connected','connecting','retrying'].includes(live.state.status))throw Error('Ngắt kết nối LIVE thật trước khi thử.');game.comment({id:'demo:'+String(m.name||'Khách').slice(0,80),name:String(m.name||'Khách')+' · thử',text:String(m.text||''),round:m.round});break;
+   case 'demoGift':if(['connected','connecting','retrying'].includes(live.state.status))throw Error('Ngắt LIVE thật trước khi thử.');game.gift({id:'demo:'+String(m.name||'Khách').slice(0,80),name:String(m.name||'Khách')+' · thử',diamonds:Number(m.diamonds)});break;
    default:throw Error('Lệnh không hợp lệ');
   }changed();send(ws,{t:'ok',cmd:m.cmd});}catch(e){send(ws,{t:'error',error:e.message});}
  });
