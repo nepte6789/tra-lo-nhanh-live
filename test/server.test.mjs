@@ -1,10 +1,10 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {spawn} from 'node:child_process';import {mkdtempSync,rmSync} from 'node:fs';import {tmpdir} from 'node:os';import {join} from 'node:path';import {once} from 'node:events';import WebSocket from 'ws';
 test('server serves UI, rejects hostile requests, protects controls, handles real WS bursts',async t=>{
  const dir=mkdtempSync(join(tmpdir(),'quiz-')),port=18000+Math.floor(Math.random()*10000),base=`http://127.0.0.1:${port}`,token='test-token-with-at-least-24-characters';
- const child=spawn(process.execPath,['server/index.mjs'],{env:{...process.env,PORT:String(port),DATA_DIR:dir,ADMIN_TOKEN:token},stdio:['ignore','pipe','pipe']});let sockets=[];
+ const child=spawn(process.execPath,['start.mjs'],{env:{...process.env,PORT:String(port),DATA_DIR:dir,ADMIN_TOKEN:token},stdio:['ignore','pipe','pipe']});let sockets=[];
  t.after(async()=>{for(const ws of sockets)ws.terminate();child.kill('SIGTERM');await Promise.race([once(child,'exit'),new Promise(r=>setTimeout(r,2000))]);rmSync(dir,{recursive:true,force:true});});
  await Promise.race([once(child.stdout,'data'),new Promise((_,r)=>setTimeout(()=>r(Error('Startup timeout')),5000))]);
- assert.equal((await fetch(base)).status,200);assert.equal((await fetch(base+'/server/index.mjs')).status,404);assert.equal((await fetch(base,{headers:{Origin:'https://evil.example'}})).status,403);assert.equal((await fetch(base+'/api/bank')).status,401);
+ assert.equal((await fetch(base)).status,200);assert.equal((await fetch(base+'/api/health')).status,200);assert.equal((await fetch(base+'/.env')).status,404);assert.equal((await fetch(base+'/server/index.mjs')).status,404);assert.equal((await fetch(base,{headers:{Origin:'https://evil.example'}})).status,403);assert.equal((await fetch(base+'/api/bank')).status,401);
  const headers={Authorization:`Bearer ${token}`};assert.equal((await fetch(base+'/api/bank',{headers})).status,200);
  const malformed=await fetch(base+'/api/bank',{method:'POST',headers,body:'[]'});assert.equal(malformed.status,400);
  const bank=[{id:'test',category:'Test',type:'text',prompt:'Gõ đúng?',answer:'đúng'}];assert.equal((await fetch(base+'/api/bank',{method:'POST',headers,body:JSON.stringify(bank)})).status,200);
