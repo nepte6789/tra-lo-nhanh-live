@@ -2,6 +2,10 @@
 
 Game câu hỏi tương tác qua bình luận, chạy trên máy tính. Giao diện dọc tím/vàng, người trả lời đúng được cộng điểm và hiện tên. **Top quà bên trái, Top điểm bên phải.**
 
+## Xem giao diện
+
+[Ảnh màn hình LIVE](docs/screenshots/overlay.png) · [Ảnh bảng điều khiển](docs/screenshots/studio.png)
+
 ## Cài trên Windows
 
 1. Cài **Node.js 20 trở lên** tại https://nodejs.org/ (bản LTS).
