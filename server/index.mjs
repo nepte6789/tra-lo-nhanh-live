@@ -10,6 +10,7 @@ import { resolve, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { WebSocketServer } from "ws";
 import { Game, validateBank } from "./engine.mjs";
+import { questionText } from "../public/speech.js";
 import { announcement, WinnerVoice } from "./voice.mjs";
 import { LiveLink, normalizeUsername } from "./tiktok.mjs";
 import { AutoConnect } from "./auto-connect.mjs";
@@ -129,21 +130,24 @@ const server = http.createServer(async (req, res) => {
   if (!validHost(req) || !validOrigin(req))
     return json(res, 403, { error: "Nguồn truy cập không hợp lệ" });
   const url = new URL(req.url, "http://localhost");
-  if (req.method === "GET" && url.pathname === "/api/winner-voice") {
+  if (req.method === "GET" && ["/api/winner-voice", "/api/question-voice"].includes(url.pathname)) {
+    const isQuestion = url.pathname === "/api/question-voice";
     const round = Number(url.searchParams.get("round")),
       winner = game.winners[0];
     if (
       !game.settings.speech ||
-      game.phase !== "reveal" ||
+      (isQuestion ? game.phase !== "question" || game.paused : game.phase !== "reveal") ||
       round !== game.round ||
-      !winner
+      (!isQuestion && !winner)
     )
-      return json(res, 409, { error: "Không có kết quả cần đọc" });
+      return json(res, 409, { error: "Không có nội dung cần đọc" });
     try {
       const audio = await voice.get(
-        `${round}:${game.lastEvent?.id}`,
-        announcement(game.current.answer, winner.name),
+        isQuestion ? `question:${round}:${game.current.id}` : `${round}:${game.lastEvent?.id}`,
+        isQuestion ? questionText(game.current) : announcement(game.current.answer, winner.name),
       );
+      if (round !== game.round || (isQuestion ? game.phase !== "question" || game.paused : game.phase !== "reveal") || !game.settings.speech)
+        return json(res,409,{error:"Nội dung đọc đã hết hạn"});
       res.writeHead(200, {
         "Content-Type": "audio/mpeg",
         "Cache-Control": "no-store",
@@ -152,7 +156,7 @@ const server = http.createServer(async (req, res) => {
     } catch {
       return json(res, 503, {
         error:
-          "Giọng trực tuyến chưa sẵn sàng. Hãy bật giọng tiếng Việt trên máy.",
+          "Giọng trực tuyến chưa sẵn sàng. Kiểm tra mạng hoặc cài giọng Hoài My trên máy.",
       });
     }
     return;

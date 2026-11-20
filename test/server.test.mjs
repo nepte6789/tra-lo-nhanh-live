@@ -4,7 +4,7 @@ test('server serves UI, rejects hostile requests, protects controls, handles rea
  const child=spawn(process.execPath,['start.mjs'],{env:{...process.env,PORT:String(port),DATA_DIR:dir,ADMIN_TOKEN:token},stdio:['ignore','pipe','pipe']});let sockets=[];
  t.after(async()=>{for(const ws of sockets)ws.terminate();child.kill('SIGTERM');await Promise.race([once(child,'exit'),new Promise(r=>setTimeout(r,2000))]);rmSync(dir,{recursive:true,force:true});});
  await Promise.race([once(child.stdout,'data'),new Promise((_,r)=>setTimeout(()=>r(Error('Startup timeout')),5000))]);
- assert.equal((await fetch(base)).status,200);assert.equal((await fetch(base+'/api/health')).status,200);assert.equal((await fetch(base+'/.env')).status,404);assert.equal((await fetch(base+'/server/index.mjs')).status,404);assert.equal((await fetch(base,{headers:{Origin:'https://evil.example'}})).status,403);assert.equal((await fetch(base+'/api/bank')).status,401);
+ assert.equal((await fetch(base)).status,200);assert.equal((await fetch(base+'/api/health')).status,200);assert.equal((await fetch(base+'/.env')).status,404);assert.equal((await fetch(base+'/api/question-voice?round=0')).status,409);assert.equal((await fetch(base+'/server/index.mjs')).status,404);assert.equal((await fetch(base,{headers:{Origin:'https://evil.example'}})).status,403);assert.equal((await fetch(base+'/api/bank')).status,401);
  const headers={Authorization:`Bearer ${token}`};assert.equal((await fetch(base+'/api/bank',{headers})).status,200);
  const malformed=await fetch(base+'/api/bank',{method:'POST',headers,body:'[]'});assert.equal(malformed.status,400);
  const bank=[{id:'test',category:'Test',type:'text',prompt:'Gõ đúng?',answer:'đúng'}];assert.equal((await fetch(base+'/api/bank',{method:'POST',headers,body:JSON.stringify(bank)})).status,200);
@@ -15,5 +15,5 @@ test('server serves UI, rejects hostile requests, protects controls, handles rea
  // Independent control sockets represent batches; regular viewers cannot send admin commands.
  for(let i=0;i<20;i++){control.send(JSON.stringify({cmd:'simulate',name:'Test '+i,text:'dung',round:latest.round}));}
  await waitFor(()=>latest?.stats.accepted===20);assert.equal(latest.phase,'question');assert.equal((await fetch(base+'/api/winner-voice?round='+latest.round)).status,409);assert.equal(latest.topScores.length,10);assert(!latest.question.answer);
- control.send(JSON.stringify({cmd:'reveal'}));await waitFor(()=>latest.phase==='reveal');assert.equal(latest.question.answer,'đúng');
+ control.send(JSON.stringify({cmd:'reveal'}));await waitFor(()=>latest.phase==='reveal');assert.equal(latest.question.answer,'đúng');assert.equal((await fetch(base+'/api/question-voice?round='+latest.round)).status,409);
 });

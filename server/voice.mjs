@@ -1,4 +1,4 @@
-// Only winner announcements are accepted by the HTTP route; no arbitrary public TTS input.
+// HTTP voice routes accept only the current server-owned question/result, never arbitrary TTS input.
 export function announcement(answer,name){
  const tidy=(s,n)=>String(s||'').normalize('NFC').replace(/[^\p{L}\p{N}\s.,-]/gu,' ').replace(/\s+/g,' ').trim().slice(0,n);
  return `Đáp án là ${tidy(answer,100)}. ${tidy(name,45)||'Người chơi'} trả lời đúng.`;
