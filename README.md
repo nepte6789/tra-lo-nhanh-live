@@ -36,8 +36,8 @@ Hai hàng tách biệt: không đặt chữ vào ô đáp án trước khi chố
 - Dòng trên khung hỏi hiện tên người Top điểm số 1 và nhãn đỏ **Đúng +N điểm** (N là điểm mỗi câu); tên chạy ngang, vòng tròn hiển thị thời gian còn lại.
 - Dòng hướng dẫn: **Gõ đáp án vào bình luận để ghi điểm . Tặng quà để lên bảng vàng**.
 - Khi có người nhanh nhất, hiện kết quả ngay và đọc **“Đáp án là … [Tên người chơi] trả lời đúng.”**, một lần cho mỗi câu. Cùng lúc đếm ngược **Chuẩn bị câu mới…**. Không chờ âm thanh mới hiện kết quả.
-- Trong thiết lập có **Đọc đáp án và người thắng**, bật sẵn. Mở cửa sổ LIVE và bấm **Bật âm thanh & giọng đọc** một lần. Bản xem trước `?audio=0` luôn im lặng.
-- Ưu tiên giọng tiếng Việt của trình duyệt/máy. Nếu không có thì thử giọng Microsoft Edge trực tuyến qua server, cần Internet; lỗi hoặc quá thời gian sẽ hiện thông báo, không làm đứng trò chơi.
+- Trong thiết lập có **Đọc câu hỏi, đáp án và người thắng**, bật sẵn. Mỗi câu mới được đọc gợi ý một lần; trắc nghiệm đọc thêm các lựa chọn A/B/C/D. Không đọc đáp án ẩn hay các chữ xáo trộn. Khi có kết quả, câu hỏi đang đọc được ngắt để ưu tiên đáp án và người thắng. Tạm dừng, dừng hoặc chuyển câu sẽ ngắt giọng cũ. Mở cửa sổ LIVE và bấm **Bật âm thanh & giọng đọc** một lần. Bản xem trước `?audio=0` luôn im lặng.
+- Mặc định giọng nữ **Microsoft Hoài My** cho câu hỏi, đáp án và tên người thắng. Dùng Hoài My trên máy nếu có; nếu không, dùng Hoài My trực tuyến qua server, cần Internet; lỗi hoặc quá thời gian sẽ hiện thông báo, không làm đứng trò chơi.
 - Nếu giọng đọc không có sẵn, kiểm tra giọng tiếng Việt trong hệ điều hành/trình duyệt và kết nối mạng. Chỉ mở một nguồn có âm thanh để tránh đọc đôi.
 - Đếm ngược tự chuyển vẫn theo **Nghỉ giữa câu**. Đặt khoảng **5–8 giây** nếu muốn chừa đủ thời gian đọc tên dài; không đợi xác nhận đọc xong để chuyển câu. Kết quả mới ngắt giọng cũ, không tích hàng đợi.
 - Nếu đã cài bản trước: dừng ứng dụng, cập nhật repo, chạy **npm ci** để bổ sung thư viện giọng đọc rồi mở `start.bat` lại. Giữ `data/runtime` để không mất điểm.
