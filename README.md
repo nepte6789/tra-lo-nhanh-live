@@ -44,26 +44,52 @@ Hai hàng tách biệt: không đặt chữ vào ô đáp án trước khi chố
 
 ## Cài trên Windows
 
-1. Cài **Node.js 20 trở lên** tại https://nodejs.org/ (bản LTS).
-2. Tải repo: nút **Code → Download ZIP**, giải nén toàn bộ vào thư mục, ví dụ `D:\tra-loi-nhanh-live`.
+1. Cài **Node.js 22 LTS** (tối thiểu 20.12) tại https://nodejs.org/ (bản LTS).
+2. Tải repo: nút **Code → Download ZIP**, giải nén toàn bộ vào thư mục, ví dụ `D:\nep\tra-lo-nhanh-live`.
 3. Nháy đúp **start.bat**. Lần đầu cần mạng để cài thư viện.
-4. Bảng điều khiển: **http://127.0.0.1:3010**.
-5. Chọn bộ câu hỏi → **Lưu thiết lập → Bắt đầu**.
+4. Bảng điều khiển: **http://127.0.0.1:3000**.
+5. Chọn bộ / loại câu hỏi → **Bắt đầu**. Nút này lưu lựa chọn trước khi chơi.
 6. Chưa LIVE: bấm **Thử đáp án đúng** hoặc nhập bình luận thử để kiểm tra.
 
-Nếu dùng dòng lệnh, chạy trong thư mục dự án:
+Nếu dùng PowerShell, phải vào đúng thư mục đã clone trước khi chạy:
 
-```sh
-npm ci
-npm test
+```powershell
+git clone https://github.com/nepte6789/tra-lo-nhanh-live.git
+cd tra-lo-nhanh-live
 npm start
 ```
+
+Nếu đã clone thì chỉ cần `cd D:\nep\tra-lo-nhanh-live` rồi `npm start`. Không chạy từ thư mục cha `D:\nep` vì ở đó không có `package.json`.
+
+`npm start` tự cài thư viện bằng `npm ci` nếu chưa có thư viện; lần đầu cần Internet. Có thể tự chạy `npm ci` trước nếu muốn. `start.bat` cũng dùng luồng này và mở trình duyệt sau khi máy chủ sẵn sàng. Giữ cửa sổ terminal mở.
+
+Mặc định mở cổng **3000**. Nếu cổng đang bận và chưa đặt `PORT`, ứng dụng tìm cổng trống tiếp theo tới 3010. Dùng đúng URL **Bảng điều khiển** được in trong terminal; liên kết nguồn LIVE trên bảng cũng tự theo cổng thực tế. Nếu đã đặt `PORT` mà cổng bận, ứng dụng báo lỗi để bạn đổi cổng.
+
+Bảng điều khiển chia ba bước: **Kết nối TikTok → Chọn câu hỏi & bắt đầu → Thư viện**. Chạy thử và dữ liệu buổi chơi được thu gọn bên dưới. Trạng thái máy chủ được tách riêng với TikTok, có xem trước im lặng và nút sao chép nguồn LIVE.
+
+### Cấu hình TikTok / EulerStream
+
+Chép `.env.example` thành `.env` ở cạnh `package.json`:
+
+```dotenv
+PORT=3000
+TIKTOK_CHANNEL=
+EULERSTREAM_API_KEY=
+```
+
+Điền khóa vào `EULERSTREAM_API_KEY` nếu dịch vụ ký yêu cầu quyền; tên cũ `SIGN_API_KEY` vẫn dùng được. Không gửi khóa vào chat hay đưa `.env` lên GitHub. Khởi động lại ứng dụng sau khi sửa `.env`; bảng chỉ báo đã nạp khóa hay chưa, không gửi giá trị khóa ra trình duyệt.
+
+Nhập link đầy đủ hoặc `@username` vào bảng điều khiển rồi **Kết nối**. Có thể nhập ngay ở terminal khi được hỏi, hoặc điền `TIKTOK_CHANNEL` để kết nối khi khởi động. Không điền tên hiển thị hoặc link rút gọn.
+
+Bật **Tự nối lại khi mất LIVE**: kết nối ngay lần đầu, sau đó thử lại sau **2 phút** khi mất kết nối hoặc phòng chưa sẵn sàng. Nếu nhà cung cấp yêu cầu chờ lâu hơn, ứng dụng tuân theo thời gian đó. Lỗi thiếu quyền khóa hoặc bị chặn sẽ tạm dừng tự thử để sửa cấu hình. Nút **Ngắt** hủy lịch tự nối. Lỗi mạng/mã phòng tạm thời được thử nhanh thêm một lần trong mỗi lượt. Mỗi lần kết nối có timeout 30 giây.
+
+Khóa EulerStream không bảo đảm mọi gói tài khoản đều có quyền ký yêu cầu; xem mã lỗi và quyền endpoint của tài khoản khi gặp yêu cầu Business plan.
 
 Ứng dụng Node cũng chạy trên Linux/macOS; `start.bat` dành cho Windows. Mở lại terminal sau khi mới cài Node.
 
 ## Đưa vào TikTok LIVE Studio / OBS
 
-- Thêm nguồn **Liên kết / Browser**: `http://127.0.0.1:3010/overlay.html`.
+- Thêm nguồn **Liên kết / Browser**: `http://127.0.0.1:3000/overlay.html`.
 - Kích thước **1080 × 1920**, đặt vừa khung dọc.
 - OBS: bật tùy chọn điều khiển âm thanh nguồn trình duyệt nếu muốn trộn âm ở OBS.
 - Trên trình duyệt thường, nhấn **Bật âm báo** một lần. Bản xem trước ở bảng điều khiển tự tắt tiếng để tránh tiếng đôi.
@@ -163,9 +189,9 @@ $env:ALLOWED_HOSTS='192.168.1.10'
 npm start
 ```
 
-Mở bảng điều khiển bằng `http://192.168.1.10:3010/?key=MA_QUAN_TRI`. Mã được chuyển vào sessionStorage trên trình duyệt, xóa khỏi thanh địa chỉ. Không gửi mã cho người xem. Không mở cổng Internet trực tiếp; không dùng mã ví dụ làm mã thật.
+Mở bảng điều khiển bằng `http://192.168.1.10:3000/?key=MA_QUAN_TRI`. Mã được chuyển vào sessionStorage trên trình duyệt, xóa khỏi thanh địa chỉ. Không gửi mã cho người xem. Không mở cổng Internet trực tiếp; không dùng mã ví dụ làm mã thật.
 
-Các biến khác: `PORT` (mặc định 3010), `DATA_DIR` (thư mục lưu điểm). Khi đổi PORT, mở trình duyệt thủ công theo cổng đã đặt.
+Các biến khác: `PORT` (mặc định 3000), `DATA_DIR` (thư mục lưu điểm), `OPEN_BROWSER=1` (mở trình duyệt sau khi khởi động). Các cấu hình này đều có thể đặt trong `.env`. Giữ nguyên `data/runtime` khi cập nhật để giữ điểm và bộ câu hỏi riêng.
 
 ## Giới hạn đã biết
 
@@ -191,8 +217,8 @@ Bản hiện tại hiển thị khung lỗi ngay dưới ô tên kênh, có mã,
 | `NETWORK` | Lỗi mạng, DNS hoặc timeout. |
 | `UNKNOWN` | Sao chép lỗi để kiểm tra, không đoán nguyên nhân. |
 
-Lỗi mã phòng/mạng tạm thời được tự thử thêm **một lần**, có nút Ngắt để hủy. Không tự thử lặp với lỗi offline, chặn hoặc giới hạn lượt. Khi kết nối, bỏ tải danh sách quà mở rộng; sự kiện quà vẫn lấy giá trị từ `giftDetails`.
+Lỗi mã phòng/mạng tạm thời được tự thử nhanh thêm **một lần**; lịch tự nối 2 phút là lớp riêng, có nút Ngắt để hủy. Lỗi quyền/chặn tạm dừng lịch tự nối; giới hạn lượt được chờ theo thời gian nhà cung cấp. Khi kết nối, bỏ tải danh sách quà mở rộng; sự kiện quà vẫn lấy giá trị từ `giftDetails`.
 
-Nếu có khóa Euler Stream do bạn tự quản lý, có thể đặt `SIGN_API_KEY` trong môi trường chạy trên máy. Không cần gửi khóa vào chat; đây không phải cookie hay mật khẩu TikTok. Không cần mua khóa trước khi biết mã lỗi.
+Nếu có khóa Euler Stream do bạn tự quản lý, đặt `EULERSTREAM_API_KEY` trong `.env` trên máy (`SIGN_API_KEY` cũ vẫn được hỗ trợ). Không cần gửi khóa vào chat; đây không phải cookie hay mật khẩu TikTok. Không cần mua khóa trước khi biết mã lỗi.
 
 Bản này chỉ cải thiện kết nối và chẩn đoán. Chưa xác minh khắc phục được lỗi của máy người dùng nếu chưa có chi tiết thực tế.
